@@ -8,7 +8,7 @@ gem "jbuilder", "~> 2.9" # # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
 gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
-gem "pg", ">= 0.18', '< 2.0" # Pg is the Ruby interface to the PostgreSQL RDBMS
+gem "pg", ">= 0.18", "< 2.0" # Pg is the Ruby interface to the PostgreSQL RDBMS
 gem "puma", "~> 3.12" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
 gem "rails", "~> 6.0.0" # Ruby on Rails
