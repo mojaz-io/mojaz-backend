@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.6.3"
 
 gem "bootsnap", ">= 1.4.2", require: false # Boot large ruby/rails apps faster
+gem "feedjira", "~> 3.0" # A feed fetching and parsing library
+gem "http", "~> 4.1.1" # fast Ruby HTTP client with a chainable API, streaming support, and timeouts
 gem "jbuilder", "~> 2.9" # # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
 gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
