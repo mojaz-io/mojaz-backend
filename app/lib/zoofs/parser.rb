@@ -44,10 +44,10 @@ module Zoofs
       # The formulas for the Feed.
       #
       # <pre>
-      #   formuals {
-      #     content: 'css("div.story-body__inner p").map {|x| x.text }.join("~")',
-      #     media: 'css("div.story-body p").map {|x| x.text }.join("~")'
-      #   }
+      # formulas Hash[
+      #   "content", "css('div.story-body__inner p')", 
+      #   "media", "css('div.story-body p')"
+      # ]
       # </pre>
       attr_rw :formulas
 

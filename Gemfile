@@ -4,14 +4,19 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "2.6.3"
 
 gem "bootsnap", ">= 1.4.2", require: false # Boot large ruby/rails apps faster
+gem "devise", "~> 4.6" # Flexible authentication solution for Rails
 gem "feedjira", "~> 3.0" # A feed fetching and parsing library
 gem "http", "~> 4.1.1" # fast Ruby HTTP client with a chainable API, streaming support, and timeouts
 gem "jbuilder", "~> 2.9" # # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
 gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
+gem "omniauth", "~> 1.9" # A generalized Rack framework for multiple-provider authentication
+gem "omniauth-github", "~> 1.3" # OmniAuth strategy for GitHub
+gem "omniauth-twitter", "~> 1.4" # OmniAuth strategy for Twitter
 gem "pg", ">= 0.18", "< 2.0" # Pg is the Ruby interface to the PostgreSQL RDBMS
 gem "puma", "~> 3.12" # Puma is a simple, fast, threaded, and highly concurrent HTTP 1.1 server
+gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
 gem "rails", "~> 6.0.0" # Ruby on Rails
 gem "sass-rails", "~> 5.1" # Sass adapter for the Rails asset pipeline
