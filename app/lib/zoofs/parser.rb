@@ -7,7 +7,6 @@ module Zoofs
     extend Forwardable
 
     attr_reader :url
-    attr_reader :content
     attr_reader :doc
 
     # The homepage for the feed.
@@ -26,11 +25,9 @@ module Zoofs
     end
 
     def parse
-      if formulas
-        parse_formulas
-      else
-        raise 'You need to define a formula or implement a custom parse function'
-      end 
+      raise "You need to define a formula or implement a custom parse function" unless formulas
+
+      parse_formulas
     end
 
     class << self
@@ -45,7 +42,7 @@ module Zoofs
       #
       # <pre>
       # formulas Hash[
-      #   "content", "css('div.story-body__inner p')", 
+      #   "content", "css('div.story-body__inner p')",
       #   "media", "css('div.story-body p')"
       # ]
       # </pre>
@@ -60,8 +57,10 @@ module Zoofs
 
     def content
       return @content if @content
+
       response = HTTP.follow(max_hops: 3).get(url)
       raise "Failed to fetch url" unless response.status.success?
+
       @content = response.body.to_s
     end
 

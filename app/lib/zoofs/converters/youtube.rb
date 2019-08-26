@@ -1,9 +1,8 @@
 module Zoofs
   module Converters
     class Youtube
-      
       YOUTUBE_REGEX = /^(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=)?([\w-]{10,})/.freeze
-      
+
       def initialize(url)
         @url = url
         @video_id = url.match(YOUTUBE_REGEX)[1]

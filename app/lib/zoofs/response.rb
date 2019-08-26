@@ -1,26 +1,27 @@
-require_relative 'converters/youtube'
+require_relative "converters/youtube"
 
 module Zoofs
   class Response
     attr_reader :formulas_response
-    attr_reader :body, :youtube_link
 
     PARAGRAPH_SEPERATOR = "~".freeze
 
-    def initialize(formulas_response={})
+    def initialize(formulas_response = {})
       @formulas_response = formulas_response
     end
 
     def body
-      @body ||=  @formulas_response.values.flatten.reduce("") { |str, element| str + element.text }
+      @body ||= @formulas_response.values.flatten.reduce("") { |str, element| str + element.text }
     end
 
     def youtube_link
-      @youtube_link if @youtube_link
+      return @youtube_link if @youtube_link
+
       href = nil
-      @formulas_response.values.flatten.each{ |x| 
-        href = x.xpath('a/@href').text if Zoofs::Converters::Youtube.youtube?(x.xpath('a/@href').text) 
-      }
+      @formulas_response.values.flatten.each do |x|
+        href = x.xpath("a/@href'").text if Zoofs::Converters::Youtube.youtube?(x.xpath("a/@href").text)
+      end
+
       @youtube_link ||= href
     end
 
