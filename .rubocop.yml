@@ -26,6 +26,7 @@ AllCops:
     - db/migrate/*.rb
     - node_modules/**/*
     - tmp/**/*
+    - Guardfile
   DisplayStyleGuide: true
   ExtraDetails: true
   TargetRubyVersion: 2.6

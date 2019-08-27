@@ -8,7 +8,7 @@ RSpec.describe Feed, type: :model do
   describe "when valid feed url" do
     it "validates feed url" do
       feed = build(:feed, url: "https://www.7iber.com/feed/")
-      allow(feed).to receive(:validate_url)#.and_return(true)
+      allow(feed).to receive(:validate_url)
       expect(feed).to be_valid
     end
   end
@@ -19,7 +19,7 @@ RSpec.describe Feed, type: :model do
       allow(feed).to receive(:validate_url) do
         feed.errors.add(:url, "is not a valid rss feed")
       end
-      expect(feed).to_not be_valid
+      expect(feed).not_to be_valid
     end
   end
 end

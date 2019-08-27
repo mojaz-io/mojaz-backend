@@ -6,7 +6,7 @@ class RssReader
   end
 
   def fetch_rss(url)
-    xml = HTTP.get(url).body.to_s
+    xml = HTTP.follow(max_hops: 3).get(url).body.to_s
     Feedjira.parse xml
   end
 end

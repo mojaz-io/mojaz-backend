@@ -3,8 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.6.3"
 
-gem "cld", "~> 0.8" # Compact Language Detection for Ruby
 gem "bootsnap", ">= 1.4.2", require: false # Boot large ruby/rails apps faster
+gem "cld", "~> 0.8" # Compact Language Detection for Ruby
 gem "devise", "~> 4.6" # Flexible authentication solution for Rails
 gem "feedjira", "~> 3.0" # A feed fetching and parsing library
 gem "http", "~> 4.1.1" # fast Ruby HTTP client with a chainable API, streaming support, and timeouts
