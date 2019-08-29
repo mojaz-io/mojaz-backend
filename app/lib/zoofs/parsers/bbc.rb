@@ -5,8 +5,7 @@ module Zoofs
 
       # @TODO: Check why using normal hash syntax {} doesn't work, i have no idea.
       formulas Hash[
-        "content", "css('div.story-body__inner p')",
-        "media", "css('div.story-body p')"
+        "css", ["div.story-body__inner p", "div.story-body p"]
       ].freeze
     end
   end

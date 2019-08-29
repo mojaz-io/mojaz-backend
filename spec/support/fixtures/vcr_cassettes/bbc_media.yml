@@ -1,0 +1,1410 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.bbc.co.uk/arabic/media-49474522
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.bbc.co.uk
+      User-Agent:
+      - http.rb/4.1.1
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Server:
+      - Apache
+      X-Cache-Action:
+      - MISS
+      Vary:
+      - X-BBC-Edge-Scheme,Accept-Encoding
+      Cache-Control:
+      - max-age=60
+      X-Cache-Age:
+      - '0'
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Date:
+      - Thu, 29 Aug 2019 10:22:20 GMT
+      Location:
+      - http://www.bbc.com/arabic/media-49474522
+      X-Pal-Host:
+      - pal139.back.live.telhc.local:80
+      Connection:
+      - close
+      Content-Length:
+      - '248'
+    body:
+      encoding: ISO-8859-1
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>301 Moved Permanently</title>
+        </head><body>
+        <h1>Moved Permanently</h1>
+        <p>The document has moved <a href="http://www.bbc.com/arabic/media-49474522">here</a>.</p>
+        </body></html>
+    http_version: 
+  recorded_at: Thu, 29 Aug 2019 10:22:31 GMT
+- request:
+    method: get
+    uri: http://www.bbc.com/arabic/media-49474522
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      User-Agent:
+      - http.rb/4.1.1
+      Host:
+      - www.bbc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Cache-Action:
+      - MISS
+      Cache-Control:
+      - max-age=60, stale-while-revalidate
+      X-Cache-Age:
+      - '0'
+      Content-Type:
+      - text/html; charset=utf-8
+      X-News-Data-Centre:
+      - lbh
+      X-Pal-Host:
+      - pal815.back.live.lbh.local:80
+      X-News-Cache-Id:
+      - '80339'
+      Content-Length:
+      - '134986'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 29 Aug 2019 10:22:21 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '0'
+      Connection:
+      - close
+      X-Lb-Nocache:
+      - 'true'
+      X-Fastly-Cache-Status:
+      - MISS-CLUSTER
+      X-Served-By:
+      - cache-fjr7920-FJR
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1567074141.828985,VS0,VE974
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "\n\n<!DOCTYPE html>\n<html lang=\"ar\" id=\"responsive-news\">\n<head
+        dir=\"rtl\" prefix=\"og: http://ogp.me/ns#\">\n    <meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1, user-scalable=1\">\n    <meta
+        charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n
+        \   <title>صالة ديسكو لكبار السن فقط - BBC News Arabic</title>\n    <link
+        rel=\"preload\" as=\"style\" href=\"http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic/compact.css\"
+        media=\"(max-width: 599px)\">\n    <link rel=\"preload\" as=\"style\" href=\"http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic/tablet.css\"
+        media=\"(min-width: 600px) and (max-width: 1007px)\">\n    <link rel=\"preload\"
+        as=\"style\" href=\"http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic/wide.css\"
+        media=\"(min-width: 1008px)\">\n\n            <script> window.orb_fig_blocking
+        = true; </script>\n    \n            <link rel=\"preload\" as=\"script\" href=\"//fig.bbc.co.uk/frameworks/fig/2/fig.js?callback=orb.orb_fig\">\n
+        \   \n    <link href=\"//static.bbci.co.uk\" rel=\"preconnect\" crossorigin>\n
+        \   <link href=\"//static.bbc.co.uk\" rel=\"preconnect\" crossorigin>\n    <link
+        href=\"//nav.files.bbci.co.uk\" rel=\"preconnect\" crossorigin>\n    <link
+        href=\"//ichef.bbci.co.uk\" rel=\"preconnect\" crossorigin>\n\n    <link rel=\"dns-prefetch\"
+        href=\"//ssl.bbc.co.uk/\">\n    <link rel=\"dns-prefetch\" href=\"//sa.bbc.co.uk/\">\n
+        \   <link rel=\"dns-prefetch\" href=\"//ichef.bbci.co.uk/\">\n\n    <link
+        rel=\"dns-prefetch\" href=\"//static.bbci.co.uk\">\n    <link rel=\"dns-prefetch\"
+        href=\"//static.bbc.co.uk\">\n    <link rel=\"dns-prefetch\" href=\"//nav.files.bbci.co.uk\">\n\n
+        \   <link rel=\"dns-prefetch\" href=\"//edigitalsurvey.com\">\n\n    <meta
+        name=\"x-country\" content=\"ae\">\n    <meta name=\"x-audience\" content=\"International\">\n
+        \   <meta name=\"CPS_AUDIENCE\" content=\"International\">\n    <meta name=\"CPS_CHANGEQUEUEID\"
+        content=\"145182997\">\n    <link rel=\"canonical\" href=\"http://www.bbc.com/arabic/media-49474522\">\n\n
+        \               <meta property=\"og:title\" content=\"صالة ديسكو لكبار السن
+        فقط\" />\n    <meta property=\"og:type\" content=\"website\" />\n    <meta
+        property=\"og:description\" content=\"الحكومة المحلية في سول ترعى صحة المسنين
+        من خلال الرقص\" />\n    <meta property=\"og:site_name\" content=\"BBC News
+        Arabic\" />\n    <meta property=\"og:locale\" content=\"ar_AR\" />\n    <meta
+        property=\"article:author\" content=\"https://www.facebook.com/bbcnews\" />\n
+        \   <meta property=\"article:section\" content=\"فيديو\" />\n    <meta property=\"og:url\"
+        content=\"http://www.bbc.com/arabic/media-49474522\" />\n    <meta property=\"og:image\"
+        content=\"https://ichef.bbci.co.uk/news/1024/branded_arabic/15023/production/_108515068_p07lr1qp.jpg\"
+        />\n    <meta property=\"og:image:alt\" content=\"BBC News Arabic. صالة ديسكو
+        لكبار السن\" />\n    <meta property=\"fb:pages\" content=\"285361880228,192168680794107,9432520138,347501767628,264572343581678,303522857815,166580710064489,592266607456680,260669183761,160817274042538,236659822607,237647452933504,10150118096995434,113097918700687,143048895744759,81395234664,207150596007088,167959249906191,64040652712,190992343324,103678496456574,367167334474,160894643929209,186742265162,1526071940947174,230299653821,124158667615790,126548377386804,298318986864908,1068750829805728,228458913833525,163571453661989,660673490805047,948946275170651\"
+        />\n\n    <meta name=\"twitter:card\" content=\"player\">\n    <meta name=\"twitter:site\"
+        content=\"@BBCArabic\">\n    <meta name=\"twitter:title\" content=\"صالة ديسكو
+        لكبار السن فقط\">\n    <meta name=\"twitter:description\" content=\"الحكومة
+        المحلية في سول ترعى صحة المسنين من خلال الرقص\">\n    <meta name=\"twitter:creator\"
+        content=\"@BBCArabic\">\n    <meta name=\"twitter:image:src\" content=\"https://ichef.bbci.co.uk/news/1024/branded_arabic/15023/production/_108515068_p07lr1qp.jpg\">\n
+        \   <meta name=\"twitter:image:alt\" content=\"صالة ديسكو لكبار السن\" />\n
+        \   <meta name=\"twitter:domain\" content=\"www.bbc.com\">\n        <meta
+        name=\"twitter:player\" content=\"https://ssl.bbc.co.uk/wwscripts/embed_player#playlist=/arabic/media-49474522A&poster=https://c.files.bbci.co.uk/15023/production/_108515068_p07lr1qp.jpg&ad_site=&ad_keyword=&source=twitter\">\n
+        \       <meta name=\"twitter:player:height\" content=\"360\">\n        <meta
+        name=\"twitter:player:width\" content=\"640\">\n\n    <script type=\"application/ld+json\">\n
+        \   {\"@context\":\"http:\\/\\/schema.org\",\"@type\":\"NewsArticle\",\"url\":\"http:\\/\\/www.bbc.com\\/arabic\\/media-49474522\",\"publisher\":{\"@type\":\"NewsMediaOrganization\",\"name\":\"BBC
+        News Arabic\",\"publishingPrinciples\":\"http:\\/\\/www.bbc.co.uk\\/news\\/help-41670342\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/news.files.bbci.co.uk\\/ws\\/img\\/logos\\/og\\/arabic.png\"}},\"description\":\"\\u0627\\u0644\\u062d\\u0643\\u0648\\u0645\\u0629
+        \\u0627\\u0644\\u0645\\u062d\\u0644\\u064a\\u0629 \\u0641\\u064a \\u0633\\u0648\\u0644
+        \\u062a\\u0631\\u0639\\u0649 \\u0635\\u062d\\u0629 \\u0627\\u0644\\u0645\\u0633\\u0646\\u064a\\u0646
+        \\u0645\\u0646 \\u062e\\u0644\\u0627\\u0644 \\u0627\\u0644\\u0631\\u0642\\u0635\",\"datePublished\":\"2019-08-27T15:48:13+00:00\",\"dateModified\":\"2019-08-27T15:48:13+00:00\",\"headline\":\"\\u0635\\u0627\\u0644\\u0629
+        \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0643\\u0628\\u0627\\u0631 \\u0627\\u0644\\u0633\\u0646
+        \\u0641\\u0642\\u0637\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/ichef.bbci.co.uk\\/news\\/720\\/cpsprodpb\\/15023\\/production\\/_108515068_p07lr1qp.jpg\",\"width\":720,\"height\":405},\"thumbnailUrl\":\"https:\\/\\/ichef.bbci.co.uk\\/news\\/208\\/cpsprodpb\\/15023\\/production\\/_108515068_p07lr1qp.jpg\",\"author\":{\"@type\":\"NewsMediaOrganization\",\"name\":\"BBC
+        News Arabic\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/news.files.bbci.co.uk\\/ws\\/img\\/logos\\/og\\/arabic.png\"},\"noBylinesPolicy\":\"http:\\/\\/www.bbc.co.uk\\/news\\/help-41670342#authorexpertise\"},\"name\":\"\\u0635\\u0627\\u0644\\u0629
+        \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0643\\u0628\\u0627\\u0631 \\u0627\\u0644\\u0633\\u0646
+        \\u0641\\u0642\\u0637\",\"mainEntityOfPage\":\"http:\\/\\/www.bbc.com\\/arabic\\/media-49474522\",\"video\":{\"@type\":\"VideoObject\",\"name\":\"\\u0633\\u0648\\u0644
+        \\u062a\\u0641\\u062a\\u062a\\u062d \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0644\\u0645\\u0633\\u0646\\u064a\\u0646\",\"description\":\"\\u064a\\u0645\\u0646\\u062d
+        \\u0647\\u0630\\u0627 \\u0627\\u0644\\u062f\\u064a\\u0633\\u0643\\u0648 \\u0627\\u0644\\u0646\\u0647\\u0627\\u0631\\u064a
+        \\u0644\\u0645\\u0646 \\u0639\\u0645\\u0631\\u0647\\u0645 \\u0641\\u0648\\u0642
+        65 \\u0639\\u0627\\u0645\\u064b\\u0627 \\u0641\\u064a \\u0627\\u0644\\u0639\\u0627\\u0635\\u0645\\u0629
+        \\u0627\\u0644\\u0643\\u0648\\u0631\\u064a\\u0629 \\u0633\\u0648\\u0644 \\u0641\\u0631\\u0635\\u0629
+        \\u0644\\u0631\\u0642\\u0635 \\u0648\\u0645\\u0642\\u0627\\u0628\\u0644\\u0629
+        \\u0623\\u0635\\u062f\\u0642\\u0627\\u0621. \\n\\u0627\\u0644\\u062f\\u064a\\u0633\\u0643\\u0648
+        \\u0647\\u0648 \\u0627\\u0644\\u0623\\u0648\\u0644 \\u0645\\u0646 \\u0646\\u0648\\u0639\\u0647
+        \\u0627\\u0644\\u0630\\u064a \\u062a\\u0631\\u0639\\u0627\\u0647 \\u0627\\u0644\\u062d\\u0643\\u0648\\u0645\\u0629
+        \\u0627\\u0644\\u0645\\u062d\\u0644\\u064a\\u0629 \\u0648\\u064a\\u0647\\u062f\\u0641
+        \\u0625\\u0644\\u0649 \\u0645\\u0639\\u0627\\u0644\\u062c\\u0629 \\u0627\\u0644\\u0634\\u0639\\u0648\\u0631
+        \\u0628\\u0627\\u0644\\u0648\\u062d\\u062f\\u0629 \\u0641\\u064a \\u0627\\u0644\\u062f\\u0648\\u0644\\u0629
+        \\u0627\\u0644\\u062a\\u064a \\u062a\\u0639\\u0627\\u0646\\u064a \\u0645\\u0646
+        \\u0646\\u0633\\u0628 \\u0634\\u064a\\u062e\\u0648\\u062e\\u0629 \\u0645\\u0631\\u062a\\u0641\\u0639\\u0629.\",\"duration\":\"PT2M27S\",\"thumbnailUrl\":\"https:\\/\\/ichef.bbci.co.uk\\/images\\/ic\\/208x117\\/p07lr1qp.jpg\",\"uploadDate\":\"2019-08-27T14:52:46+00:00\"}}\n
+        \   </script>\n\n\n            \n    <meta name=\"apple-mobile-web-app-title\"
+        content=\"BBC News\">\n\n<link rel=\"apple-touch-icon-precomposed\" sizes=\"57x57\"
+        \   href=\"http://static.bbci.co.uk/news/1.288.03366/apple-touch-icon-57x57-precomposed.png\">\n<link
+        rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\"    href=\"http://static.bbci.co.uk/news/1.288.03366/apple-touch-icon-72x72-precomposed.png\">\n<link
+        rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\"  href=\"http://static.bbci.co.uk/news/1.288.03366/apple-touch-icon-114x114-precomposed.png\">\n<link
+        rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\"  href=\"http://static.bbci.co.uk/news/1.288.03366/apple-touch-icon.png\">\n<link
+        rel=\"apple-touch-icon\" href=\"http://static.bbci.co.uk/news/1.288.03366/apple-touch-icon.png\">\n<link
+        rel=\"apple-touch-startup-image\" href=\"http://static.bbci.co.uk/news/1.288.03366/web-app-launch-icon.png\">\n\n<meta
+        name=\"application-name\" content=\"BBC News\">\n<meta name=\"msapplication-TileImage\"
+        content=\"BBC News\">\n<meta name=\"msapplication-TileColor\" content=\"#bb1919\">\n<meta
+        name=\"mobile-web-app-capable\" content=\"yes\">\n    <meta http-equiv=\"cleartype\"
+        content=\"on\">\n    <meta name=\"robots\" content=\"NOODP,NOYDIR\" />\n        <script
+        type=\"text/javascript\">var _sf_startpt=(new Date()).getTime()</script>\n\n
+        \   <script>\n        (function() {\n            if (navigator.userAgent.match(/IEMobile\\/10\\.0/))
+        {\n                var msViewportStyle = document.createElement(\"style\");\n
+        \               msViewportStyle.appendChild(\n                    document.createTextNode(\"@-ms-viewport{width:auto!important}\")\n
+        \               );\n                document.getElementsByTagName(\"head\")[0].appendChild(msViewportStyle);\n
+        \           }\n        })();\n    </script>\n    \n    <script>window.fig
+        = window.fig || {}; window.fig.async = true;</script>\n\n    <meta property=\"fb:app_id\"
+        content=\"1609039196070050\" />\n\n    <!-- Nav Env: live -->\n<!-- Analytics
+        Web Module: 0.0.1-332.8fd22d2 -->\n<!-- NavID Web Module: 0.2.0-75.de8f099
+        -->\n<!-- Detectview Web Module: 0.0.1-332.8fd22d2 -->\n<!-- Searchbox Web
+        Module: 3.0.0-4.9a69f1b -->\n<!-- Promo Web Module: 3.0.0-13.dc6b5c1 -->\n<meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta
+        property=\"fb:admins\" content=\"100004154058350\"><link rel=\"stylesheet\"
+        href=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/css/orb-rtl.min.css\"><!--[if
+        (lt IE 9) & (!IEMobile)]>\n    <link rel=\"stylesheet\" href=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/css/orb-ie-rtl.min.css\">\n
+        \   <![endif]--><script type=\"text/javascript\">/*<![CDATA[*/\n        window.orb
+        = {\n            lang: 'ar-SA',\n            bbcBaseUrl: 'https://www.bbc.co.uk',\n
+        \           bbcUrlPrefix: 'https://www.',\n            staticHost: 'https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620',\n
+        \           figUrl: 'https://fig.bbc.co.uk/frameworks/fig/2/fig.js',\n            partialCookieOvenUrl:
+        'https://cookie-oven.api.bbc'\n        };\n\n        document.documentElement.className
+        += (document.documentElement.className? ' ' : '') + 'orb-js';\n        window.orb.worldwideNavlinks
+        = '';\n\n\n     /*]]>*/</script><script>// Promise polyfill from https://github.com/bramstein/promis\n
+        \       (function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function
+        m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void
+        0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var
+        p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new
+        n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var
+        c=!1;try{var d=b&&b.then;if(null!=b&&\"object\"==typeof b&&\"function\"==typeof
+        d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}
+        function r(a,b){if(a.a==p){if(b==a)throw new TypeError;a.a=1;a.b=b;v(a)}}function
+        v(a){l(function(){if(a.a!=p)for(;a.f.length;){var b=a.f.shift(),c=b[0],d=b[1],e=b[2],b=b[3];try{0==a.a?\"function\"==typeof
+        c?e(c.call(void 0,a.b)):e(a.b):1==a.a&&(\"function\"==typeof d?e(d.call(void
+        0,a.b)):b(a.b))}catch(h){b(h)}}})}n.prototype.g=function(a){return this.c(void
+        0,a)};n.prototype.c=function(a,b){var c=this;return new n(function(d,e){c.f.push([a,b,d,e]);v(c)})};
+        function w(a){return new n(function(b,c){function d(c){return function(d){h[c]=d;e+=1;e==a.length&&b(h)}}var
+        e=0,h=[];0==a.length&&b(h);for(var k=0;k<a.length;k+=1)u(a[k]).c(d(k),c)})}function
+        x(a){return new n(function(b,c){for(var d=0;d<a.length;d+=1)u(a[d]).c(b,c)})};window.Promise||(window.Promise=n,window.Promise.resolve=u,window.Promise.reject=t,window.Promise.race=x,window.Promise.all=w,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype[\"catch\"]=n.prototype.g);}());\n
+        \   \n    \n        // Polyfill Event constructor for IE ref: https://jira.dev.bbc.co.uk/browse/ORBITEN-919\n
+        \       // see: https://stackoverflow.com/questions/26596123\n        (function
+        () {\n          if (typeof window.CustomEvent === \"function\") {\n            return
+        false;\n          }\n          function CustomEvent(event, params) {\n            params
+        = params || { bubbles: false, cancelable: false, detail: undefined };\n            var
+        evt = document.createEvent('CustomEvent');\n            evt.initCustomEvent(event,
+        params.bubbles, params.cancelable, params.detail);\n            return evt;\n
+        \         }\n          CustomEvent.prototype = window.Event.prototype;\n          window.Event
+        = CustomEvent;\n        })();\n    \n    \n        //Element.prototype.matches
+        polyfill\n        //from https://developer.mozilla.org/en-US/docs/Web/API/Element/matches#Polyfill\n
+        \       if (!Element.prototype.matches) {\n          Element.prototype.matches
+        = Element.prototype.msMatchesSelector ||\n                                      Element.prototype.webkitMatchesSelector;\n
+        \       }\n        //NodeList.forEach Polyfill\n        //from https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill\n
+        \       if (window.NodeList && !NodeList.prototype.forEach) {\n          NodeList.prototype.forEach
+        = Array.prototype.forEach;\n        }\n    \n        // Object.assign polyfill
+        from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Polyfill\n
+        \       if (typeof Object.assign != 'function') {\n          // Must be writable:
+        true, enumerable: false, configurable: true\n          Object.defineProperty(Object,
+        \"assign\", {\n            value: function assign(target, varArgs) { // .length
+        of function is 2\n              'use strict';\n              if (target ==
+        null) { // TypeError if undefined or null\n                throw new TypeError('Cannot
+        convert undefined or null to object');\n              }\n    \n              var
+        to = Object(target);\n    \n              for (var index = 1; index < arguments.length;
+        index++) {\n                var nextSource = arguments[index];\n    \n                if
+        (nextSource != null) { // Skip over if undefined or null\n                  for
+        (var nextKey in nextSource) {\n                    // Avoid bugs when hasOwnProperty
+        is shadowed\n                    if (Object.prototype.hasOwnProperty.call(nextSource,
+        nextKey)) {\n                      to[nextKey] = nextSource[nextKey];\n                    }\n
+        \                 }\n                }\n              }\n              return
+        to;\n            },\n            writable: true,\n            configurable:
+        true\n          });\n        }\n    \n        if (typeof window.CustomEvent
+        !== 'function') {\n    \n          function CustomEvent(event, params) {\n
+        \           params = params || { bubbles: false, cancelable: false, detail:
+        null };\n            var evt = document.createEvent('CustomEvent');\n            evt.initCustomEvent(event,
+        params.bubbles, params.cancelable, params.detail);\n            return evt;\n
+        \         }\n    \n          CustomEvent.prototype = window.Event.prototype;\n
+        \   \n          window.CustomEvent = CustomEvent;\n    \n        }\n    \n
+        \       (function() {\n    \n            var language = 'en';\n                language
+        = 'ar-SA';\n    \n            var modal = false;\n    \n    \n            var
+        istatsLabels = {name: 'arabic.embedded_media.media_asset.49474522.page' ||
+        undefined};\n            istatsLabels['pal_route'] = 'asset';\n            istatsLabels['language']
+        = 'ar-SA';\n            istatsLabels['pal_webapp'] = 'tabloid';\n            istatsLabels['prod_name']
+        = 'arabic';\n            istatsLabels['app_name'] = 'arabic';\n            istatsLabels['cps_asset_id']
+        = '49474522';\n            istatsLabels['page_type'] = 'media_asset';\n            istatsLabels['section']
+        = '';\n            istatsLabels['first_pub'] = '2019-08-27T12%3A44%3A32%2B00%3A00';\n
+        \           istatsLabels['last_editorial_update'] = '2019-08-27T15%3A48%3A13%2B00%3A00';\n
+        \           istatsLabels['curie'] = 'adae6819-c0bf-7642-b27e-7b03413719c3';\n
+        \           istatsLabels['title'] = '%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7';\n
+        \           istatsLabels['has_video'] = '1';\n            istatsLabels['cps_media_type']
+        = 'video';\n            istatsLabels['topic_names'] = 'Elderly+people%21South+Korea';\n
+        \           istatsLabels['topic_ids'] = '3892335e-43d8-489b-b0a1-9e2cf25ff486%2168f68d12-c2d9-4173-9ed3-178363e46344';\n
+        \           istatsLabels['for_nation'] = 'ae';\n            istatsLabels['app_version']
+        = '1.288.0';\n            istatsLabels['app_type'] = 'responsive';\n            istatsLabels['bbc_site']
+        = 'news-ws-arabic';\n    \n            function getMetaValue(propertyName)
+        {\n              var metaTag = document.querySelector(\n                \"meta[property='\"
+        + propertyName + \"'], \" +\n                \"meta[name='\" + propertyName
+        + \"']\");\n              if (metaTag) {\n                return metaTag.getAttribute(\"content\");\n
+        \             } else {\n                throw new Error('No meta tag called:
+        ' + propertyName)\n              }\n            }\n    \n            function
+        generateCountername() {\n                var pathName = window.location.pathname\n
+        \                   .replace(/\\/$/, \"\")\n                    .replace(/^\\//,
+        \"\")\n                    .replace(/\\//g, '.');\n                return
+        pathName + '.page';\n            }\n    \n            var additionalPageProperties
+        = {};\n                additionalPageProperties['content_language'] = 'ar';\n
+        \               additionalPageProperties['custom_var_1'] = '2019-08-27T15:48:13+00:00';\n
+        \               additionalPageProperties['custom_var_2'] = '2019-08-27T15:48:13+00:00';\n
+        \               additionalPageProperties['custom_var_7'] = 'News';\n                additionalPageProperties['app_name']
+        = 'news-arabic';\n    \n            var page = {\n                name: 'arabic.embedded_media.media_asset.49474522.page'
+        || istatsLabels.name || generateCountername(),\n                destination:
+        'WS_NEWS_LANGUAGES' || null,\n                producer: 'ARABIC' || null,\n
+        \               section: 'embedded_media' || null,\n                site:
+        '' || istatsLabels.bbc_site || istatsLabels.app_name || istatsLabels.prod_name
+        || null,\n                contentId: 'urn:bbc:cps:adae6819-c0bf-7642-b27e-7b03413719c3'
+        || null,\n                contentType: 'article-media-asset' || null,\n                edition:
+        '' || null,\n                additionalProperties: additionalPageProperties\n
+        \           };\n    \n            function updatePageData(newData) {\n                page
+        = Object.assign(page, newData);\n            }\n    \n            document.addEventListener('bbc-page-reset',
+        function(event) {\n                if (event.detail && event.detail.page)
+        {\n                    updatePageData(event.detail.page);\n                }\n
+        \               document.dispatchEvent(new Event('bbc-page-updated'));\n            });\n
+        \   \n            window.bbcpage = {\n                loadModule: function(deps)
+        {\n                    return new Promise(function (resolve, reject) {\n                        window.require(deps,
+        function () {\n                            resolve.apply(this, arguments);\n
+        \                       },\n                        function (error) {\n                            reject(error);\n
+        \                       });\n                    })\n                },\n
+        \               loadCSS: function (url, timeout) {\n                    return
+        window.bbcpage.loadModule(['orb/lib/_$'])\n                        .then(function($)
+        {\n                            return new Promise(function(resolve, reject)
+        {\n                                var stylesheet = loadCSS(url);\n                                $.onloadCSS(stylesheet,
+        function() {\n                                    resolve();\n                                });\n
+        \                               if (timeout) {\n                                    setTimeout(function
+        () { reject(); }, timeout);\n                                }\n                            });\n
+        \                   });\n                },\n                isModal: function
+        () {\n                    return modal;\n                },\n                getLanguage:
+        function () {\n                    return new Promise(function(resolve, reject)
+        {\n                        resolve(language);\n                    });\n                },\n
+        \               trackRegion: function (region, labels) {\n                    return
+        window.bbcpage.loadModule(['istats-1'])\n                        .then(function(istats)
+        {\n    \n                            var trackLabels = {\n                                region:
+        region\n                            };\n    \n                            for
+        (var label in labels) {\n                                trackLabels[label]
+        = labels[label];\n                            }\n    \n                            var
+        linkType = labels.linkType || 'internal';\n    \n                            istats.track(linkType,
+        trackLabels);\n                        });\n                },\n                getName:
+        function() {\n                    return Promise.resolve(page.name);\n                },\n
+        \               getDestination: function() {\n                    return Promise.resolve(page.destination);\n
+        \               },\n                getProducer: function() {\n                    return
+        Promise.resolve(page.producer);\n                },\n                getSite:
+        function() {\n                    return Promise.resolve(page.site);\n                },\n
+        \               getSection: function() {\n                    return Promise.resolve(page.section);\n
+        \               },\n                getContentType: function() {\n                    return
+        Promise.resolve(page.contentType);\n                },\n                getContentId:
+        function() {\n                    return Promise.resolve(page.contentId);\n
+        \               },\n                getEdition: function() {\n                  return
+        new Promise(function (resolve, reject) {\n                    if (page.edition)
+        {\n                      resolve(page.edition);\n                      return;\n
+        \                   }\n                    try {\n                      resolve(getMetaValue('x-audience').toLowerCase());\n
+        \                   } catch (err){\n                      // This property
+        is related to Chartbeat; see http://support.chartbeat.com/docs/\n                      if
+        (window._sf_async_config) {\n                        resolve(window._sf_async_config.region
+        || null);\n                      }\n                    }\n                    resolve(null);\n
+        \                 });\n                },\n                getReferrer: function()
+        {\n                  return Promise.resolve(window.orb && window.orb.referrer
+        ? window.orb.referrer : document.referrer);\n                },\n                getAdditionalProperties:
+        function() {\n                  return Promise.resolve(page.additionalProperties);\n
+        \               }\n            };\n    \n            var country;\n    \n
+        \           var sanitiseCountry = function(country) {\n                return
+        country ? country.replace(/ /g, '') : undefined;\n            }\n    \n            window.bbcuser
+        = {\n                getHashedId: function() {\n                    if (modal)
+        {\n                        return undefined;\n                    }\n                    return
+        window.bbcpage.loadModule(['idcta-v2/idcta-1'])\n                        .then(function(idcta)
+        {\n                            return idcta.getCookieInstance().getHidFromCookie();\n
+        \                   });\n                },\n                getCountry: function()
+        {\n                    if (country) {\n                        return new
+        Promise(function(resolve, reject) {\n                            resolve(sanitiseCountry(country));\n
+        \                       })\n                    }\n                    else
+        {\n                        return window.bbcpage.loadModule(['orb/fig'])\n
+        \                           .then(function(orbFig) {\n                                return
+        new Promise(function(resolve, reject) {\n                                    orbFig.load(function
+        (fig) {\n                                        if (fig.geo.isUK()) {\n                                            resolve('GB');\n
+        \                                       } else if (fig.geo.isEU()) {\n                                            resolve('EU');\n
+        \                                       } else {\n                                            resolve(undefined);\n
+        \                                       }\n                                    },
+        function () {\n                                        reject('Error determining
+        country. Timeout?');\n                                    });\n                                });\n
+        \                           });\n    \n                    }\n                },\n
+        \               isUKCombined: function(inputCountry) {\n                    return
+        window.bbcpage.loadModule(['orb/bbcuser'])\n                        .then(function(service)
+        {\n                            return new Promise(function(resolve, reject)
+        {\n                                if (inputCountry) {\n                                    resolve(service.isUKCombined(sanitiseCountry(inputCountry)));\n
+        \                               }\n                                else {\n
+        \                                   window.bbcuser.getCountry().then(function(fetchedCountry){\n
+        \                                       resolve(service.isUKCombined(fetchedCountry));\n
+        \                                   })\n                                }\n
+        \                           });\n                        });\n                },\n
+        \               isSignedIn: function() {\n                    return window.bbcpage.loadModule(['idcta-v2/idcta-1'])\n
+        \                       .then(function(idcta) {\n                            return
+        (idcta && idcta.getCookieInstance().hasCookie());\n                        });\n
+        \               },\n                allowsPerformanceCookies: function() {\n
+        \                   return window.bbcpage.loadModule(['orb/cookies'])\n                            .then(function(bbccookies)
+        {\n                                return !!bbccookies.cookiesEnabled() &&
+        !!bbccookies.readPolicy('performance');\n                            });\n
+        \               },\n                allowsFunctionalCookies: function() {\n
+        \                   return window.bbcpage.loadModule(['orb/cookies'])\n                            .then(function(bbccookies)
+        {\n                                return !!bbccookies.cookiesEnabled() &&
+        !!bbccookies.readPolicy('personalisation');\n                            });\n
+        \               },\n                getCookieValue: function(cookieName) {\n
+        \                   return window.bbcpage.loadModule(['orb/cookies'])\n                            .then(function(bbccookies)
+        {\n                                return bbccookies.get(cookieName);\n                            });\n
+        \               },\n                resetCookiesPreferences: function() {\n
+        \                   return window.bbcpage.loadModule(['orb/cookies'])\n                            .then(function(bbccookies)
+        {\n                                bbccookies.setDefaultCookiesSingleDomain();\n
+        \                           });\n                },\n                hasCookiesEnabled:
+        function() {\n                    return window.bbcpage.loadModule(['orb/cookies'])\n
+        \                           .then(function(bbccookies) {\n                                return
+        !!bbccookies.cookiesEnabled();\n                            });\n                },\n
+        \               hasSeenCookieBanner: function() {\n                    return
+        window.bbcpage.loadModule(['orb/cookies'])\n                            .then(function
+        (bbccookies) {\n                                return !!bbccookies.isCookiePolicySet();\n
+        \                           });\n                },\n                logEvent:
+        function (verb, noun, extraLabels) {\n                    return window.bbcuser.hasCookiesEnabled()\n
+        \                       .then(function(allowsCookies) {\n                            if
+        (allowsCookies) {\n                                return window.bbcpage.loadModule(['istats-1'])\n
+        \                                   .then(function(istats) {\n                                        istats.log(verb,
+        noun, extraLabels);\n                                    });\n                            }
+        else {\n                                throw new Error('User cannot be tracked
+        due to cookies preferences.');\n                            }\n                        });\n
+        \               },\n            };\n    \n        }());</script><script src=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/js/require.min.js\"></script>
+        \    <script src=\"https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-332.8fd22d2/cookie-banner/cookie-library.min.js\"></script><script
+        type=\"text/javascript\">if (window.define !==  undefined) {\n        define('orb/cookies',
+        function() {\n          return window.bbccookies;\n        });\n      }</script>
+        <script src=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/js/api.min.js\"></script><script
+        type=\"text/javascript\">window.bbcFlagpoles_istats=\"ON\",require.config({paths:{\"istats-1\":\"https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-332.8fd22d2/istats/istats-1\"}}),require([\"istats-1\",\"orb/cookies\"],function(t,a){if(a.isAllowed(\"s1\")){var
+        e=(o=document.location.href.match(/^(?:https|http):\\/\\/\\w*\\.(?:(int|test|stage|live|)\\.)?bbc\\.(?:co\\.uk|com)/))?void
+        0===o[1]||\"\"===o[1]||\"live\"===o[1]?\"//sa.bbc.co.uk/bbc/bbc/s\":\"//sa.bbc.co.uk/bbc/\"+o[1]+\"/s\":\"//sa.bbc.co.uk/bbc/test/s\";t.addCollector({name:\"default\",url:e,separator:\"&\"});var
+        s=\"arabic.embedded_media.media_asset.49474522.page\";t.setCountername(s),window.istats_countername&&t.setCountername(window.istats_countername),t.addLabels(\"ml_name=webmodule&ml_version=0.0.1-332.8fd22d2&blq_e=orbit&blq_r=orbit&blq_s=orbit&blq_v=worldservice&language=ar-SA&pal_route=asset&language=ar-SA&pal_webapp=tabloid&prod_name=arabic&app_name=arabic&cps_asset_id=49474522&page_type=media_asset&section=&first_pub=2019-08-27T12%3A44%3A32%2B00%3A00&last_editorial_update=2019-08-27T15%3A48%3A13%2B00%3A00&curie=adae6819-c0bf-7642-b27e-7b03413719c3&title=%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&has_video=1&cps_media_type=video&topic_names=Elderly+people%21South+Korea&topic_ids=3892335e-43d8-489b-b0a1-9e2cf25ff486%2168f68d12-c2d9-4173-9ed3-178363e46344&for_nation=ae&app_version=1.288.0&app_type=responsive&bbc_site=news-ws-arabic\")}var
+        o});</script><!--[if IE 8]><link href=\"https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/style/ie8.css\"
+        rel=\"stylesheet\"/> <![endif]--><script type=\"text/javascript\">(function()
+        {if (!window.require) {throw new Error('idcta: could not find require module');}if
+        (typeof(map) == 'undefined') {var map = {};}if (!!document.createElementNS
+        && !!document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect)
+        {document.documentElement.className += ' id-svg';}var ptrt = new RegExp(\"[\\\\?&]ptrt=([^&]*)\").exec(document.location.href);var
+        ENDPOINT_URL = 'https://idcta.api.bbc.co.uk';var ENDPOINT_CONFIG = ('/idcta/config?callback=&lang=ar-SA&ptrt='
+        + encodeURIComponent((ptrt ? ptrt[1] : document.location.href))).replace(/\\&amp;/g,
+        '&');var ENDPOINT_TRANSLATIONS = '/idcta/translations?callback=&lang=ar-SA';function
+        hasPromise() {var P = window.Promise;var promiseToString = null;if (P) {try
+        {promiseToString = Object.prototype.toString.call(P.resolve());} catch(e)
+        {/*silently ignored*/}}return (promiseToString === '[object Promise]' && !P.cast);}if
+        (hasPromise()) {define('idcta/es6-promise', function() {return window.Promise;});define('idcta-v2/es6-promise',
+        function() {return window.Promise;});}map['idcta-v2'] = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2';map['idcta-v2/config']
+        = ENDPOINT_URL + ENDPOINT_CONFIG;map['idcta-v2/translations'] = ENDPOINT_URL
+        + ENDPOINT_TRANSLATIONS;map['idcta'] = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.8.2/modules/idcta';map['idcta-v2/idcta-1']
+        = 'https://mybbc.files.bbci.co.uk/s/id/account-idcta/1.19.0/modules/idcta-v2/dist/idcta-1.min';const
+        idctaShim = {deps: ['idcta-v2/idcta-1'],};require({shim: {'idcta-v2/statusbar':
+        idctaShim,'idcta-v2/id-config': idctaShim},map: {'*': {'idcta/idcta-1': 'idcta-v2/idcta-1','idcta':
+        'idcta-v2',}},paths: map});window.idctaBaseUrl = ENDPOINT_URL;define('idcta/config',
+        ['idcta-v2/config'], function(data) {return data;});define('idcta/translations',
+        ['idcta-v2/translations'], function(data) {return data;});})();</script>  <!--
+        BBCDOTCOM head --><script type=\"text/javascript\">/*<![CDATA[*/ var _sf_startpt
+        = (new Date()).getTime(); /*]]>*/</script><style type=\"text/css\">.bbccom_display_none{display:none;}</style><script
+        type=\"text/javascript\">/*<![CDATA[*/ var bbcdotcomConfig, googletag = googletag
+        || {}; googletag.cmd = googletag.cmd || [], bbcdotcomScripts = [], tp = window.tp
+        || []; var bbcdotcom = false; (function(){ if(typeof require !== 'undefined')
+        { require({ paths:{ \"bbcdotcom\":\"https://static.bbc.co.uk/bbcdotcom/2.7.0/script\"
+        } }); } })(); /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/
+        var bbcdotcom = { adverts: { keyValues: { set: function() {} } }, advert:
+        { write: function () {}, show: function () {}, isActive: function () { return
+        false; }, layout: function() { return { reset: function() {} } } }, config:
+        { init: function() {}, isActive: function() {}, setSections: function() {},
+        isAdsEnabled: function() {}, setAdsEnabled: function() {}, isAnalyticsEnabled:
+        function() {}, setAnalyticsEnabled: function() {}, setAssetPrefix: function()
+        {}, setFlagpoles: function() {}, setVersion: function () {}, setJsPrefix:
+        function() {}, setSwfPrefix: function() {}, setCssPrefix: function() {}, setConfig:
+        function() {}, getAssetPrefix: function() {}, getJsPrefix: function () {},
+        getSwfPrefix: function () {}, getCssPrefix: function () {}, isOptimizelyEnabled:
+        function() {} }, survey: { init: function(){ return false; } }, data: {},
+        init: function() {}, objects: function(str) { return false; }, locale: { set:
+        function() {}, get: function() {} }, setAdKeyValue: function() {}, utils:
+        { addEvent: function() {}, addHtmlTagClass: function() {}, log: function ()
+        {} }, addLoadEvent: function() {} }; /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/
+        (function(){ if (typeof orb !== 'undefined' && typeof orb.fig === 'function')
+        { if (orb.fig('ad') && orb.fig('uk') == 0) { bbcdotcom.data = { ads: (orb.fig('ad')
+        ? 1 : 0), stats: (orb.fig('uk') == 0 ? 1 : 0), statsProvider: orb.fig('ap')
+        }; } } else { document.write('<script type=\"text/javascript\" src=\"https://www.bbc.com/wwscripts/data\">\\x3C/script>');
+        } })(); /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ (function(){
+        if (typeof orb === 'undefined' || typeof orb.fig !== 'function') { bbcdotcom.data
+        = { ads: bbcdotcom.data.a, stats: bbcdotcom.data.b, statsProvider: bbcdotcom.data.c
+        }; } if (bbcdotcom.data.ads == 1) { document.write('<script type=\"text/javascript\"
+        src=\"https://www.bbc.com/wwscripts/flag\">\\x3C/script>'); } })(); /*]]>*/</script><script
+        type=\"text/javascript\">/*<![CDATA[*/ (function(){ if (window.bbcdotcom &&
+        (typeof bbcdotcom.flag == 'undefined' || (typeof bbcdotcom.data.ads !== 'undefined'
+        && bbcdotcom.flag.a != 1))) { bbcdotcom.data.ads = 0; } if (/[?|&]ads/.test(window.location.href)
+        || /(^|; )ads=on; /.test(document.cookie) || /; ads=on(; |$)/.test(document.cookie))
+        { bbcdotcom.data.ads = 1; bbcdotcom.data.stats = 1; } if (window.bbcdotcom
+        && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcom.assetPrefix
+        = \"https://static.bbc.co.uk/bbcdotcom/2.7.0/\"; if (/(sandbox|int)(.dev)*.bbc.co*/.test(window.location.href)
+        || /[?|&]ads-debug/.test(window.location.href) || document.cookie.indexOf('ads-debug=')
+        !== -1) { document.write('<script type=\"text/javascript\" src=\"https://static.bbc.co.uk/bbcdotcom/2.7.0/script/dist/bbcdotcom.dev.js\">\\x3C/script>');
+        } else { document.write('<script type=\"text/javascript\" src=\"https://static.bbc.co.uk/bbcdotcom/2.7.0/script/dist/bbcdotcom.js\">\\x3C/script>');
+        } } })(); /*]]>*/</script><script type=\"text/javascript\">if (window.bbcdotcom
+        && bbcdotcom.data.stats == 1) { document.write('<link rel=\"dns-prefetch\"
+        href=\"//secure-us.imrworldwide.com/\">'); document.write('<link rel=\"dns-prefetch\"
+        href=\"//me-cdn.effectivemeasure.net/\">'); document.write('<link rel=\"dns-prefetch\"
+        href=\"//ssc.api.bbc.com/\">'); } if (window.bbcdotcom && bbcdotcom.data.ads
+        == 1) { document.write('<link rel=\"dns-prefetch\" href=\"//www.googletagservices.com/\">');
+        document.write('<link rel=\"dns-prefetch\" href=\"//bbc.gscontxt.net/\">');
+        document.write('<link rel=\"dns-prefetch\" href=\"//tags.crwdcntrl.net/\">');
+        document.write('<link rel=\"dns-prefetch\" href=\"//ad.crwdcntrl.net/\">');
+        }</script><script type=\"text/javascript\">if (window.bbcdotcom && bbcdotcom.data.ads
+        == 1) { document.write('<meta name=\"google-site-verification\" content=\"auTeTTwSt_KBY_4iDoR00Lwb7-qzx1IgzJy6ztaWgEI\"
+        />'); }</script><script type=\"text/javascript\">/*<![CDATA[*/ (function(){
+        if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats ==
+        1)) { bbcdotcomConfig = {\"adFormat\":\"standard\",\"adKeyword\":\"\",\"adMode\":\"smart\",\"adsEnabled\":true,\"appAnalyticsSections\":\"\",\"asyncEnabled\":true,\"disableInitialLoad\":false,\"advertInfoPageUrl\":\"https:\\/\\/www.bbc.com\\/privacy\\/cookies\\/international\\/\",\"advertisementText\":\"Advertisement\",\"analyticsEnabled\":true,\"sherlockEnabled\":false,\"appName\":\"\",\"assetPrefix\":\"https:\\/\\/static.bbc.co.uk\\/bbcdotcom\\/2.7.0\\/\",\"customAdParams\":[],\"customStatsParams\":[],\"headline\":\"\",\"id\":\"\",\"inAssociationWithText\":\"in
+        association with\",\"keywords\":\"\",\"language\":\"\",\"orbTransitional\":false,\"lotameWSEnabled\":false,\"optimizelyEnabled\":true,\"palEnv\":\"live\",\"productName\":\"\",\"sections\":[],\"comScoreEnabled\":true,\"comscoreSite\":\"bbc\",\"comscoreID\":\"19293874\",\"comscorePageName\":\"\",\"slots\":\"\",\"sponsoredByText\":\"is
+        sponsored by\",\"adsByGoogleText\":\"Ads by Google\",\"summary\":\"\",\"type\":\"\",\"features\":{\"testfeature\":{\"name\":\"testfeature\",\"envs\":[\"sandbox\",\"int\",\"test\"],\"on\":true,\"options\":{},\"override\":null},\"lxadverts\":{\"name\":\"lxadverts\",\"envs\":[],\"on\":true,\"options\":{},\"override\":null}},\"staticBase\":\"\\/bbcdotcom\",\"staticHost\":\"https:\\/\\/static.bbc.co.uk\",\"staticVersion\":\"2.7.0\",\"staticPrefix\":\"https:\\/\\/static.bbc.co.uk\\/bbcdotcom\\/2.7.0\",\"dataHttp\":\"tps.bbc.com\",\"dataHttps\":\"www.bbc.com\",\"flagHttp\":\"www.bbc.co.uk\",\"flagHttps\":\"www.bbc.co.uk\",\"analyticsHttp\":\"sa.bbc.com\",\"analyticsHttps\":\"ssa.bbc.com\"};
+        bbcdotcom.config.init(bbcdotcomConfig, bbcdotcom.data, window.location, window.document);
+        bbcdotcom.config.setFlagpoles(bbcdotcom.flag || {}); bbcdotcom.config.setAssetPrefix(\"https://static.bbc.co.uk/bbcdotcom/2.7.0/\");
+        bbcdotcom.config.setVersion(\"2.7.0\"); document.write('<!--[if IE 7]><script
+        type=\"text/javascript\">bbcdotcom.config.setIE7(true);\\x3C/script><![endif]-->');
+        document.write('<!--[if IE 8]><script type=\"text/javascript\">bbcdotcom.config.setIE8(true);\\x3C/script><![endif]-->');
+        document.write('<!--[if IE 9]><script type=\"text/javascript\">bbcdotcom.config.setIE9(true);\\x3C/script><![endif]-->');
+        if (/[?|&]ex-dp/.test(window.location.href) || document.cookie.indexOf('ex-dp=')
+        !== -1) { bbcdotcom.utils.addHtmlTagClass('bbcdotcom-ex-dp'); } } })(); /*]]>*/</script><script
+        type=\"text/javascript\">var initOptimizely = (function(isEnabled){ if(!isEnabled)
+        return; var logger = window.bbcdotcom.Logger('bbcdotcom:head:optimizely');
+        /* Allow Optimizely in these paths */ var allowPaths = ['/', '/wwhp']; /*
+        Only run on optimizely on homepage */ if (bbcdotcom.utils && allowPaths.indexOf(window.location.pathname)
+        !== -1 && window.bbccookies && bbccookies.readPolicy('necessary') ){ /* set
+        correct OptimizelyURL for prod or sandbox */ var optimizelyURL = \"https://cdn.optimizely.com/public/4621041136/s/bbccom_sandbox.js\";
+        if(window.location.hostname === 'www.bbc.com') { optimizelyURL = \"https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js\";
+        } /* Set cookie to 1 year */ window['optimizely'] = window['optimizely'] ||
+        []; window['optimizely'].push({ \"type\": \"cookieExpiration\", \"cookieExpirationDays\":
+        365 }); document.write('<script type=\"text/javascript\" src=\"'+optimizelyURL+'\">\\x3C/script>');
+        } })( bbcdotcom.config.isOptimizelyEnabled() );</script><script type=\"text/javascript\">/*<![CDATA[*/
+        if ( window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.ads && bbcdotcom.data.ads
+        == 1 && bbcdotcom.config && bbcdotcom.config.isGrapeshotEnabled && bbcdotcom.config.isGrapeshotEnabled()
+        && bbcdotcom.config.isWorldService && !bbcdotcom.config.isWorldService() )
+        { var gs_channels=\"DEFAULT\"; (function () { var gsurl = window.location.href.split(\"?\")[0];
+        bbcdotcomScripts.push({src:'https://bbc.gscontxt.net/?url='+encodeURIComponent(gsurl)});
+        })(); } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ if
+        (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats
+        == 1 && bbcdotcom.config && bbcdotcom.config.isLotameEnabled && bbcdotcom.config.isLotameEnabled()){
+        (function () { var clientId, lotameUrl, lotameAudienceUrl; clientId = (bbcdotcom.config.isWorldService
+        && bbcdotcom.config.isWorldService()) ? '10826' : '10816'; lotameUrl = 'https://tags.crwdcntrl.net/c/'+clientId+'/cc.js?ns='+clientId;
+        lotameAudienceUrl = 'https://ad.crwdcntrl.net/5/c=10815/pe=y/var=ccauds';
+        bbcdotcomScripts.push({src:lotameUrl,id:\"LOTCC\"+clientId}); bbcdotcomScripts.push({src:lotameAudienceUrl});
+        })(); } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ /**
+        * ASYNC waits to make any gpt requests until the bottom of the page */ if
+        ( window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.ads && bbcdotcom.data.ads
+        == 1 && bbcdotcom.config && bbcdotcom.config.isAsync && bbcdotcom.config.isAsync()
+        ) { (function () { bbcdotcomScripts.push({src:'https://securepubads.g.doubleclick.net/tag/js/gpt.js'});
+        })(); } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ /*
+        Load Lotame, Grapeshot and GPT without blocking rendering but executing in
+        order */ if ( bbcdotcomScripts && bbcdotcomScripts.length > 0 ) { (function
+        () { bbcdotcomScripts.forEach(function(item) { var script = document.createElement('script');
+        script.async = false; if(item.id) script.id = item.id; script.src = item.src;
+        document.head.appendChild(script); }); })(); } /*]]>*/</script><script type=\"text/javascript\"
+        async=\"true\">/*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats
+        && bbcdotcom.data.stats == 1 && bbcdotcom.config && bbcdotcom.config.isLotameEnabled
+        && bbcdotcom.config.isLotameEnabled() && bbcdotcom.lotame){ (function () {
+        bbcdotcom.lotame.callback(); })(); } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/
+        (function() { window.bbcdotcom.head = true; }()); /*]]>*/</script><script
+        type=\"text/javascript\">// Globally available search context\n  window.SEARCHBOX={\"variant\":\"worldservice\",\"locale\":\"ar-SA\",\"navSearchboxStaticPrefix\":\"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b\",\"searchboxAppStaticPrefix\":\"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/drawer\",\"searchFormHtml\":\"<div
+        tabindex=\\\"-1\\\" data-reactroot=\\\"\\\" data-reactid=\\\"1\\\" data-react-checksum=\\\"729995048\\\"><div
+        data-reactid=\\\"2\\\"><section class=\\\"se-searchbox-panel\\\" data-reactid=\\\"3\\\"><div
+        class=\\\"se-g-wrap\\\" data-reactid=\\\"4\\\"><div class=\\\"se-g-layout\\\"
+        data-reactid=\\\"5\\\"><div class=\\\"se-g-layout__item se-searchbox-title\\\"
+        aria-hidden=\\\"true\\\" data-reactid=\\\"6\\\">search</div><div class=\\\"se-g-layout__item
+        se-searchbox\\\" data-reactid=\\\"7\\\"><form accept-charset=\\\"utf-8\\\"
+        id=\\\"searchboxDrawerForm\\\" method=\\\"get\\\" action=\\\"https://search.bbc.co.uk/search\\\"
+        data-reactid=\\\"8\\\"><label class=\\\"se-searchbox__input\\\" for=\\\"se-searchbox-input-field\\\"
+        data-reactid=\\\"9\\\"><span class=\\\"se-sr-only\\\" data-reactid=\\\"10\\\">Search
+        Term</span><input type=\\\"text\\\" name=\\\"q\\\" value=\\\"\\\" id=\\\"se-searchbox-input-field\\\"
+        class=\\\"se-searchbox__input__field\\\" maxlength=\\\"512\\\" autocomplete=\\\"off\\\"
+        autocorrect=\\\"off\\\" autocapitalize=\\\"off\\\" spellcheck=\\\"false\\\"
+        tabindex=\\\"0\\\" data-reactid=\\\"11\\\"/></label><input type=\\\"hidden\\\"
+        name=\\\"scope\\\" value=\\\"\\\" data-reactid=\\\"12\\\"/><button type=\\\"submit\\\"
+        class=\\\"se-searchbox__submit\\\" tabindex=\\\"0\\\" data-reactid=\\\"13\\\">Search</button><button
+        type=\\\"button\\\" class=\\\"se-searchbox__clear se-searchbox__clear--visible\\\"
+        tabindex=\\\"0\\\" data-reactid=\\\"14\\\">Close</button></form></div></div></div></section><div
+        aria-live=\\\"polite\\\" aria-atomic=\\\"true\\\" class=\\\"se-suggestions-container\\\"
+        data-reactid=\\\"15\\\"><section class=\\\"se-g-wrap\\\" data-reactid=\\\"16\\\"></section></div></div></div>\",\"searchScopePlaceholder\":\"<input
+        type=\\\"hidden\\\" name=\\\"scope\\\" id=\\\"orb-search-scope\\\" value=\\\"arabic\\\">\",\"searchScopeParam\":\"?scope=arabic\",\"searchScopeTemplate\":\"arabic\",\"searchPlaceholderWrapperStart\":\"\",\"searchPlaceholderWrapperEnd\":\"\"};\n
+        \ window.SEARCHBOX.suppress = false;\n  window.SEARCHBOX.searchScope = SEARCHBOX.searchScopeTemplate.split('-')[0];</script><link
+        rel=\"stylesheet\" href=\"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/css/main.css\"><!--[if
+        IE 8]>\n  <script type=\"text/javascript\" src=\"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/script/html5shiv.min.js\"></script>\n
+        \ <script type=\"text/javascript\">window['searchboxIEVersion'] = 8;</script>\n
+        \ <link rel=\"stylesheet\" href=\"https://nav.files.bbci.co.uk/searchbox/3.0.0-4.9a69f1b/css/ie8.css\">\n<![endif]--><!--[if
+        IE 9]>\n  <script type=\"text/javascript\">window['searchboxIEVersion'] =
+        9;</script>\n<![endif]--> <script type=\"text/javascript\">\"use strict\";require.config({paths:{reverb:\"https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/reverb-0.11.0\"}}),function(){var
+        i=function(c,a){require([\"reverb\"],function(e){if(c&&c.detail){var i=c.detail.label,t=c.detail.type,n=c.detail.elem,r=c.detail.originalEvent;c.detail.isClick&&(a=c.detail.isClick),e.userActionEvent(t,i,c.detail,n,r,a)}})};document.addEventListener(\"bbc-user-event\",function(e){i(e,!1)}),document.addEventListener(\"bbc-user-click\",function(e){i(e,!0)}),document.addEventListener(\"bbc-page-updated\",function(){require([\"reverb\"],function(e){e.initialise().then(function(){return
+        e.viewEvent()})})})}();</script>\n        <link type=\"text/css\" rel=\"stylesheet\"
+        href=\"http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic/core.css\">\n
+        \   <!--[if lt IE 9]>\n        <link type=\"text/css\" rel=\"stylesheet\"
+        href=\"http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic/old-ie.css\">\n
+        \       <script src=\"http://static.bbci.co.uk/news/1.288.03366/js/vendor/html5shiv/html5shiv.js\"></script>\n
+        \   <![endif]-->\n <script id=\"news-loader\"> if (document.getElementById(\"responsive-news\"))
+        { window.bbcNewsResponsive = true; } var isIE = (function() { var undef, v
+        = 3, div = document.createElement('div'), all = div.getElementsByTagName('i');
+        while ( div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+        all[0] ); return v > 4 ? v : undef; }()); var modernDevice = 'querySelector'
+        in document && 'localStorage' in window && 'addEventListener' in window, forceCore
+        = document.cookie.indexOf('ckps_force_core') !== -1; window.cutsTheMustard
+        = modernDevice && !forceCore; if (window.cutsTheMustard) { document.documentElement.className
+        += ' ctm'; var insertPoint = document.getElementById('news-loader'), config
+        = {\"asset\":{\"asset_id\":\"49474522\",\"asset_locator\":\"urn:bbc:cps:asset:49474522\",\"asset_uri\":\"\\/arabic\\/media-49474522\",\"original_asset_uri\":null,\"first_created\":{\"date\":\"2019-08-27
+        12:44:32\",\"timezone_type\":3,\"timezone\":\"UTC\"},\"first_published\":{\"date\":\"2019-08-27
+        15:48:13\",\"timezone_type\":3,\"timezone\":\"UTC\"},\"last_updated\":{\"date\":\"2019-08-27
+        15:48:13\",\"timezone_type\":3,\"timezone\":\"UTC\"},\"options\":{\"allowDateStamp\":true,\"allowPrintingSharingLinks\":true,\"allowHeadline\":true,\"allowRightHandSide\":true,\"allowRelatedStoriesBox\":true,\"includeComments\":false,\"isIgorSeoTagsEnabled\":false,\"isKeyContent\":false,\"isBreakingNews\":false,\"hasNewsTracker\":false,\"isFactCheck\":false},\"section\":{\"name\":\"\\u0641\\u064a\\u062f\\u064a\\u0648\",\"id\":\"102819\",\"urlIdentifier\":\"\\/arabic\\/media\"},\"language\":\"ar\",\"edition\":\"International\",\"audience\":null,\"iStats_counter_name\":\"arabic.embedded_media.media_asset.49474522.page\",\"type\":\"MAP\",\"curie\":\"asset:adae6819-c0bf-7642-b27e-7b03413719c3\",\"length\":168,\"headline\":\"\\u0635\\u0627\\u0644\\u0629
+        \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0643\\u0628\\u0627\\u0631 \\u0627\\u0644\\u0633\\u0646
+        \\u0641\\u0642\\u0637\",\"isLiveAvStream\":false,\"mediaType\":\"video\",\"topicTags\":\"Elderly
+        people!South Korea\"},\"smpBrand\":null,\"staticHost\":\"http:\\/\\/static.bbci.co.uk\",\"environment\":\"live\",\"locatorVersion\":\"dev\",\"pathPrefix\":\"\\/arabic\",\"staticPrefix\":\"http:\\/\\/static.bbci.co.uk\\/news\\/1.288.03366\",\"jsPath\":\"http:\\/\\/static.bbci.co.uk\\/news\\/1.288.03366\\/js\",\"cssPath\":\"http:\\/\\/static.bbci.co.uk\\/news\\/1.288.03366\\/stylesheets\\/services\\/arabic\",\"cssPostfix\":\"\",\"dynamic\":null,\"features\":{\"localnews\":true,\"video\":true,\"liveeventcomponent\":true,\"mediaassetpage\":true,\"gallery\":true,\"sportstories\":true,\"radiopromo\":true,\"fromothernewssites\":true,\"locallive\":true,\"weather\":true},\"features2\":{\"adexpert\":true,\"adverts\":true,\"adverts_async\":true,\"amp_link\":true,\"apple_smart_banner\":true,\"archive_fallback\":true,\"ati_analytics\":true,\"audio\":true,\"blogs\":true,\"breaking_news\":true,\"channel_page\":true,\"chartbeat\":true,\"comments\":true,\"comments_enhanced\":true,\"comscore_analytics\":true,\"config_based_layout\":true,\"contact_form\":true,\"dns_prefetch_static_assets\":true,\"dynatrace_beacon\":true,\"embedephant-social-embeds\":true,\"enhanced_fonts\":true,\"enable_audio_on_stories\":true,\"extracted_share_tools\":true,\"features_and_analysis\":true,\"follow_us\":true,\"gazzetta_onward_journeys\":true,\"igor_device_redirect\":false,\"interactive-social-embeds\":true,\"ldp_indexes\":true,\"ldp_tag_augmentation\":true,\"link_href_language\":true,\"live_v2_stream\":true,\"media_indexes\":true,\"media_player\":true,\"meta_verification\":true,\"most_popular\":true,\"most_popular_tabs\":true,\"nav\":true,\"nitro_radio\":true,\"olympics_tables\":true,\"open_graph\":true,\"optimizely\":true,\"or\":true,\"orbit\":true,\"paralympics2016_medals\":false,\"preconnect_oftused_domains\":true,\"preload_fig\":true,\"preroll_ads_on_maps\":true,\"pulse_survey\":true,\"recent_assets_indexes\":true,\"routing\":true,\"rtl\":true,\"share_tools\":true,\"social-embeds\":true,\"story_single_column_layout\":true,\"story_sticky_player\":true,\"svg_brand\":true,\"timezone\":true,\"top_stories_promo\":true,\"wsoj\":true},\"configuration\":{\"showtimestamp\":\"1\",\"showweather\":\"\",\"showsport\":\"1\",\"showolympics\":\"1\",\"showfeaturemain\":\"1\",\"candyplatform\":\"EnhancedMobile\",\"showwatchlisten\":\"\",\"showspecialreports\":\"1\",\"videotopiccandyid\":\"topics\\/video\",\"showvideofeedsections\":\"\",\"showstorytopstories\":\"\",\"showstoryfeaturesandanalysis\":\"1\",\"showstorymostpopular\":\"\",\"showgallery\":\"1\",\"cms\":\"topcat\"},\"pollingHost\":\"https:\\/\\/polling.bbc.co.uk\",\"service\":\"arabic\",\"locale\":\"ar\",\"locatorHost\":null,\"locatorFlagPole\":true,\"local\":{\"allowLocationLookup\":true},\"isWorldService\":true,\"isChannelPage\":false,\"languageVariant\":\"\",\"commentsHost\":\"https:\\/\\/www.bbc.co.uk\",\"search\":null,\"comscoreAnalytics\":{\"virtual_site\":\"news-ws-arabic\"}};
+        config.configuration['get'] = function (key) { return this[key.toLowerCase()];
+        };  var bootstrapUI=function(){var e=function(){if(navigator.userAgent.match(/(Android
+        (2.0|2.1))|(Nokia)|(OSRE\\/)|(Opera (Mini|Mobi))|(w(eb)?OSBrowser)|(UCWEB)|(Windows
+        Phone)|(XBLWP)|(ZuneWP)/))return!1;if(navigator.userAgent.match(/MSIE 10.0/))return!0;var
+        e,t=document,n=t.head||t.getElementsByTagName(\"head\")[0],r=t.createElement(\"style\"),s=t.implementation||{hasFeature:function(){return!1}};r.type=\"text/css\",n.insertBefore(r,n.firstChild),e=r.sheet||r.styleSheet;var
+        i=s.hasFeature(\"CSS2\",\"\")?function(t){if(!e||!t)return!1;var n=!1;try{e.insertRule(t,0),n=!/unknown/i.test(e.cssRules[0].cssText),e.deleteRule(e.cssRules.length-1)}catch(r){}return
+        n}:function(t){return e&&t?(e.cssText=t,0!==e.cssText.length&&!/unknown/i.test(e.cssText)&&0===e.cssText.replace(/\\r+|\\n+/g,\"\").indexOf(t.split(\"
+        \")[0])):!1};return i('@font-face{ font-family:\"font\";src:\"font.ttf\";
+        }')}();e&&(document.getElementsByTagName(\"html\")[0].className+=\" ff\"),function(){var
+        e=document.documentElement.style;(\"flexBasis\"in e||\"WebkitFlexBasis\"in
+        e||\"msFlexBasis\"in e)&&(document.documentElement.className+=\" flex\")}();var
+        t,n,r,s,i,a={},o=function(){var e=document.documentElement.clientWidth,n=window.innerWidth,r=n>1.5*e;t=r?e:n},u=function(e){var
+        t=document.createElement(\"link\");t.setAttribute(\"rel\",\"stylesheet\"),t.setAttribute(\"type\",\"text/css\"),t.setAttribute(\"href\",n+e+r+\".css\"),t.setAttribute(\"media\",i[e]),s.parentNode.insertBefore(t,s),delete
+        i[e]},c=function(e,n,r){n&&!r&&t>=n&&u(e),r&&!n&&r>=t&&u(e),n&&r&&t>=n&&r>=t&&u(e)},l=function(e){if(a[e])return
+        a[e];var t=e.match(/\\(min\\-width:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)/),n=e.match(/\\(max\\-width:[\\s]*([\\s]*[0-9\\.]+)(px|em)[\\s]*\\)/),r=t&&parseFloat(t[1])||null,s=n&&parseFloat(n[1])||null;return
+        a[e]=[r,s],a[e]},f=function(){var e=0;for(var t in i)e++;return e},m=function(){f()||window.removeEventListener(\"resize\",d,!1);for(var
+        e in i){var t=i[e],n=l(t);c(e,n[0],n[1])}},d=function(){o(),m()},h=function(e,t){i=e,n=t.path+(\"/\"!==t.path.substr(-1)?\"/\":\"\"),r=t.postfix,s=t.insertBefore,o(),m(),window.addEventListener(\"resize\",d,!1)};return{stylesheetLoaderInit:h}}();
+        var stylesheets = {\"compact\":\"(max-width: 599px)\",\"tablet\":\"(min-width:
+        600px) and (max-width: 1007px)\",\"wide\":\"(min-width: 1008px)\"}; bootstrapUI.stylesheetLoaderInit(stylesheets,
+        { path: 'http://static.bbci.co.uk/news/1.288.03366/stylesheets/services/arabic',
+        postfix: '', insertBefore: insertPoint }); var loadRequire = function(){ var
+        js_paths = {\"jquery-1.9\":\"vendor\\/jquery-1\\/jquery\",\"jquery-1\":\"http:\\/\\/static.bbci.co.uk\\/frameworks\\/jquery\\/0.4.1\\/sharedmodules\\/jquery-1.7.2\",\"demi-1\":\"http:\\/\\/static.bbci.co.uk\\/frameworks\\/demi\\/0.10.1\\/sharedmodules\\/demi-1\",\"swfobject-2\":\"http:\\/\\/static.bbci.co.uk\\/frameworks\\/swfobject\\/0.1.10\\/sharedmodules\\/swfobject-2\",\"jquery\":\"vendor\\/jquery-2\\/jquery.min\",\"domReady\":\"vendor\\/require\\/domReady\",\"translation\":\"module\\/translations\\/ar\",\"bump-3\":\"\\/\\/emp.bbci.co.uk\\/emp\\/bump-3\\/bump-3\"};
+        \ js_paths.navigation = 'module/nav/navManager';  require.config({ baseUrl:
+        'http://static.bbci.co.uk/news/1.288.03366/js', map: { 'vendor/locator': {
+        'module/bootstrap': 'vendor/locator/bootstrap', 'locator/stats': 'vendor/locator/stats',
+        'locator/locatorView': 'vendor/locator/locatorView' } }, paths: js_paths,
+        waitSeconds: 30 }); define('config', function () { return config; });  require(['module/wsojCookie'],
+        function (wsojCookie) { wsojCookie.setSeenBefore(); });              require([\"compiled\\/all\"],
+        function() {\n      require(['domReady'], function (domReady) { domReady(function
+        () { require([\"module\\/dotcom\\/handlerAdapter\",\"module\\/stats\\/statsSubscriberAdapter\",\"module\\/alternativeJsStrategy\\/controller\",\"module\\/iconLoaderAdapter\",\"module\\/polyfill\\/location.origin\",\"module\\/navigation\\/handlerAdaptor\",\"module\\/noTouchDetectionForCss\",\"module\\/components\\/mediaPlayer\\/mainAdapter\",\"module\\/components\\/responsiveImage\",\"module\\/components\\/timestampAdaptor\",\"module\\/components\\/twiteAdapter\",\"module\\/components\\/fauxBlockLink\",\"module\\/comscoreAdapter\"],
+        function() {  require([\"module\\/strategiserAdaptor\"]);  }); }); });              });\n
+        \    };  loadRequire();  } else { var l = document.createElement('link');
+        l.href = 'http://static.bbci.co.uk/news/1.288.03366/icons/generated/icons.fallback.css';
+        l.rel = 'stylesheet'; document.getElementsByTagName('head')[0].appendChild(l);
+        } </script>  <script type=\"text/javascript\"> /*<![CDATA[*/ bbcdotcom.init({adsToDisplay:['outbrain_tr_1'],
+        asyncEnabled:true }); /*]]>*/ </script>      <noscript><link href=\"http://static.bbci.co.uk/news/1.288.03366/icons/generated/icons.fallback.css\"
+        rel=\"stylesheet\"></noscript>\n\n                \n    \n     <!-- IE9 requires
+        style tag to be pre-rendered --> <style type=\"text/css\" class=\"font-embed\"></style>
+        <style type=\"text/css\"> .fontEmbed { font-family: \"BBCNassim\"; } </style>
+        <script type=\"text/javascript\"> var modernDevice = 'querySelector' in document
+        && 'localStorage' in window && 'addEventListener' in window; if (modernDevice)
+        { require(['http://static.bbci.co.uk/modules/bbcfonts/1.9.9/modules/fonts.js'],
+        function(fontsController) { fontsController.init('http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/',
+        'arabic/BBCNassim', '1.9.9', 'ar', 'BBCNassim'); }); } </script>   <!--[if
+        lte IE 8]>      <style type=\"text/css\"> @font-face { font-family: \"BBCNassim\";
+        font-weight: normal; src: url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim.eot?\")
+        format(\"eot\"), url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim.woff\")
+        format(\"woff\"), url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim.ttf\")
+        format(\"truetype\"); } @font-face { font-family: \"BBCNassim\"; font-weight:
+        bold; src: url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim_bold.eot?\")
+        format(\"eot\"), url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim_bold.woff\")
+        format(\"woff\"), url(\"http://static.bbci.co.uk/modules/bbcfonts/1.9.9/fonts/arabic/BBCNassim_bold.ttf\")
+        format(\"truetype\"); } </style>  <![endif]--> \n\n\n                    \n
+        \   </head>\n<!--[if IE]><body id=\"asset-type-map\" class=\"ie device--feature\"><![endif]-->\n<!--[if
+        !IE]>--><body id=\"asset-type-map\" class=\"device--feature\"><!--<![endif]-->\n
+        \   <div class=\"direction\" dir=\"rtl\">\n\n    \n    <noscript><p style=\"position:
+        absolute; top: -999em\"><img src=\"https://a1.api.bbc.co.uk/hit.xiti?&col=1&from=p&ptag=js&s=598253&p=embedded_media::arabic.embedded_media.media_asset.49474522.page&x1=[urn:bbc:cps:adae6819-c0bf-7642-b27e-7b03413719c3]&x2=[responsive]&x3=[bbc_website]&x4=[en]&x7=[article-media-asset]&x8=[reverb-0.11.0-nojs]&x11=[WS_NEWS_LANGUAGES]&x12=[ARABIC]\"
+        height=\"1\" width=\"1\" alt=\"\"></p></noscript>  <!-- BBCDOTCOM bodyFirst
+        --><div id=\"bbccom_interstitial_ad\" class=\"bbccom_display_none\"></div><div
+        id=\"bbccom_interstitial\" class=\"bbccom_display_none\"><script type=\"text/javascript\">/*<![CDATA[*/
+        (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) {
+        googletag.cmd.push(function() { googletag.display('bbccom_interstitial');
+        }); } }()); /*]]>*/</script></div><div id=\"bbccom_wallpaper_ad\" class=\"bbccom_display_none\"></div><div
+        id=\"bbccom_wallpaper\" class=\"bbccom_display_none\"><script type=\"text/javascript\">/*<![CDATA[*/
+        (function() { var wallpaper; if (window.bbcdotcom && bbcdotcom.config.isActive('ads'))
+        { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function() { googletag.display('bbccom_wallpaper');
+        }); } else if (typeof googletag !== \"undefined\" && typeof googletag.display
+        === \"function\") { googletag.display(\"wallpaper\"); } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper');
+        } }()); /*]]>*/</script></div><script type=\"text/javascript\">/*<![CDATA[*/
+        (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) {
+        document.write(unescape('%3Cscript id=\"gnlAdsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+        } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript
+        id=\"gnlAnalyticsEnabled\" class=\"bbccom_display_none\"%3E%3C/script%3E'));
+        } }()); /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ (function()
+        { window.bbcdotcom.bodyFirst = true; }()); /*]]>*/</script> <div id=\"cookiePrompt\"></div>
+        \ <!--[if (gt IE 8) | (IEMobile)]><!--><header id=\"orb-banner\" role=\"banner\"
+        aria-label=\"BBC\"><!--<![endif]--><!--[if (lt IE 9) & (!IEMobile)]>\n            <![if
+        (IE 8)]>\n                <header id=\"orb-banner\" role=\"banner\" class=\"orb-old-ie
+        orb-ie8\" aria-label=\"BBC\">\n            <![endif]>\n\n            <![if
+        (IE 7)]>\n                <header id=\"orb-banner\" role=\"banner\" class=\"orb-old-ie
+        orb-ie7\" aria-label=\"BBC\">\n            <![endif]>\n\n            <![if
+        (IE 6)]>\n                <header id=\"orb-banner\" role=\"banner\" class=\"orb-old-ie
+        orb-ie6\" aria-label=\"BBC\">\n            <![endif]>\n        <![endif]--><div
+        id=\"orb-header\" class=\"orb-nav-pri orb-nav-pri-white orb-nav-empty\" data-max-d=\"0\"
+        data-max-w=\"0\" dir=\"rtl\"><div class=\"orb-nav-pri-container b-r b-g-p\"><div
+        class=\"orb-nav-section orb-nav-blocks\"><a href=\"https://www.bbc.co.uk\">Homepage</a></div><section><div
+        class=\"orb-skip-links\"><h2>Accessibility links</h2><ul><li><a href=\"#page\">إذهب
+        الى المحتوى</a></li><li><a id=\"orb-accessibility-help\" href=\"/accessibility/\">Accessibility
+        Help</a></li></ul></div></section><nav role=\"navigation\" aria-label=\"BBC\"
+        class=\"orb-nav\"><div class=\"orb-nav-section orb-nav-links orb-nav-focus\"
+        id=\"orb-nav-links\"><ul><li class=\"orb-nav-news\"><a href=\"https://www.bbc.com/news\">News</a></li><li
+        class=\"orb-nav-sport\"><a href=\"https://www.bbc.com/sport\">Sport</a></li><li
+        class=\"orb-nav-weather\"><a href=\"https://www.bbc.com/weather\">Weather</a></li><li
+        class=\"orb-nav-radio\"><a href=\"https://www.bbc.co.uk/worldserviceradio\">Radio</a></li><li
+        class=\"orb-nav-arts\"><a href=\"https://www.bbc.co.uk/arts\">Arts</a></li><li
+        id=\"orb-nav-more\" style=\"width: 88px\" aria-controls=\"orb-panel-more\"><a
+        href=\"#orb-footer\" data-alt=\"المزيد\" class=\"istats-notrack\">قائمة<span
+        class=\"orb-icon orb-icon-arrow\"></span></a></li></ul></div></nav><div class=\"orb-nav-section
+        orb-nav-search\"><a class=\"orb-search__button\" href=\"https://search.bbc.co.uk/search?scope&#x3D;arabic\"
+        title=\"بحث في بي بي سي\">بحث</a><form class=\"b-f\" id=\"orb-search-form\"
+        role=\"search\" method=\"get\" action=\"https://search.bbc.co.uk/search\"
+        accept-charset=\"utf-8\"><div><input type=\"hidden\" name=\"scope\" id=\"orb-search-scope\"
+        value=\"arabic\"><label for=\"orb-search-q\">بحث في بي بي سي</label><input
+        id=\"orb-search-q\" type=\"text\" autocomplete=\"off\" autocorrect=\"off\"
+        autocapitalize=\"off\" spellcheck=\"false\" name=\"q\" placeholder=\"بحث\"><button
+        id=\"orb-search-button\" class=\"orb-search__button\">بحث في بي بي سي</button><input
+        type=\"hidden\" name=\"suggid\" id=\"orb-search-suggid\"></div></form></div></div><div
+        id=\"orb-panels\" class=\"orb-ws-panels\"></div></div></header>  <!-- Styling
+        hook for shared modules only -->\n<div id=\"orb-modules\">\n\n    <div id=\"site-container\">\n\n
+        \               <div class=\"site-brand site-brand--height\" role=\"banner\"
+        aria-label=\"BBC News Arabic\">\n            <div class=\"site-brand-inner
+        site-brand-inner--height\">\n                <div class=\"navigation navigation--primary\">\n
+        \                   <a href=\"/arabic\" id=\"brand\">\n            <svg class=\"brand__svg\"
+        width=\"168\" height=\"30\" focusable=\"false\" aria-hidden=\"true\">\n            <image
+        xlink:href=\"http://static.bbci.co.uk/news/1.288.03366/img/brand/generated/arabic-light.svg\"
+        src=\"http://static.bbci.co.uk/news/1.288.03366/img/brand/generated/arabic-light.png\"
+        width=\"100%\" height=\"100%\"/>\n        </svg>\n        <span class=\"off-screen\">News
+        Arabic</span>\n        </a>                    <h2 class=\"navigation__heading
+        off-screen\">BBC News Arabic تصفح</h2>\n                    <div class=\"nav-buttons\">\n
+        \                                               <a href=\"#core-navigation\"
+        class=\"navigation__section navigation__section--core\" data-event=\"header\">\n
+        \                           <div class=\"navigation__section--icon\">\n                                <span
+        class=\"off-screen\">أقسام</span>\n                            </div>\n                        </a>\n
+        \                   </div>\n                </div>\n            </div>\n                        \n\n<div
+        class=\"navigation navigation--wide\">\n    <ul class=\"navigation-wide-list\"
+        role=\"navigation\" aria-label=\"BBC News Arabic\" data-panel-id=\"js-navigation-panel-primary\">\n
+        \                   <li>\n                <a href=\"/arabic\" class=\"navigation-wide-list__link\">\n
+        \                   <span>رئيسية</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/middleeast\" class=\"navigation-wide-list__link\">\n
+        \                   <span>شرق أوسط</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/world\" class=\"navigation-wide-list__link\">\n
+        \                   <span>عالم</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/scienceandtech\"
+        class=\"navigation-wide-list__link\">\n                    <span>علوم وتكنولوجيا</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/topics/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2\"
+        class=\"navigation-wide-list__link\">\n                    <span>صحة</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/business\" class=\"navigation-wide-list__link\">\n
+        \                   <span>اقتصاد</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/artandculture\"
+        class=\"navigation-wide-list__link\">\n                    <span>فنون</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/sports\" class=\"navigation-wide-list__link\">\n
+        \                   <span>رياضة</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/magazine\" class=\"navigation-wide-list__link\">\n
+        \                   <span>مجلة</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/topics/e45cb5f8-3c87-4ebd-ac1c-058e9be22862\"
+        class=\"navigation-wide-list__link\">\n                    <span>مرأة</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/media\" class=\"navigation-wide-list__link\">\n
+        \                   <span>فيديو</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/inthepress\" class=\"navigation-wide-list__link\">\n
+        \                   <span>صحافة</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/media/photogalleries\"
+        class=\"navigation-wide-list__link\">\n                    <span>صور</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/tv-and-radio-37728883\" class=\"navigation-wide-list__link\">\n
+        \                   <span>برامجنا</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/trending\" class=\"navigation-wide-list__link\">\n
+        \                   <span>ترند</span>\n                </a>\n                            </li>\n
+        \                   <li>\n                <a href=\"/arabic/interactivity\"
+        class=\"navigation-wide-list__link\">\n                    <span>حوارات</span>\n
+        \               </a>\n                            </li>\n                    <li>\n
+        \               <a href=\"/arabic/in_depth\" class=\"navigation-wide-list__link
+        navigation-wide-list__link--last\">\n                    <span>ملفات</span>\n
+        \               </a>\n                            </li>\n            </ul>\n</div>\n\n
+        \                   </div>\n            \n    \n    \n                        <div
+        class=\"container-width-only\">\n                                                </div>\n
+        \           \n         <div id=\"page\" class=\"configurable  \" data-story-id=\"media-49474522\">
+        \     <div role=\"main\"> <div class=\"container-width-only\">       </div>
+        \     <div class=\"container\">       <div class=\"container--primary-and-secondary-columns
+        column-clearfix\">                         <div class=\"column--primary\">\n
+        \                                                                           \n<script
+        type=\"text/html\" id=\"orb-pulse-tmpl\"><![CDATA[\n    <section>\n        <div
+        id=\"pulse-container\" class=\"pulse-banner orb-banner-wrapper\">\n            <div
+        class=\"orb-banner b-g-p b-r b-f\">\n                <div class=\"orb-banner-inner\">\n
+        \                   <h2 class=\"orb-banner-title\">أخبرنا عن نفسك</h2>\n                    <div
+        class=\"orb-banner-content\">\n                        <p>نتطلع دائما لتحسين
+        الموقع وآراؤكم تهمنا.</p>\n                        <p class=\"pulse-question\">هل
+        لديكم بضع دقائق لتخبرونا عن رأيكم في موقعنا؟</p>\n                    </div>\n
+        \                   <ul class=\"orb-banner-options\">\n                        <li><a
+        href=\"{{pulseaccepthref}}\" id=\"pulse-accept\">نعم</a></li>\n                        <li><button
+        type=\"button\" id=\"pulse-reject\">لا</button></li>\n                    </ul>\n
+        \               </div>\n            </div>\n        </div>\n    </section>\n]]></script>\n\n<script>\nrequire(['module/pulseSurvey'],
+        function(pulse) {\n    pulse.init('arabic', {\"override\":false,\"probability\":50});\n});\n</script>\n
+        \                                                                                           \n\n
+        \   <div id=\"comp-media-player\" class=\"distinct-component-group \">\n        \n
+        \           <div class=\"player-with-placeholder\">\n        <img src=\"https://ichef.bbci.co.uk/images/ic/208x117/p07lr1qp.jpg\"
+        class=\"player-with-placeholder__image\" alt=\"سول تفتتح ديسكو للمسنين\"/>\n
+        \   <div class=\"player-with-placeholder__caption\">جهازك لا يدعم تشغيل الفيديو</div>\n
+        \   <div class=\"player-with-placeholder\">\n      <div class=\"player-with-placeholder\">\n
+        \       <div class=\"media-player-wrapper\">\n          <figure class=\"js-media-player-unprocessed
+        media-player\" data-playable=\"{&quot;settings&quot;:{&quot;counterName&quot;:&quot;arabic.embedded_media.media_asset.49474522.page&quot;,&quot;edition&quot;:&quot;International&quot;,&quot;pageType&quot;:&quot;eav1&quot;,&quot;uniqueID&quot;:&quot;49474522&quot;,&quot;ui&quot;:{&quot;locale&quot;:{&quot;lang&quot;:&quot;ar&quot;}},&quot;externalEmbedUrl&quot;:&quot;http:\\/\\/www.bbc.com\\/arabic\\/media-49474522\\/embed&quot;,&quot;insideIframe&quot;:false,&quot;statsObject&quot;:{&quot;clipPID&quot;:&quot;p07lqkd8&quot;},&quot;playlistObject&quot;:{&quot;title&quot;:&quot;\\u0633\\u0648\\u0644
+        \\u062a\\u0641\\u062a\\u062a\\u062d \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0644\\u0645\\u0633\\u0646\\u064a\\u0646&quot;,&quot;holdingImageURL&quot;:&quot;https:\\/\\/ichef.bbci.co.uk\\/images\\/ic\\/$recipe\\/p07lr1qp.jpg&quot;,&quot;guidance&quot;:&quot;&quot;,&quot;embedRights&quot;:&quot;allowed&quot;,&quot;summary&quot;:&quot;\\u0633\\u0648\\u0644
+        \\u062a\\u0641\\u062a\\u062a\\u062d \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0644\\u0645\\u0633\\u0646\\u064a\\u0646&quot;,&quot;liveRewind&quot;:false,&quot;simulcast&quot;:false,&quot;items&quot;:[{&quot;vpid&quot;:&quot;p07lr1bj&quot;,&quot;live&quot;:false,&quot;duration&quot;:147,&quot;kind&quot;:&quot;programme&quot;}]}},&quot;otherSettings&quot;:{&quot;advertisingAllowed&quot;:true,&quot;continuousPlayCfg&quot;:{&quot;enabled&quot;:false},&quot;isAutoplayOnForAudience&quot;:false}}\"></figure>\n
+        \       </div>\n      </div>\n    </div></div>\n\n        \n    </div>\n\n
+        \                                                                                           <div
+        class=\"media-asset-page\">\n    <div id=\"media-asset-page-text\" class=\"story-inner\">\n
+        \       <h1 class=\"story-body__h1\">صالة ديسكو لكبار السن فقط</h1>\n        <div
+        class=\"with-extracted-share-icons\">\n            <div class=\"map-intro__info-list\">\n
+        \               <div class=\"map__mini-info-list-and-share-row\">\n                    <div
+        class=\"mini-info-list-wrap\">\n                            <div class=\"map-body__mini-info-list\">\n
+        \                               <ul class=\"mini-info-list\">\n    <li class=\"mini-info-list__item\">
+        \   <div class=\"date date--v2\" data-seconds=\"1566920893\" data-datetime=\"27
+        أغسطس/ آب 2019\">27 أغسطس/ آب 2019</div>\n</li>\n</ul>\n                            </div>\n
+        \                    </div>\n                                              <div
+        class=\"share-tools--no-event-tag\">\n                            \n\n    <div
+        id=\"comp-pattern-library-2\" class=\"distinct-component-group container-twite\">\n
+        \       \n            <ul class=\"sharetools\">\n        <li class=\"twite__channel-out
+        twite__channel-out--desktop twite__channel-out--facebook twite__channel-click-extracted--facebook
+        twite__list-elements\" aria-hidden=\"true\">\n            <a class=\"extracted__channel-link
+        extracted__channel-link--facebook\"onclick=\"window.open('http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fspecial%2Fshared%2Fvj_sharetools%2Ffb_red_uri.html&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&amp;display=popup',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=555,height=615').opener
+        = null\" href='#'  tabindex=\"-1\">\n                    <span class=\"extracted__icon
+        extracted__icon--facebook\" data-platform=\"facebook\">\n                    <svg
+        class=\"extracted-svg ex-facebook\" viewBox=\"-17 -13 44 44\" enable-background=\"new
+        0 0 44 44\" width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M5.73,17 L5.73,9.246 L8.333,9.246 L8.723,6.223
+        L5.73,6.223 L5.73,4.294 C5.73,3.419 5.973,2.823 7.228,2.823 L8.828,2.822 L8.828,0.119
+        C8.551,0.082 7.601,0 6.496,0 C4.189,0 2.609,1.408 2.609,3.995 L2.609,6.223
+        L0,6.223 L0,9.246 L2.609,9.246 L2.609,17 L5.73,17 Z\"/></g>\n                        </svg>\n
+        \                   </span>\n                <span class=\"off-screen\">شارك
+        هذه الصفحة عبر فيسبوك</span>\n            </a>\n        </li>\n        <li
+        class=\"twite__channel-out twite__channel-out--desktop twite__channel-out--messengerdesktop
+        twite__channel-click-extracted--messengerdesktop twite__list-elements\" aria-hidden=\"true\">\n
+        \           <a class=\"extracted__channel-link extracted__channel-link--messengerdesktop\"onclick=\"window.open('http://www.facebook.com/dialog/send?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fspecial%2Fshared%2Fvj_sharetools%2Ffb_red_uri.html&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&amp;display=popup',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=645,height=580').opener
+        = null\" href='#'  tabindex=\"-1\">\n                    <span class=\"extracted__icon
+        extracted__icon--messengerdesktop\" data-platform=\"messengerdesktop\">\n
+        \                   <svg class=\"extracted-svg ex-messengerdesktop\" viewBox=\"-14
+        -13 44 44\" enable-background=\"new 0 0 44 44\" width=\"44px\" height=\"44px\"
+        aria-hidden=\"true\" focusable=\"false\">\n                    <g><path d=\"M9.84804801,11.1721834
+        L7.54389655,8.77893955 L3.1059828,11.2323207 L7.97153994,6.06941781 L10.2756914,8.46377529
+        L14.7136051,6.00928046 L9.84804801,11.1721834 Z M8.90923715,0 C3.98911093,0
+        0,3.73074306 0,8.33125039 C0,10.9494525 1.29183939,13.2847862 3.3097816,14.8116068
+        L3.3097816,18 L6.35117243,16.3139269 C7.16079936,16.5399988 8.02054074,16.6625008
+        8.90923715,16.6625008 C13.830477,16.6625008 17.8184743,12.9328714 17.8184743,8.33125039
+        C17.8184743,3.73074306 13.830477,0 8.90923715,0 L8.90923715,0 Z\"/></g>\n
+        \                       </svg>\n                    </span>\n                <span
+        class=\"off-screen\">شارك هذه الصفحة عبر Messenger</span>\n            </a>\n
+        \       </li>\n        <li class=\"twite__channel-out twite__channel-out--desktop
+        twite__channel-out--twitter twite__channel-click-extracted--twitter twite__list-elements\"
+        aria-hidden=\"true\">\n            <a class=\"extracted__channel-link extracted__channel-link--twitter\"onclick=\"window.open('https://twitter.com/intent/tweet?text=BBC%20News%20Arabic%20-%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&amp;url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=550,height=250').opener
+        = null\" href='#' class=shortenUrl data-social-url=https://twitter.com/intent/tweet?text=BBC+News+Arabic+-+%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&amp;amp;url=
+        data-target-url=http://www.bbc.com/arabic/media-49474522 tabindex=\"-1\">\n
+        \                   <span class=\"extracted__icon extracted__icon--twitter\"
+        data-platform=\"twitter\">\n                    <svg class=\"extracted-svg
+        ex-twitter\" viewBox=\"-13 -15 44 44\" enable-background=\"new 0 0 44 44\"
+        width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M5.80573373,15 C12.7721527,15 16.581877,9.22887915
+        16.581877,4.22385671 C16.581877,4.06002242 16.581877,3.89618812 16.5714931,3.73466135
+        C17.3122088,3.19816171 17.9525471,2.53359441 18.4602026,1.77326482 C17.7690988,2.08016568
+        17.0364595,2.28092039 16.28536,2.36976011 C17.0756874,1.89671742 17.6675677,1.15138674
+        17.9502395,0.274527115 C17.2072164,0.715264453 16.3938137,1.02678037 15.5457981,1.19407596
+        C14.1105174,-0.331198284 11.7118448,-0.405039095 10.1865706,1.0290879 C9.20241101,1.95440555
+        8.78590269,3.33315194 9.09049603,4.64844138 C6.04571636,4.4961447 3.20861397,3.05740266
+        1.28529161,0.691035437 C0.280364327,2.42167943 0.793788713,4.63574999 2.45751448,5.74682343
+        C1.85525036,5.72951699 1.26567764,5.56683646 0.738408105,5.27262698 L0.738408105,5.32108501
+        C0.739561868,7.12441605 2.00985456,8.67622684 3.77741896,9.03389326 C3.2201516,9.18618993
+        2.63519393,9.20811142 2.06754269,9.09850397 C2.56366064,10.6410847 3.98509624,11.6979313
+        5.60613279,11.7290828 C4.26430681,12.7824682 2.60750362,13.3547344 0.902242404,13.3535807
+        C0.601110348,13.3524269 0.299978293,13.3339667 7.10542736e-15,13.2982001 C1.73295152,14.4104273
+        3.74742113,15 5.80573373,14.9965387\"/></g>\n                        </svg>\n
+        \                   </span>\n                <span class=\"off-screen\">شارك
+        هذه الصفحة عبر تويتر</span>\n            </a>\n        </li>\n        <li
+        class=\"twite__channel-out twite__channel-out--desktop twite__channel-out--email
+        twite__channel-click-extracted--email twite__list-elements\" aria-hidden=\"true\">\n
+        \           <a class=\"extracted__channel-link extracted__channel-link--email\"href='mailto:?subject=%D8%B4%D8%A7%D8%B1%D9%83%20%D9%85%D9%86%20%D8%A8%D9%8A%20%D8%A8%D9%8A%20%D8%B3%D9%8A%20Arabic&amp;body=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522'
+        \ tabindex=\"-1\">\n                    <span class=\"extracted__icon extracted__icon--email\"
+        data-platform=\"email\">\n                    <svg class=\"extracted-svg ex-email\"
+        viewBox=\"-7 1 27 9\" enable-background=\"new 0 0 44 44\" width=\"44px\" height=\"44px\"
+        aria-hidden=\"true\" focusable=\"false\">\n                    <g><path d=\"M11,4.9V9H2V2.1l4.6,5L13.1,0H0.2H0v11h13V2.8L11,4.9z
+        M10.2,2L6.7,5.8L3.2,2H10.2z\"/></g>\n                        </svg>\n                    </span>\n
+        \               <span class=\"off-screen\">شارك هذه الصفحة عبر البريد الالكتروني</span>\n
+        \           </a>\n        </li>\n        <li class=\"twite__channel-out twite__channel-out--mobile
+        twite__channel-out--facebook twite__channel-click-extracted--facebook twite__list-elements\"
+        aria-hidden=\"true\">\n            <a class=\"extracted__channel-link extracted__channel-link--facebook\"onclick=\"window.open('http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fspecial%2Fshared%2Fvj_sharetools%2Ffb_red_uri.html&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&amp;display=popup',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=555,height=615').opener
+        = null\" href='#'  tabindex=\"-1\">\n                    <span class=\"extracted__icon
+        extracted__icon--facebook\" data-platform=\"facebook\">\n                    <svg
+        class=\"extracted-svg ex-facebook\" viewBox=\"-17 -13 44 44\" enable-background=\"new
+        0 0 44 44\" width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M5.73,17 L5.73,9.246 L8.333,9.246 L8.723,6.223
+        L5.73,6.223 L5.73,4.294 C5.73,3.419 5.973,2.823 7.228,2.823 L8.828,2.822 L8.828,0.119
+        C8.551,0.082 7.601,0 6.496,0 C4.189,0 2.609,1.408 2.609,3.995 L2.609,6.223
+        L0,6.223 L0,9.246 L2.609,9.246 L2.609,17 L5.73,17 Z\"/></g>\n                        </svg>\n
+        \                   </span>\n                <span class=\"off-screen\">شارك
+        هذه الصفحة عبر فيسبوك</span>\n            </a>\n        </li>\n        <li
+        class=\"twite__channel-out twite__channel-out--mobile twite__channel-out--whatsapp
+        twite__channel-click-extracted--whatsapp twite__list-elements\" aria-hidden=\"true\">\n
+        \           <a class=\"extracted__channel-link extracted__channel-link--whatsapp\"onclick=\"window.open('whatsapp://send?text=BBC%20News%20Arabic%20%7C%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7%20-%20http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3Focid%3Dwsarabic.chat-apps.in-app-msg.whatsapp.trial.link1_.auin',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=600,height=600').opener
+        = null\" href='#'  tabindex=\"-1\">\n                    <span class=\"extracted__icon
+        extracted__icon--whatsapp\" data-platform=\"whatsapp\">\n                    <svg
+        class=\"extracted-svg ex-whatsapp\" viewBox=\"-11 -11 44 44\" enable-background=\"new
+        0 0 44 44\" width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M0.6 19.4L1.9 14.7C1 13.3 0.6 11.7 0.6 10
+        0.6 4.8 4.8 0.5 10 0.5 15.2 0.5 19.4 4.8 19.4 10 19.4 15.2 15.2 19.4 10 19.4
+        8.4 19.4 6.8 19 5.4 18.2L0.6 19.4ZM5.6 16.5L5.9 16.7C7.2 17.4 8.6 17.8 10
+        17.8 14.3 17.8 17.8 14.3 17.8 10 17.8 5.7 14.3 2.1 10 2.1 5.7 2.1 2.2 5.7
+        2.2 10 2.2 11.5 2.6 12.9 3.4 14.2L3.6 14.5 2.8 17.2 5.6 16.5Z M7.4 5.6L6.7
+        5.5C6.6 5.5 6.4 5.6 6.2 5.7 5.9 6 5.5 6.5 5.3 7.1 5.1 8.1 5.4 9.3 6.3 10.5
+        7.2 11.6 8.8 13.5 11.6 14.4 12.6 14.6 13.3 14.4 13.8 14.1 14.3 13.8 14.6 13.3
+        14.7 12.8L14.8 12.4C14.8 12.2 14.8 12.1 14.6 12L12.6 11.1C12.4 11 12.3 11
+        12.2 11.2L11.4 12.2C11.3 12.3 11.2 12.3 11.1 12.3 10.5 12.1 8.7 11.3 7.7 9.3
+        7.6 9.3 7.6 9.2 7.7 9.1L8.5 8.2C8.5 8.1 8.6 8 8.5 7.9L7.6 5.8C7.6 5.7 7.5
+        5.6 7.4 5.6Z\"/></g>\n                        </svg>\n                    </span>\n
+        \               <span class=\"off-screen\">شارك هذه الصفحة عبر WhatsApp</span>\n
+        \           </a>\n        </li>\n        <li class=\"twite__channel-out twite__channel-out--mobile
+        twite__channel-out--messengermobile twite__channel-click-extracted--messengermobile
+        twite__list-elements\" aria-hidden=\"true\">\n            <a class=\"extracted__channel-link
+        extracted__channel-link--messengermobile\"href='fb-messenger://share?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FCMP%3Dshare_btn_me'
+        target=_blank rel=noopener tabindex=\"-1\">\n                    <span class=\"extracted__icon
+        extracted__icon--messengermobile\" data-platform=\"messengermobile\">\n                    <svg
+        class=\"extracted-svg ex-messengermobile\" viewBox=\"-14 -13 44 44\" enable-background=\"new
+        0 0 44 44\" width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M9.84804801,11.1721834 L7.54389655,8.77893955
+        L3.1059828,11.2323207 L7.97153994,6.06941781 L10.2756914,8.46377529 L14.7136051,6.00928046
+        L9.84804801,11.1721834 Z M8.90923715,0 C3.98911093,0 0,3.73074306 0,8.33125039
+        C0,10.9494525 1.29183939,13.2847862 3.3097816,14.8116068 L3.3097816,18 L6.35117243,16.3139269
+        C7.16079936,16.5399988 8.02054074,16.6625008 8.90923715,16.6625008 C13.830477,16.6625008
+        17.8184743,12.9328714 17.8184743,8.33125039 C17.8184743,3.73074306 13.830477,0
+        8.90923715,0 L8.90923715,0 Z\"/></g>\n                        </svg>\n                    </span>\n
+        \               <span class=\"off-screen\">شارك هذه الصفحة عبر Messenger</span>\n
+        \           </a>\n        </li>\n        <li class=\"twite__channel-out twite__channel-out--mobile
+        twite__channel-out--twitter twite__channel-click-extracted--twitter twite__list-elements\"
+        aria-hidden=\"true\">\n            <a class=\"extracted__channel-link extracted__channel-link--twitter\"onclick=\"window.open('https://twitter.com/intent/tweet?text=BBC%20News%20Arabic%20-%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&amp;url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=550,height=250').opener
+        = null\" href='#' class=shortenUrl data-social-url=https://twitter.com/intent/tweet?text=BBC+News+Arabic+-+%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&amp;amp;url=
+        data-target-url=http://www.bbc.com/arabic/media-49474522 tabindex=\"-1\">\n
+        \                   <span class=\"extracted__icon extracted__icon--twitter\"
+        data-platform=\"twitter\">\n                    <svg class=\"extracted-svg
+        ex-twitter\" viewBox=\"-13 -15 44 44\" enable-background=\"new 0 0 44 44\"
+        width=\"44px\" height=\"44px\" aria-hidden=\"true\" focusable=\"false\">\n
+        \                   <g><path d=\"M5.80573373,15 C12.7721527,15 16.581877,9.22887915
+        16.581877,4.22385671 C16.581877,4.06002242 16.581877,3.89618812 16.5714931,3.73466135
+        C17.3122088,3.19816171 17.9525471,2.53359441 18.4602026,1.77326482 C17.7690988,2.08016568
+        17.0364595,2.28092039 16.28536,2.36976011 C17.0756874,1.89671742 17.6675677,1.15138674
+        17.9502395,0.274527115 C17.2072164,0.715264453 16.3938137,1.02678037 15.5457981,1.19407596
+        C14.1105174,-0.331198284 11.7118448,-0.405039095 10.1865706,1.0290879 C9.20241101,1.95440555
+        8.78590269,3.33315194 9.09049603,4.64844138 C6.04571636,4.4961447 3.20861397,3.05740266
+        1.28529161,0.691035437 C0.280364327,2.42167943 0.793788713,4.63574999 2.45751448,5.74682343
+        C1.85525036,5.72951699 1.26567764,5.56683646 0.738408105,5.27262698 L0.738408105,5.32108501
+        C0.739561868,7.12441605 2.00985456,8.67622684 3.77741896,9.03389326 C3.2201516,9.18618993
+        2.63519393,9.20811142 2.06754269,9.09850397 C2.56366064,10.6410847 3.98509624,11.6979313
+        5.60613279,11.7290828 C4.26430681,12.7824682 2.60750362,13.3547344 0.902242404,13.3535807
+        C0.601110348,13.3524269 0.299978293,13.3339667 7.10542736e-15,13.2982001 C1.73295152,14.4104273
+        3.74742113,15 5.80573373,14.9965387\"/></g>\n                        </svg>\n
+        \                   </span>\n                <span class=\"off-screen\">شارك
+        هذه الصفحة عبر تويتر</span>\n            </a>\n        </li>\n    <li class=\"twite
+        twite__list-elements\">\n        <a href=\"#share-tools\" class=\"twite__share-button\"
+        aria-label=\"Open share panel\" data-origin=\"page\" aria-expanded=\"false\"
+        aria-haspopup=\"true\">\n            <svg class=\"twite__share-icon\" width=\"17px\"
+        aria-hidden=\"true\" focusable=\"false\" viewBox=\"0 0 29.266 32\"><path d=\"M5.473
+        22.153c1.586 0 3.01-.684 4.012-1.762l9 4.845c-.102.412-.16.85-.16 1.297 0
+        3.02 2.452 5.468 5.472 5.468 3.017 0 5.47-2.446 5.47-5.468 0-3.023-2.453-5.47-5.47-5.47-1.587
+        0-3.02.68-4.015 1.757l-9.457-5.175-.074-2.792 9.74-5.456c.99.953 2.327 1.543
+        3.807 1.543 3.017 0 5.47-2.45 5.47-5.474 0-3.022-2.453-5.467-5.47-5.467-3.02
+        0-5.473 2.444-5.473 5.466 0 .554.08 1.09.243 1.597L9.27 12.75c-.988-.95-2.326-1.537-3.797-1.537C2.447
+        11.213 0 13.657 0 16.68c0 3.03 2.447 5.473 5.473 5.473\"/></svg><span class=\"twite__share-text\">شارك</span>\n
+        \       </a>\n        <div class=\"twite__panel arrow-top\" data-share-uri=\"\">\n
+        \           <p class=\"twite__title\" aria-hidden=\"true\">شارك هذه الصفحة
+        عبر</p>\n            <span class=\"off-screen\">هذه روابط خارجية وستفتح في
+        نافذة جديدة</span>\n            <ul class=\"twite__channels\">\n                    <li
+        class=\"twite__channel twite__channel--email twite__channel-click--email\">\n
+        \                       <a class=\"twite__channel-link\"href='mailto:?subject=%D8%B4%D8%A7%D8%B1%D9%83%20%D9%85%D9%86%20%D8%A8%D9%8A%20%D8%A8%D9%8A%20%D8%B3%D9%8A%20Arabic&amp;body=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522'
+        >\n                            <span class=\"twite__icon twite__icon--email\"
+        data-platform=\"email\"></span>\n                            <p class=\"twite__channel-text\"
+        aria-hidden=\"true\">البريد الالكتروني</p>\n                            <span
+        class=\"off-screen\">شارك هذه الصفحة عبر البريد الالكتروني</span>\n                        </a>\n
+        \                   </li>\n                    <li class=\"twite__channel
+        twite__channel--facebook twite__channel-click--facebook\">\n                        <a
+        class=\"twite__channel-link\"onclick=\"window.open('http://www.facebook.com/dialog/feed?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fspecial%2Fshared%2Fvj_sharetools%2Ffb_red_uri.html&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&amp;display=popup',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=555,height=615').opener
+        = null\" href='#' >\n                            <span class=\"twite__icon
+        twite__icon--facebook\" data-platform=\"facebook\"></span>\n                            <p
+        class=\"twite__channel-text\" aria-hidden=\"true\">فيسبوك</p>\n                            <span
+        class=\"off-screen\">شارك هذه الصفحة عبر فيسبوك</span>\n                        </a>\n
+        \                   </li>\n                    <li class=\"twite__channel
+        twite__channel--messengerdesktop twite__channel-click--messengerdesktop\">\n
+        \                       <a class=\"twite__channel-link\"onclick=\"window.open('http://www.facebook.com/dialog/send?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fspecial%2Fshared%2Fvj_sharetools%2Ffb_red_uri.html&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&amp;display=popup',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=645,height=580').opener
+        = null\" href='#' >\n                            <span class=\"twite__icon
+        twite__icon--messengerdesktop\" data-platform=\"messengerdesktop\"></span>\n
+        \                           <p class=\"twite__channel-text\" aria-hidden=\"true\">Messenger</p>\n
+        \                           <span class=\"off-screen\">شارك هذه الصفحة عبر
+        Messenger</span>\n                        </a>\n                    </li>\n
+        \                   <li class=\"twite__channel twite__channel--messengermobile
+        twite__channel-click--messengermobile\">\n                        <a class=\"twite__channel-link\"href='fb-messenger://share?app_id=58567469885&amp;redirect_uri=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&amp;link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FCMP%3Dshare_btn_me'
+        target=_blank rel=noopener>\n                            <span class=\"twite__icon
+        twite__icon--messengermobile\" data-platform=\"messengermobile\"></span>\n
+        \                           <p class=\"twite__channel-text\" aria-hidden=\"true\">Messenger</p>\n
+        \                           <span class=\"off-screen\">شارك هذه الصفحة عبر
+        Messenger</span>\n                        </a>\n                    </li>\n
+        \                   <li class=\"twite__channel twite__channel--twitter twite__channel-click--twitter\">\n
+        \                       <a class=\"twite__channel-link\"onclick=\"window.open('https://twitter.com/intent/tweet?text=BBC%20News%20Arabic%20-%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&amp;url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=550,height=250').opener
+        = null\" href='#' class=shortenUrl data-social-url=https://twitter.com/intent/tweet?text=BBC+News+Arabic+-+%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&amp;amp;url=
+        data-target-url=http://www.bbc.com/arabic/media-49474522>\n                            <span
+        class=\"twite__icon twite__icon--twitter\" data-platform=\"twitter\"></span>\n
+        \                           <p class=\"twite__channel-text\" aria-hidden=\"true\">تويتر</p>\n
+        \                           <span class=\"off-screen\">شارك هذه الصفحة عبر
+        تويتر</span>\n                        </a>\n                    </li>\n                    <li
+        class=\"twite__channel twite__channel--whatsapp twite__channel-click--whatsapp\">\n
+        \                       <a class=\"twite__channel-link\"onclick=\"window.open('whatsapp://send?text=BBC%20News%20Arabic%20%7C%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7%20-%20http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3Focid%3Dwsarabic.chat-apps.in-app-msg.whatsapp.trial.link1_.auin',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=600,height=600').opener
+        = null\" href='#' >\n                            <span class=\"twite__icon
+        twite__icon--whatsapp\" data-platform=\"whatsapp\"></span>\n                            <p
+        class=\"twite__channel-text\" aria-hidden=\"true\">WhatsApp</p>\n                            <span
+        class=\"off-screen\">شارك هذه الصفحة عبر WhatsApp</span>\n                        </a>\n
+        \                   </li>\n                    <li class=\"twite__channel
+        twite__channel--linkedin twite__channel-click--linkedin\">\n                        <a
+        class=\"twite__channel-link\"onclick=\"window.open('https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&amp;title=%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&amp;summary=%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%B3%D9%88%D9%84%20%D8%AA%D8%B1%D8%B9%D9%89%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D9%86%D9%8A%D9%86%20%D9%85%D9%86%20%D8%AE%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D8%B5&amp;source=BBC',
+        '_blank', 'toolbar=no,scrollbars=yes,resizable=no,fullscreen=no,top=50,left=50,width=550,height=500').opener
+        = null\" href='#' >\n                            <span class=\"twite__icon
+        twite__icon--linkedin\" data-platform=\"linkedin\"></span>\n                            <p
+        class=\"twite__channel-text\" aria-hidden=\"true\">LinkedIn</p>\n                            <span
+        class=\"off-screen\">شارك هذه الصفحة عبر LinkedIn</span>\n                        </a>\n
+        \                   </li>\n            </ul>\n            <p class=\"twite__copy-text\">شارك
+        عبر</p>\n            <div class=\"twite__copy-input\">\n                <a
+        class=\"twite__share-link\" href=\"http://www.bbc.com/arabic/media-49474522\"
+        tabindex=\"-1\" contenteditable=\"true\">http://www.bbc.com/arabic/media-49474522</a>\n
+        \           </div>\n            <a class=\"twite__read-more\" href=\"/arabic/institutional/2013/04/000000_about_sharing_mobile\">حول
+        المشاركة</a>\n            <p class=\"twite__new-window\" aria-hidden=\"true\">هذه
+        روابط خارجية وستفتح في نافذة جديدة</p>\n            <button class=\"twite__close-button\">\n
+        \               <span class=\"off-screen\">أغلق نافذة المشاركة</span>\n                <div
+        class=\"twite__close-button-graphic\" aria-hidden=\"true\"></div>\n            </button>\n
+        \       </div>\n    </li>\n</ul>\n\n        \n    </div>\n\n                         </div>\n
+        \                                    </div>\n            </div>\n        </div>\n
+        \       <div class=\"story-body\">\n            <p>افتتحت العاصمة الكورية
+        الجنوبية سول أول صالة ديسكو من نوعها لمن تجاوزت أعمارهم 65 عاما.</p><p>تهدف
+        تلك الخطوة إلى معالجة الشعور بالوحدة ومن ثم تحسين الحالة الصحية لكبار السن.
+        </p>\n        </div>\n    </div>\n</div>\n                                                                                            <div
+        class=\"tags-container\">\n    <h2 class=\"tags-title story-body__crosshead\">مواضيع
+        ذات صلة</h2>\n        <ul class=\"tags-list\">\n            <li class=\"tags-list__tags\"
+        data-entityid=\"topic_link\">\n                <a href=\"/arabic/topics/3892335e-43d8-489b-b0a1-9e2cf25ff486\">كبار
+        السن</a>\n            </li>\n            <li class=\"tags-list__tags\" data-entityid=\"topic_link\">\n
+        \               <a href=\"/arabic/topics/68f68d12-c2d9-4173-9ed3-178363e46344\">كوريا
+        الجنوبية</a>\n            </li>\n        </ul>\n</div>\n\n                                                                                                <div
+        class=\"share share--lightweight  show\">\n            <div id=\"share-tools\"></div>\n
+        \           <h2 class=\"share__title share__title--lightweight\">\n        شارك
+        القصة        <a href=\"/arabic/institutional/2013/04/000000_about_sharing_mobile\">حول&nbsp;المشاركة</a>\n
+        \   </h2>\n        <ul class=\"share__tools share__tools--lightweight\">\n
+        \                           <li class=\"share__tool share__tool--email\">\n
+        \       <a href=\"mailto:?subject=%D8%B4%D8%A7%D8%B1%D9%83%20%D9%85%D9%86%20%D8%A8%D9%8A%20%D8%A8%D9%8A%20%D8%B3%D9%8A%20Arabic&body=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522\"
+        >\n            <span>البريد الالكتروني</span>\n        </a>\n    </li>\n                            <li
+        class=\"share__tool share__tool--facebook\">\n        <a href=\"http://www.facebook.com/dialog/feed?app_id=58567469885&redirect_uri=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&display=popup\"
+        >\n            <span>فيسبوك</span>\n        </a>\n    </li>\n                            <li
+        class=\"share__tool share__tool--messengerdesktop\">\n        <a href=\"http://www.facebook.com/dialog/send?app_id=58567469885&redirect_uri=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FSThisFB&display=popup\"
+        >\n            <span>Messenger</span>\n        </a>\n    </li>\n                            <li
+        class=\"share__tool share__tool--messengermobile\">\n        <a href=\"fb-messenger://share?app_id=58567469885&redirect_uri=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&link=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3FCMP%3Dshare_btn_me\"
+        target=_blank rel=noopener>\n            <span>Messenger</span>\n        </a>\n
+        \   </li>\n                            <li class=\"share__tool share__tool--twitter\">\n
+        \       <a href=\"https://twitter.com/intent/tweet?text=BBC%20News%20Arabic%20-%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522\"
+        class=shortenUrl data-social-url=https://twitter.com/intent/tweet?text=BBC+News+Arabic+-+%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&amp;url=
+        data-target-url=http://www.bbc.com/arabic/media-49474522>\n            <span>تويتر</span>\n
+        \       </a>\n    </li>\n                            <li class=\"share__tool
+        share__tool--whatsapp\">\n        <a href=\"whatsapp://send?text=BBC%20News%20Arabic%20%7C%20%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7%20-%20http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522%3Focid%3Dwsarabic.chat-apps.in-app-msg.whatsapp.trial.link1_.auin\"
+        >\n            <span>WhatsApp</span>\n        </a>\n    </li>\n                            <li
+        class=\"share__tool share__tool--linkedin\">\n        <a href=\"https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&title=%D8%B5%D8%A7%D9%84%D8%A9%20%D8%AF%D9%8A%D8%B3%D9%83%D9%88%20%D9%84%D9%83%D8%A8%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B3%D9%86%20%D9%81%D9%82%D8%B7&summary=%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9%20%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%B3%D9%88%D9%84%20%D8%AA%D8%B1%D8%B9%D9%89%20%D8%B5%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%B3%D9%86%D9%8A%D9%86%20%D9%85%D9%86%20%D8%AE%D9%84%D8%A7%D9%84%20%D8%A7%D9%84%D8%B1%D9%82%D8%B5&source=BBC\"
+        >\n            <span>LinkedIn</span>\n        </a>\n    </li>\n            </ul>\n</div>\n\n
+        \                                                                       </div>\n
+        \                                    <div class=\"column--secondary\">\n                                                                            \n\n
+        \   <div id=\"comp-see-alsos\" class=\"distinct-component-group container-penguin\">\n
+        \       \n            <h2 class=\"group-title \" data-entityid=\"strapline#ذات_صلة\">\n
+        \   \n    ذات صلة\n</h2>\n<div class=\"penguin with-title\">\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/143EB/production/_105232928_p06yfvkp.jpg\"
+        data-width=\"1024\" data-height=\"576\" data-alt=\"BBCArabic Xtra TV\"></div>\n
+        \                   <!--[if lt IE 9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/143EB/production/_105232928_p06yfvkp.jpg\"
+        class=\"js-image-replace\" alt=\"BBCArabic Xtra TV\" width=\"1024\" height=\"576\"
+        />\n                    <![endif]-->\n                    <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n                      \n                    \n
+        \                   \n                    <span class=\"badge-text-only badge-text-only--duration\">26:14</span>\n
+        \n                    </div>\n                <!-- opened in responsive-image-start
+        --></div>\n            </div>\n        </div>\n        \n        <div class=\"penguin__item-title\">\n
+        \           <a href=\"/arabic/tv-and-radio-46918659\" class=\"title-link\">\n
+        \               <h3 class=\"title-link__title\">\n                                    \n
+        \               \n                        <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">إكسترا
+        التلفزيوني: فن الرقص لعلاج الروح والجسد</span>\n                </h3>\n            </a>
+        \           <a href=\"/arabic/tv-and-radio-46918659\" class=\"faux-block-link__overlay-link\"
+        tabindex=\"-1\" aria-hidden=\"true\"> إكسترا التلفزيوني: فن الرقص لعلاج الروح
+        والجسد</a>\n        </div>\n    </div>\n\n</div>\n\n        \n    </div>\n\n
+        \                                                                                           \n\n
+        \   <div id=\"comp-related-assets\" class=\"distinct-component-group container-penguin\">\n
+        \       \n            <h2 class=\"group-title \" data-entityid=\"strapline#القصص_الرئيسية\">\n
+        \   \n    القصص الرئيسية\n</h2>\n<div class=\"penguin with-title\">\n    <div
+        class=\"penguin__item faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/2059/production/_108518280_p07lrkcp.jpg\"
+        data-width=\"1024\" data-height=\"576\" data-alt=\"Nuba Train\"></div>\n                    <!--[if
+        lt IE 9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/2059/production/_108518280_p07lrkcp.jpg\"
+        class=\"js-image-replace\" alt=\"Nuba Train\" width=\"1024\" height=\"576\"
+        />\n                    <![endif]-->\n                    <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n \n                    </div>\n
+        \               <!-- opened in responsive-image-start --></div>\n            </div>\n
+        \       </div>\n        \n        <div class=\"penguin__item-title\">\n            <a
+        href=\"/arabic/tv-and-radio-49490206\" class=\"title-link\">\n                <h3
+        class=\"title-link__title\">\n                                    \n                \n
+        \                       <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">قطار
+        النوبة</span>\n                </h3>\n            </a>            <a href=\"/arabic/tv-and-radio-49490206\"
+        class=\"faux-block-link__overlay-link\" tabindex=\"-1\" aria-hidden=\"true\">
+        قطار النوبة</a>\n        </div>\n    </div>\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/2C09/production/_108537211_p07lx0kx.jpg\"
+        data-width=\"976\" data-height=\"549\" data-alt=\"فيضانات تجتاح المغرب وتودي
+        بحياة 7 أشخاص\"></div>\n                    <!--[if lt IE 9]>\n                    <img
+        src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/2C09/production/_108537211_p07lx0kx.jpg\"
+        class=\"js-image-replace\" alt=\"فيضانات تجتاح المغرب وتودي بحياة 7 أشخاص\"
+        width=\"976\" height=\"549\" />\n                    <![endif]-->\n                    <div
+        class=\"responsive-image__media-and-live-label\" aria-hidden=\"true\">\n                                             \n
+        \                   \n                            <span class=\"badge-icon-only
+        badge-icon-only--video-for-image\"><span class=\"svg-icon svg-icon--video-dark\"><span
+        class=\"off-screen\"> فيديو</span></span></span>\n                    \n                    \n
+        \n                    </div>\n                <!-- opened in responsive-image-start
+        --></div>\n            </div>\n        </div>\n        \n        <div class=\"penguin__item-title\">\n
+        \           <a href=\"/arabic/media-49508961\" class=\"title-link\">\n                <h3
+        class=\"title-link__title\">\n                                    \n                \n
+        \                       <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">بالفيديو:
+        فيضانات تجتاح المغرب وتودي بحياة 7 أشخاص</span>\n                </h3>\n            </a>
+        \           <a href=\"/arabic/media-49508961\" class=\"faux-block-link__overlay-link\"
+        tabindex=\"-1\" aria-hidden=\"true\"> بالفيديو: فيضانات تجتاح المغرب وتودي
+        بحياة 7 أشخاص</a>\n        </div>\n    </div>\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/39DD/production/_108531841_p07lv2k4.jpg\"
+        data-width=\"976\" data-height=\"549\" data-alt=\"الحشيش في تابوت\"></div>\n
+        \                   <!--[if lt IE 9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/39DD/production/_108531841_p07lv2k4.jpg\"
+        class=\"js-image-replace\" alt=\"الحشيش في تابوت\" width=\"976\" height=\"549\"
+        />\n                    <![endif]-->\n                    <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n \n                    </div>\n
+        \               <!-- opened in responsive-image-start --></div>\n            </div>\n
+        \       </div>\n        \n        <div class=\"penguin__item-title\">\n            <a
+        href=\"/arabic/49503332\" class=\"title-link\">\n                <h3 class=\"title-link__title\">\n
+        \                                   \n                \n                        <span
+        class=\"badge-icon-only badge-icon-only--video\"><span class=\"svg-icon svg-icon--video-light\"><span
+        class=\"off-screen\"> فيديو</span></span></span>\n                \n                \n\n
+        \                   <span class=\"title-link__title-text\">300 كيلوغرام من
+        الحشيش في تابوت</span>\n                </h3>\n            </a>            <a
+        href=\"/arabic/49503332\" class=\"faux-block-link__overlay-link\" tabindex=\"-1\"
+        aria-hidden=\"true\"> 300 كيلوغرام من الحشيش في تابوت</a>\n        </div>\n
+        \   </div>\n\n</div>\n<div class=\"penguin with-title\">\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/4833/production/_108538481_p07lx8mm.jpg\"
+        data-width=\"976\" data-height=\"549\" data-alt=\"&quot;هل ستدفع عني أيضا؟&quot;:
+        بوتين يشتري آيس كريم لأردوغان\"></div>\n                    <!--[if lt IE
+        9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/4833/production/_108538481_p07lx8mm.jpg\"
+        class=\"js-image-replace\" alt=\"&quot;هل ستدفع عني أيضا؟&quot;: بوتين يشتري
+        آيس كريم لأردوغان\" width=\"976\" height=\"549\" />\n                    <![endif]-->\n
+        \                   <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n \n                    </div>\n
+        \               <!-- opened in responsive-image-start --></div>\n            </div>\n
+        \       </div>\n        \n        <div class=\"penguin__item-title\">\n            <a
+        href=\"/arabic/media-49498109\" class=\"title-link\">\n                <h3
+        class=\"title-link__title\">\n                                    \n                \n
+        \                       <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">&quot;هل
+        ستدفع عني أيضا؟&quot;: بوتين يشتري آيس كريم لأردوغان</span>\n                </h3>\n
+        \           </a>            <a href=\"/arabic/media-49498109\" class=\"faux-block-link__overlay-link\"
+        tabindex=\"-1\" aria-hidden=\"true\"> &quot;هل ستدفع عني أيضا؟&quot;: بوتين
+        يشتري آيس كريم لأردوغان</a>\n        </div>\n    </div>\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/03C2/production/_108526900_p07lss1s.jpg\"
+        data-width=\"1024\" data-height=\"576\" data-alt=\"BBCArabicXtra\"></div>\n
+        \                   <!--[if lt IE 9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/03C2/production/_108526900_p07lss1s.jpg\"
+        class=\"js-image-replace\" alt=\"BBCArabicXtra\" width=\"1024\" height=\"576\"
+        />\n                    <![endif]-->\n                    <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n \n                    </div>\n
+        \               <!-- opened in responsive-image-start --></div>\n            </div>\n
+        \       </div>\n        \n        <div class=\"penguin__item-title\">\n            <a
+        href=\"/arabic/tv-and-radio-49499181\" class=\"title-link\">\n                <h3
+        class=\"title-link__title\">\n                                    \n                \n
+        \                       <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">إكسترا
+        التلفزيوني: فن البساطة في السفر والترحال حول العالم</span>\n                </h3>\n
+        \           </a>            <a href=\"/arabic/tv-and-radio-49499181\" class=\"faux-block-link__overlay-link\"
+        tabindex=\"-1\" aria-hidden=\"true\"> إكسترا التلفزيوني: فن البساطة في السفر
+        والترحال حول العالم</a>\n        </div>\n    </div>\n    <div class=\"penguin__item
+        faux-block-link\" >\n        \n        <div class=\"penguin__item-image\">\n
+        \           <div class=\"responsive-image responsive-image--16by9\">\n                <div
+        class=\"responsive-image__inner-for-label\"><!-- closed in responsive-image-end
+        -->\n                    <div class=\"js-delayed-image-load\" data-src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/4878/production/_108525581_p07lsyq9.jpg\"
+        data-width=\"976\" data-height=\"549\" data-alt=\"&quot;رئتا العالم&quot;
+        تحترق - فكيف يؤثر ذلك على دولنا؟\"></div>\n                    <!--[if lt
+        IE 9]>\n                    <img src=\"https://ichef.bbci.co.uk/news/200/cpsprodpb/4878/production/_108525581_p07lsyq9.jpg\"
+        class=\"js-image-replace\" alt=\"&quot;رئتا العالم&quot; تحترق - فكيف يؤثر
+        ذلك على دولنا؟\" width=\"976\" height=\"549\" />\n                    <![endif]-->\n
+        \                   <div class=\"responsive-image__media-and-live-label\"
+        aria-hidden=\"true\">\n                                             \n                    \n
+        \                           <span class=\"badge-icon-only badge-icon-only--video-for-image\"><span
+        class=\"svg-icon svg-icon--video-dark\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \                   \n                    \n \n                    </div>\n
+        \               <!-- opened in responsive-image-start --></div>\n            </div>\n
+        \       </div>\n        \n        <div class=\"penguin__item-title\">\n            <a
+        href=\"/arabic/media-49498107\" class=\"title-link\">\n                <h3
+        class=\"title-link__title\">\n                                    \n                \n
+        \                       <span class=\"badge-icon-only badge-icon-only--video\"><span
+        class=\"svg-icon svg-icon--video-light\"><span class=\"off-screen\"> فيديو</span></span></span>\n
+        \               \n                \n\n                    <span class=\"title-link__title-text\">غابات
+        الأمازون: &quot;رئة العالم&quot; تحترق</span>\n                </h3>\n            </a>
+        \           <a href=\"/arabic/media-49498107\" class=\"faux-block-link__overlay-link\"
+        tabindex=\"-1\" aria-hidden=\"true\"> غابات الأمازون: &quot;رئة العالم&quot;
+        تحترق</a>\n        </div>\n    </div>\n\n</div>\n\n        \n    </div>\n\n
+        \                                                                       </div>\n
+        \            </div>          </div> </div>      </div> \n   \n\n<div id=\"core-navigation\"
+        class=\"navigation--footer\">\n    <h2 class=\"navigation--footer__heading\">BBC
+        News Arabic تصفح</h2>\n\n    \n    <nav id=\"navigation--bottom\" class=\"navigation
+        navigation--bottom \" role=\"navigation\" aria-label=\"BBC News Arabic\">\n
+        \                   <span class=\"navigation-core-title\">أقسام</span>\n                <ul
+        class=\"navigation--bottom__toplevel\">\n                        <li class=\"\">\n
+        \                   <a href=\"/arabic\" class=\"\">\n                        <span>رئيسية</span>\n
+        \                   </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/middleeast\"
+        class=\"\">\n                        <span>شرق أوسط</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/world\" class=\"\">\n                        <span>عالم</span>\n
+        \                   </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/scienceandtech\"
+        class=\"\">\n                        <span>علوم وتكنولوجيا</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/topics/c4794229-7f87-43ce-ac0a-6cfcd6d3cef2\"
+        class=\"\">\n                        <span>صحة</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/business\" class=\"\">\n
+        \                       <span>اقتصاد</span>\n                    </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/artandculture\"
+        class=\"\">\n                        <span>فنون</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/sports\" class=\"\">\n
+        \                       <span>رياضة</span>\n                    </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/magazine\"
+        class=\"\">\n                        <span>مجلة</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/topics/e45cb5f8-3c87-4ebd-ac1c-058e9be22862\"
+        class=\"\">\n                        <span>مرأة</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/media\" class=\"\">\n                        <span>فيديو</span>\n
+        \                   </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/inthepress\"
+        class=\"\">\n                        <span>صحافة</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/media/photogalleries\"
+        class=\"\">\n                        <span>صور</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/tv-and-radio-37728883\"
+        class=\"\">\n                        <span>برامجنا</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/trending\" class=\"\">\n
+        \                       <span>ترند</span>\n                    </a>\n                                                        </li>\n
+        \                           <li class=\"\">\n                    <a href=\"/arabic/interactivity\"
+        class=\"\">\n                        <span>حوارات</span>\n                    </a>\n
+        \                                                       </li>\n                            <li
+        class=\"\">\n                    <a href=\"/arabic/in_depth\" class=\"\">\n
+        \                       <span>ملفات</span>\n                    </a>\n                                                        </li>\n
+        \                   </ul>\n    </nav>\n</div>      </div><!-- closes #site-container
+        --> </div>\n<div id=\"orb-footer\" class=\"orb-footer\" dir=\"rtl\"><aside
+        role=\"complementary\"><div id=\"orb-aside\" class=\"orb-nav-sec b-r b-g-p\"><div
+        class=\"orb-footer-inner\" role=\"navigation\" aria-label=\"BBC\"><h2 class=\"orb-footer-lead\">تصفح
+        بي بي سي</h2><div class=\"orb-footer-primary-links\"><ul><li class=\"orb-nav-news\"><a
+        href=\"https://www.bbc.com/news\">News</a></li><li class=\"orb-nav-sport\"><a
+        href=\"https://www.bbc.com/sport\">Sport</a></li><li class=\"orb-nav-weather\"><a
+        href=\"https://www.bbc.com/weather\">Weather</a></li><li class=\"orb-nav-radio\"><a
+        href=\"https://www.bbc.co.uk/worldserviceradio\">Radio</a></li><li class=\"orb-nav-arts\"><a
+        href=\"https://www.bbc.co.uk/arts\">Arts</a></li></ul></div></div></div></aside><footer
+        role=\"contentinfo\"><div id=\"orb-contentinfo\" class=\"orb-nav-sec b-r b-g-p\"><script>window.orb.worldwideFooterlinks
+        = '<li class=\"orb-footer-ads\"><a href=\"https://www.bbc.com/arabic/institutional/2012/06/120410_faq_help_bbc_arabic\">أعلن
+        في موقعنا<'+'/a><'+'/li><li class=\"orb-footer-adchoices\"><a href=\"https://www.bbc.com/arabic/institutional/2012/06/120410_faq_help_bbc_arabic\">خيارات
+        الإعلان<'+'/a><'+'/li>';</script><div class=\"orb-footer-inner\"> <ul><li
+        class=\"orb-footer-terms\"><a href=\"https://www.bbc.com/arabic/institutional-37731351\">شروط
+        الاستخدام</a></li><li class=\"orb-footer-about\"><a href=\"https://www.bbc.com/arabic/institutional-37731352\">عن
+        بي بي سي</a></li><li class=\"orb-footer-privacy\"><a href=\"https://www.bbc.com/arabic/institutional-37731353\">سياسة
+        الخصوصية</a></li><li class=\"orb-footer-cookies\"><a href=\"https://www.bbc.co.uk/privacy/cookies/managing/cookie-settings.html\">Cookies</a></li><li
+        class=\"orb-footer-accessibility\"><a href=\"https://www.bbc.co.uk/accessibility/\">Accessibility
+        Help</a></li><li class=\"orb-footer-parental\"><a href=\"https://www.bbc.co.uk/guidance\">Parental
+        Guidance</a></li><li class=\"orb-footer-contact\"><a href=\"https://www.bbc.com/arabic/institutional-37731355\">اتصل
+        بـ بي بي سي</a></li><li class=\"orb-footer-newsletter\"><a href=\"https://www.bbc.co.uk/bbcnewsletter\">Get
+        Personalised Newsletters</a></li></ul><small><em class=\"orb-hilight\">Copyright
+        &copy; 2019 بي بي سي.</em> بي بي سي ليست مسؤولة عن محتوى المواقع الخارجية.
+        <span class=\"orb-footer-links\"><a href=\"https://www.bbc.co.uk/help/web/links/\"
+        class=\"orb-hilight\">سياستنا بخصوص الروابط الخارجية.</a></span></small></div></div></div></footer></div><script
+        id=\"orb-js-script\" data-assetpath=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/\"
+        src=\"https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/js/orb.min.js\"></script>
+        \ <script type=\"text/javascript\">/*<![CDATA[*/\n                require(['orb/fig',
+        'orb/nav'], function(fig, nav) {\n                    fig.load(function(fig)
+        {\n                        if (fig.geo.isUK()) {\n                            nav.loadJs('https://nav.files.bbci.co.uk/orbit/3.0.0-652.2de69620/js/edr.min.js');\n
+        \                       }\n                    });\n                });\n
+        \           /*]]>*/</script> <!-- BBCDOTCOM bodyLast --><div class=\"bbccom_display_none\"><script
+        type=\"text/javascript\">/*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics
+        && bbcdotcom.config && !bbcdotcom.config.isSportApp() && !bbcdotcom.config.isReel())
+        { bbcdotcom.analytics.page(); } /*]]>*/</script><noscript><img src=\"//ssc.api.bbc.com/?c1=2&c2=19293874&ns_site=bbc&name=\"
+        height=\"1\" width=\"1\" alt=\"\"></noscript><script type=\"text/javascript\">/*<![CDATA[*/
+        if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write();
+        } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ if (window.bbcdotcom
+        && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite();
+        } /*]]>*/</script><script type=\"text/javascript\">/*<![CDATA[*/ if (window.bbcdotcom
+        && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 &&
+        bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies &&
+        bbccookies.readPolicy('necessary') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition');
+        var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid
+        = 50924; _sf_async_config.domain = \"bbc.co.uk\"; _sf_async_config.title =
+        \"Homepage\"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections
+        = \"Homepage\"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region
+        = wwhpEdition; _sf_async_config.path = \"/\"+(wwhpEdition !== '' ? '?'+wwhpEdition
+        : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new
+        Date()).getTime(); var e = document.createElement(\"script\"); e.setAttribute(\"language\",
+        \"javascript\"); e.setAttribute(\"type\", \"text/javascript\"); e.setAttribute('src',
+        '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); }
+        var oldonload = window.onload; window.onload = (typeof window.onload != \"function\")
+        ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/</script><script
+        type=\"text/javascript\">/*<![CDATA[*/ (function() { window.bbcdotcom.bodyLast
+        = true; }()); /*]]>*/</script></div><!-- BBCDOTCOM all code in page --><script
+        type=\"text/javascript\">if (window.SEARCHBOX.suppress === false && window.SEARCHBOX.locale
+        && /^en-?.*?/.test(window.SEARCHBOX.locale)) {\n    require.config({\n      paths:
+        {\n        \"search/searchbox\": window.SEARCHBOX.searchboxAppStaticPrefix,\n
+        \     }\n    });\n\n    if (bbcuser && bbcuser.isUKCombined) {\n        bbcuser.isUKCombined().then(function
+        (isUK) {\n            if (isUK) {\n                require(['search/searchbox/searchboxDrawer'],
+        function (SearchboxDrawer) {\n                  SearchboxDrawer.run(window.SEARCHBOX);\n
+        \               });\n            }\n        });\n    }\n\n  }</script>  <script
+        type=\"text/javascript\">window.COOKIES_STATIC_HOST = 'https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-332.8fd22d2/cookie-banner//cookie-prompt/';</script><script
+        src=\"https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-332.8fd22d2/cookie-banner/cookie-banners.bundle.js\"
+        async=\"\"></script><script type=\"text/javascript\">require([\"istats-1\",\"orb/cookies\"],function(o,t){if(t.isAllowed(\"s1\"))try{if(!require.s.contexts._.config.paths.idcta)return
+        void i();require([\"idcta/idcta-1\"],function(t){t&&\"function\"==typeof t.getIStatsLabels&&o.addLabels(t.getIStatsLabels()),i()},function(t){throw
+        t})}catch(t){console&&\"function\"==typeof console.log&&console.log(\"an exception
+        occurred while adding idcta labels to istats, invoking istats without them\",t),i()}function
+        i(){o.invoke()}});</script><script type=\"text/javascript\">\"use strict\";require([\"reverb\"],function(e){return
+        e.initialise().then(function(){return e.viewEvent()})});</script><script src=\"https://nav.files.bbci.co.uk/orbit-webmodules/0.0.1-332.8fd22d2/detectview/detectview.bundle.js\"
+        async=\"\"></script> </div><!-- closes .direction -->  <script> window.old_onload
+        = window.onload; window.onload = function() { if(window.old_onload) { window.old_onload();
+        } window.loaded = true; }; </script> <!-- Chartbeat Web Analytics code - start
+        -->\n<script type=\"text/javascript\">\n    /** CONFIGURATION START **/\n
+        \   var _sf_async_config = {};\n\n    _sf_async_config.uid = \"50924\";\n
+        \   _sf_async_config.domain = \"arabic.bbc.co.uk\";\n    _sf_async_config.sections
+        = \"Arabic, Arabic - فيديو, Arabic - MAP, Arabic - فيديو - MAP, Arabic - news-category\";\n
+        \   <!-- if page is an index, add the edition to the path -->\n    _sf_async_config.path
+        = \"bbc.co.uk/arabic/media-49474522\";\n\n        (function() {\n        var
+        cookiePrefix = 'ckns_sylphid';\n        _sf_async_config.idSync = _sf_async_config.idSync
+        || {};\n\n        if (document.cookie.indexOf(cookiePrefix) !== -1) {\n            var
+        cookieSplit = document.cookie.split(';');\n            var cookieLength =
+        cookieSplit.length;\n            while (cookieLength--) {\n                var
+        cookie = cookieSplit[cookieLength].replace(/^\\s+|\\s+$/g, '');\n                var
+        cookieName = cookie.split('=')[0];\n                if (cookieName.indexOf(cookiePrefix)
+        === 0) {\n                    _sf_async_config.idSync.bbc_hid = cookieSplit[cookieLength].split('=')[1];\n
+        \                   break;\n                }\n            }\n        }\n
+        \   }());\n\n    /** CONFIGURATION END **/\n    (function(){\n        function
+        loadChartbeat() {\n            window._sf_endpt=(new Date()).getTime();\n
+        \           var e = document.createElement(\"script\");\n            e.setAttribute(\"language\",
+        \"javascript\");\n            e.setAttribute(\"type\", \"text/javascript\");\n
+        \           e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');\n
+        \           document.body.appendChild(e);\n        }\n        var oldonload
+        = window.onload;\n        window.onload = (typeof window.onload != \"function\")
+        ?\n            loadChartbeat : function() { oldonload(); loadChartbeat();
+        };\n    }());\n</script>\n<!-- Chartbeat Web Analytics code - end -->\n   <!--Non-JS-->\n<noscript>\n
+        \   <img src=\"http://ssc.api.bbc.com/?c2=19999701&amp;ns_type=view&amp;ns_site=bbc&amp;c1=2&amp;b_vs_un=ws&amp;b_imp_src=ws&amp;b_imp_ver=1.0.0.0&amp;name=arabic.media-49474522&amp;b_vs_ls=arabic&amp;b_synd_partner=bbc%7Crd%7Cgroup0&amp;b_site_section=102819&amp;b_page_type=MAP%7Cna&amp;c8=%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7+-+BBC+News+Arabic&amp;b_app_type=web&amp;b_app_name=news%7Cweb&amp;b_article_title=%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&amp;b_article_id=49474522&amp;b_article_date=1566920893&amp;b_article_update=1566920893&amp;b_article_length=168&amp;b_ad_enabled=1&amp;c7=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&amp;ns_c=utf-8&amp;bbc_site=news-ws-arabic&amp;b_code_ver=bbc_nonjs&amp;b_topic_names=Elderly+people%21South+Korea&amp;b_topic_ids=3892335e-43d8-489b-b0a1-9e2cf25ff486%2168f68d12-c2d9-4173-9ed3-178363e46344&amp;b_breaking_flag=0&amp;b_syndication_flag=0&amp;b_category_id=http%3A%2F%2Fwww.bbc.co.uk%2Fontologies%2Fapplicationlogic-news%2FNews&amp;b_category_name=News\"
+        alt=\"\" class=\"comscore-tracking-nonjs\" style=\"display: none;\" />\n</noscript>\n\n<!--JS-->\n<script>\n
+        \   if (!window.cutsTheMustard) {\n        var url = \"http://ssc.api.bbc.com/?c2=19999701&ns_type=view&ns_site=bbc&c1=2&b_vs_un=ws&b_imp_src=ws&b_imp_ver=1.0.0.0&name=arabic.media-49474522&b_vs_ls=arabic&b_synd_partner=bbc%7Crd%7Cgroup0&b_site_section=102819&b_page_type=MAP%7Cna&c8=%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7+-+BBC+News+Arabic&b_app_type=web&b_app_name=news%7Cweb&b_article_title=%D8%B5%D8%A7%D9%84%D8%A9+%D8%AF%D9%8A%D8%B3%D9%83%D9%88+%D9%84%D9%83%D8%A8%D8%A7%D8%B1+%D8%A7%D9%84%D8%B3%D9%86+%D9%81%D9%82%D8%B7&b_article_id=49474522&b_article_date=1566920893&b_article_update=1566920893&b_article_length=168&b_ad_enabled=1&c7=http%3A%2F%2Fwww.bbc.com%2Farabic%2Fmedia-49474522&ns_c=utf-8&bbc_site=news-ws-arabic&b_code_ver=bbc_nonjs&b_topic_names=Elderly+people%21South+Korea&b_topic_ids=3892335e-43d8-489b-b0a1-9e2cf25ff486%2168f68d12-c2d9-4173-9ed3-178363e46344&b_breaking_flag=0&b_syndication_flag=0&b_category_id=http%3A%2F%2Fwww.bbc.co.uk%2Fontologies%2Fapplicationlogic-news%2FNews&b_category_name=News\"\n
+        \       img = document.createElement('img');\n        img.src = url.replace(\"bbc_nonjs\",
+        \"bbc_nonctm\");\n        img.className = 'comscore-tracking-nonjs';\n        img.setAttribute('style',
+        'display: none;');\n        document.body.appendChild(img);\n    }\n    payload
+        = document.createElement('div');\n    payload.id = \"comscore-payload\";\n
+        \   payload.setAttribute('style', 'display: none;');\n    payload.setAttribute('data-payload',
+        '{\"c2\":19999701,\"ns_type\":\"view\",\"ns_site\":\"bbc\",\"c1\":\"2\",\"b_vs_un\":\"ws\",\"b_imp_src\":\"ws\",\"b_imp_ver\":\"1.0.0.0\",\"name\":\"arabic.media-49474522\",\"b_vs_ls\":\"arabic\",\"b_synd_partner\":\"bbc|rd|group0\",\"b_site_section\":\"102819\",\"b_page_type\":\"MAP|na\",\"c8\":\"\\u0635\\u0627\\u0644\\u0629
+        \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0643\\u0628\\u0627\\u0631 \\u0627\\u0644\\u0633\\u0646
+        \\u0641\\u0642\\u0637 - BBC News Arabic\",\"b_app_type\":\"web\",\"b_app_name\":\"news|web\",\"b_article_title\":\"\\u0635\\u0627\\u0644\\u0629
+        \\u062f\\u064a\\u0633\\u0643\\u0648 \\u0644\\u0643\\u0628\\u0627\\u0631 \\u0627\\u0644\\u0633\\u0646
+        \\u0641\\u0642\\u0637\",\"b_article_id\":\"49474522\",\"b_article_date\":1566920893,\"b_article_update\":1566920893,\"b_article_length\":168,\"b_ad_enabled\":true,\"c7\":\"http:\\/\\/www.bbc.com\\/arabic\\/media-49474522\",\"ns_c\":\"utf-8\",\"bbc_site\":\"news-ws-arabic\",\"b_code_ver\":\"bbc_nonjs\",\"b_topic_names\":\"Elderly
+        people!South Korea\",\"b_topic_ids\":\"3892335e-43d8-489b-b0a1-9e2cf25ff486!68f68d12-c2d9-4173-9ed3-178363e46344\",\"b_breaking_flag\":0,\"b_syndication_flag\":0,\"b_category_id\":\"http:\\/\\/www.bbc.co.uk\\/ontologies\\/applicationlogic-news\\/News\",\"b_category_name\":\"News\"}');\n
+        \   document.body.appendChild(payload);\n</script>\n   </body> </html> \n\n\n\n\n\n\n\n\n\n\n\n"
+    http_version: 
+  recorded_at: Thu, 29 Aug 2019 10:22:32 GMT
+recorded_with: VCR 5.0.0

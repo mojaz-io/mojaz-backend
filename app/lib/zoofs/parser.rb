@@ -19,6 +19,8 @@ module Zoofs
     # @see .formula=
     delegate formulas: :"self.class"
 
+    VALID_FORMULA_TYPES = ["css", "xpath"].freeze
+
     def initialize(url)
       @url = url
       @doc = Nokogiri::HTML(content)
@@ -67,9 +69,25 @@ module Zoofs
     def parse_formulas
       response = {}
       formulas.each do |name, formula|
-        response[name] = eval("@doc.#{formula}")
+        # Skip the formula as it's not supported.
+        next unless VALID_FORMULA_TYPES.include?(name)
+        if formula.is_a?(Array)
+          # Initialize that forumla response to array
+          response[name] = []
+          formula.each { |f| response[name] << execute_formula(name, f) }
+          response[name].flatten!
+        elsif formula.is_a?(String)
+          
+        end
+
+        # response[name] = eval("@doc.#{formula}")
       end
       Response.new(response)
+    end
+
+    def execute_formula(name, f)
+      puts "Executing #{name} with: #{f}"
+      @doc.send(name, f)
     end
   end
 end
