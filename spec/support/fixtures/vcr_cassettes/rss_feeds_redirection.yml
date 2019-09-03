@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://daringfireball.net/feeds/json
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - daringfireball.net
+      User-Agent:
+      - http.rb/4.1.1
+  response:
+    status:
+      code: 301
+      message: Moved Permanently
+    headers:
+      Date:
+      - Tue, 03 Sep 2019 16:04:40 GMT
+      Content-Type:
+      - text/html; charset=iso-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Location:
+      - https://daringfireball.net/feeds/json
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 5108f5f7c8cdd3d7-JIB
+    body:
+      encoding: ISO-8859-1
+      string: |
+        <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+        <html><head>
+        <title>301 Moved Permanently</title>
+        </head><body>
+        <h1>Moved Permanently</h1>
+        <p>The document has moved <a href="https://daringfireball.net/feeds/json">here</a>.</p>
+        </body></html>
+    http_version: 
+  recorded_at: Tue, 03 Sep 2019 16:05:03 GMT
+recorded_with: VCR 5.0.0

@@ -5,6 +5,9 @@ class CreateFeeds < ActiveRecord::Migration[6.0]
       t.string :title
       t.string :description
       t.string :language
+      t.text :etag
+      t.datetime :last_modified
+      t.string :host
       t.timestamps
     end
   end

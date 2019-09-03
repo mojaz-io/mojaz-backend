@@ -12,14 +12,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_26_163316) do
+ActiveRecord::Schema.define(version: 2019_09_01_155027) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "articles", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "feeds", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.string "description"
+    t.text "etag"
+    t.string "host"
     t.string "language"
+    t.datetime "last_modified"
     t.string "title"
     t.datetime "updated_at", precision: 6, null: false
     t.string "url"
