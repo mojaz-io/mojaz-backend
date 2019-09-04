@@ -5,8 +5,11 @@ ruby "2.6.3"
 
 gem "bootsnap", ">= 1.4.2", require: false # Boot large ruby/rails apps faster
 gem "cld", "~> 0.8" # Compact Language Detection for Ruby
+gem "cloudinary", "~> 1.11" # Client library for easily using the Cloudinary service
 gem "devise", "~> 4.6" # Flexible authentication solution for Rails
+gem "envied", "~> 0.9" # Ensure presence and type of your app's ENV-variables
 gem "feedjira", "~> 3.0" # A feed fetching and parsing library
+gem "figaro", "~> 1.1" # Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem "http", "~> 4.1.1" # fast Ruby HTTP client with a chainable API, streaming support, and timeouts
 gem "jbuilder", "~> 2.9" # # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
