@@ -46,16 +46,17 @@ class FeedReader
   end
 
   def find_feed_locally(link)
-    Feed.where(url: link).take
+    Feed.where(feed_url: link).take
   end
 
   def create_feed_from_parser(parser)
     Feed.create!(
-      url: remote_response.uri,
+      feed_url: remote_response.uri,
       title: parser.title,
       description: parser.description,
       etag: remote_response.headers["Etag"],
       last_modified: remote_response.headers["Last-Modified"],
+      home_page_url: parser.url,
     )
   end
 end

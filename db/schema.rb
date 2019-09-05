@@ -25,11 +25,12 @@ ActiveRecord::Schema.define(version: 2019_09_01_155027) do
     t.datetime "created_at", precision: 6, null: false
     t.string "description"
     t.text "etag"
-    t.string "host"
+    t.string "feed_url", null: false
+    t.string "home_page_url"
+    t.text "image_url"
     t.string "language"
     t.datetime "last_modified"
-    t.string "title"
+    t.string "title", null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.string "url"
   end
 end

@@ -1,7 +1,7 @@
-enable_defaults! { ENV["RACK_ENV"] != "production" }
+# enable_defaults! { ENV["RACK_ENV"] != "production" }
 
 # Cloudinary for image resizing and cache??
-variable :CLOUDINARY_API_KEY, :String, default: "Optional"
-variable :CLOUDINARY_API_SECRET, :String, default: "Optional"
-variable :CLOUDINARY_CLOUD_NAME, :String, default: "Optional"
-variable :CLOUDINARY_SECURE, :String, default: "Optional"
+variable :CLOUDINARY_API_KEY, :String
+variable :CLOUDINARY_API_SECRET, :String
+variable :CLOUDINARY_CLOUD_NAME, :String
+variable :CLOUDINARY_SECURE, :String

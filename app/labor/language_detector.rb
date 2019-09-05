@@ -17,6 +17,6 @@ class LanguageDetector
   def text
     return unless @resource.class.name.include?("Feed")
 
-    @resource.title
+    "#{@resource.title} . #{@resource.description}"
   end
 end
