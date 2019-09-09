@@ -39,7 +39,7 @@ RSpec.describe Feed, type: :model do
 
   describe "#language" do
     it "returns the correct language" do
-      feed = build(:feed, feed_url: "https://www.7iber.com/feed/", title: "The Talk Show")
+      feed = build(:feed, feed_url: "https://www.7iber.com/feed/", title: "The Talk Show", description: "The Talk Show")
       allow(feed).to receive(:validate_feed_url).and_return(true)
       feed.save!
       expect(feed.language).to eq "en"
