@@ -54,8 +54,25 @@ RSpec.describe WebsiteLogoService do
 
     it "returns nil when no fav icon of any shape", :vcr do
       VCR.use_cassette("website_with_no_fav_icon_mjtsai_com") do
-        url = service.call
         expect(service.call).to eq nil
+      end
+    end
+  end
+
+  context "when url is nil" do
+    let(:service) { described_class.new(nil) }
+
+    it "short circuit with nil" do
+      expect(service.call).to eq nil
+    end
+  end
+
+  context "when only favicon is available" do
+    let(:service) { described_class.new("https://shapeof.com/") }
+
+    it "returns the favicon", :vcr do
+      VCR.use_cassette("website_with_only_fav_icon_shapeof_com") do
+        expect(service.call).to eq "http://shapeof.com/favicon.ico"
       end
     end
   end
