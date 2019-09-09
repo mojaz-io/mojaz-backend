@@ -1,8 +1,8 @@
-class FeedMainImageService
-  attr_reader :feed
+class WebsiteLogoService
+  attr_reader :home_url
 
-  def initialize(feed)
-    @feed = feed
+  def initialize(home_url = nil)
+    @home_url = home_url
   end
 
   def call
@@ -12,9 +12,9 @@ class FeedMainImageService
   private
 
   def find_media_link
-    return unless @feed.home_page_url
+    return unless @home_url
 
-    response = HTTP.follow(max_hops: 3).timeout(3).get(@feed.home_page_url)
+    response = HTTP.follow(max_hops: 3).timeout(3).get(@home_url)
     html = Nokogiri::HTML(response.to_s)
     links = html.search(xpath)
     link = find_biggest_option(links)

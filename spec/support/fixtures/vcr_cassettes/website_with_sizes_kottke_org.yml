@@ -1,0 +1,613 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://kottke.org/
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - kottke.org
+      User-Agent:
+      - http.rb/4.1.1
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 09 Sep 2019 14:29:17 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n
+        \   \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<!--[if
+        lt IE 7 ]> <html class=\"ie6\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"
+        xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\"> <![endif]-->\n<!--[if
+        IE 7 ]> <html class=\"ie7\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"
+        xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\"> <![endif]-->\n<!--[if
+        IE 8 ]> <html class=\"ie8\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"
+        xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\"> <![endif]-->\n<!--[if
+        IE 9 ]> <html class=\"ie9\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"
+        xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\"> <![endif]-->\n<!--[if
+        (gte IE 10)|!(IE)]><!--> <html xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:og=\"http://ogp.me/ns#\"
+        xmlns:fb=\"http://www.facebook.com/2008/fbml\" lang=\"en\"> <!--<![endif]-->\n\n\n<head>\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"viewport\"
+        content=\"width=device-width, initial-scale=1.0\">\n<meta property=\"og:title\"
+        content=\"kottke.org\" />\n<meta property=\"og:type\" content=\"website\"
+        />\n<meta property=\"og:url\" content=\"https://kottke.org\" />\n<meta property=\"og:image\"
+        content=\"https://kottke.org/images/2016/ios/180x180.png\" />\n<meta property=\"og:site_name\"
+        content=\"kottke.org\" />\n<meta property=\"og:description\" content=\"home
+        of fine hypertext products\" />\n<meta property=\"fb:admins\" content=\"549560637\"
+        />\n<meta property=\"fb:app_id\" content=\"279322152122365\" /><title>kottke.org
+        - home of fine hypertext products</title>\n\n<link href=\"/images/2016/ios/32x32.png\"
+        rel=\"icon\" type=\"image/png\" sizes=\"32x32\" />\n<link href=\"/images/2016/ios/180x180.png\"
+        rel=\"apple-touch-icon\" sizes=\"180x180\" />\n<link href=\"/images/2016/ios/167x167.png\"
+        rel=\"apple-touch-icon\" sizes=\"167x167\" />\n<link href=\"/images/2016/ios/152x152.png\"
+        rel=\"apple-touch-icon\" sizes=\"152x152\" />\n<link href=\"/images/2016/ios/120x120.png\"
+        rel=\"apple-touch-icon\" sizes=\"120x120\" />\n<link href=\"/images/2016/ios/80x80.png\"
+        rel=\"apple-touch-icon\" sizes=\"80x80\" />\n<link href=\"/images/2016/ios/76x76.png\"
+        rel=\"apple-touch-icon\" sizes=\"76x76\" />\n<link href=\"/images/2016/ios/40x40.png\"
+        rel=\"apple-touch-icon\" sizes=\"40x40\" />\n<link href=\"/images/2016/ios/192x192.png\"
+        rel=\"icon\" sizes=\"192x192\" />\n<link href=\"/images/2016/ios/128x128.png\"
+        rel=\"icon\" sizes=\"128x128\" />\n\n<script src=\"/templates/2016/js/jquery-1.11.3.min.js\"></script>\n<script
+        src=\"/templates/2016/js/jquery-migrate-1.2.1.min.js\"></script>\n<script
+        src=\"/templates/2016/js/bigfoot.js\"></script>\n\n<script src=\"/templates/2016/js/updater.js\"
+        type=\"text/javascript\"></script>\n<script type=\"text/javascript\">intvId
+        = setInterval (\"getUpdates('/frontpage/updates/index.php?id=35209','updates')\",600000);</script>\n\n<script
+        src=\"/templates/2016/js/jquery.unveil.js\"></script>\n\n<script>\n$(document).ready(function()
+        {\n\t$(\".widescreen iframe\").unveil(250);\n\t$(\".post iframe\").unveil(250);\n\t$(\".widescreen
+        img\").unveil(150);\n\t$(\".post img\").unveil(150);\n});\n</script>\n<script
+        type=\"text/javascript\">\n  window.MemberfulOptions = {site: \"https://kottke.memberful.com\"};\n\n
+        \ (function() {\n    var s   = document.createElement('script');\n\n    s.type
+        \ = 'text/javascript';\n    s.async = true;\n    s.src   = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';\n\n
+        \   setup = function() { window.MemberfulEmbedded.setup(); }\n\n    if(s.addEventListener)
+        { s.addEventListener(\"load\", setup, false); } else { s.attachEvent(\"onload\",
+        setup); }\n\n    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]
+        ).appendChild( s );\n  })();\n</script>\n\n<script type=\"text/javascript\">\n\t$.bigfoot(\n
+        \       {\n\t\t\tnumberResetSelector: \".post\",\n\t\t\tbuttonMarkup: \"<div
+        class='bigfoot-footnote__container' aria-hidden=\\\"true\\\"> <button class=\\\"bigfoot-footnote__button\\\"
+        id=\\\"{{SUP:data-footnote-backlink-ref}}\\\" data-footnote-number=\\\"{{FOOTNOTENUM}}\\\"
+        data-footnote-identifier=\\\"{{FOOTNOTEID}}\\\" aria-hidden=\\\"true\\\" rel=\\\"footnote\\\"
+        data-bigfoot-footnote=\\\"{{FOOTNOTECONTENT}}\\\"> <i class=\\\"fa fa-plus-circle\\\"></i>
+        </button></div>\"\n        }\n    );\n</script>\n\n<script type=\"text/javascript\">\n$(document).ready(function()
+        {\n\t$(\".post p a\").attr(\"target\",\"_blank\");\n\t$('.post p a[href*=\"//kottke.org\"]').removeAttr(\"target\");\n\t$(\".post
+        p sup a\").removeAttr(\"target\");\n\t$(\".post .footnote a:last-of-type\").removeAttr(\"target\");\n\t$(\".quicklinks-fp-post
+        a\").attr(\"target\",\"_blank\");\n\t$(\".bling-bling a\").attr(\"target\",\"_blank\");\n\t$(\".bling-job
+        a\").attr(\"target\",\"_blank\");\n\t\n   $(\".post p strong:contains('Update:')\").each(function()
+        {\n\t    $( this ).addClass(\"post-update\").html(\"Update\" + ((typeof $(
+        this ).attr('title') !== typeof undefined && $( this ).attr('title') !== false)
+        ? \"<span class='update-timestamp'>&nbsp;&middot;&nbsp; \" + $( this ).attr(\"title\")
+        + \"</span>\" : \"\"));\n\t  });\n    });\n</script>\n\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"https://cloud.typography.com/790324/737040/css/fonts.css\"
+        />\n<link rel=\"stylesheet\" href=\"/templates/2016/css/font-awesome-4.7.0/css/font-awesome.min.css\"
+        />\n<link rel=\"stylesheet\" href=\"/templates/2016/css/main.css?v=16\" type=\"text/css\"
+        />\n<link rel=\"stylesheet\" href=\"/templates/2016/css/bigfoot-default.css\"
+        type=\"text/css\" />\n\n\n<link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"RSS\" href=\"http://feeds.kottke.org/main\" />\n<link rel=\"alternate\"
+        type=\"application/json\" href=\"http://feeds.kottke.org/json\" />\n\n</head>\n<body
+        \ id=\"kottke-org\">\n\n<div id=\"header\"><a href=\"/\">kottke.org<span id=\"head-br\"><br
+        /></span><span id=\"head-heart\"> &nbsp;&hearts;&nbsp; </span>  <span id=\"head-sub\">home
+        of fine hypertext products</span></a></div>\n\n<div id=\"top-nav-wide\"><a
+        href=\"/\">home</a><a href=\"/about\">about</a><a href=\"/everfresh\">archives
+        + tags</a><a href=\"/shop\">shop</a><a href=\"/members\">membership!</a><div
+        id=\"follow\"><a href=\"https://twitter.com/kottke\" aria-label=\"Follow kottke.org
+        on Twitter\" id=\"follow-twitter\"><i class=\"fa fa-twitter\"></i></a><a href=\"https://facebook.com/kottke.org\"
+        aria-label=\"Follow kottke.org on Facebook\" id=\"follow-facebook\"><i class=\"fa
+        fa-facebook-square\"></i></a><a href=\"http://bonus.kottke.org/\" aria-label=\"Follow
+        kottke.org on Tumblr\" id=\"follow-tumblr\"><i class=\"fa fa-tumblr-square\"></i></a><a
+        href=\"http://feeds.kottke.org/main\" aria-label=\"Read kottke.org via RSS\"
+        id=\"follow-feed\"><i class=\"fa fa-rss\"></i></a></div></div>\n\n<div id=\"top-nav-medium\"><a
+        href=\"/about\">about</a><a href=\"/everfresh\">archives</a><a href=\"/shop\">shop</a><a
+        href=\"/members\">membership!</a><div id=\"follow\"><a href=\"https://twitter.com/kottke\"
+        aria-label=\"Follow kottke.org on Twitter\" id=\"follow-twitter\"><i class=\"fa
+        fa-twitter\"></i></a><a href=\"https://facebook.com/kottke.org\" aria-label=\"Follow
+        kottke.org on Facebook\" id=\"follow-facebook\"><i class=\"fa fa-facebook-square\"></i></a><a
+        href=\"http://bonus.kottke.org/\" aria-label=\"Follow kottke.org on Tumblr\"
+        id=\"follow-tumblr\"><i class=\"fa fa-tumblr-square\"></i></a><a href=\"http://feeds.kottke.org/main\"
+        aria-label=\"Read kottke.org via RSS\" id=\"follow-feed\"><i class=\"fa fa-rss\"></i></a></div></div>\n\n<div
+        id=\"top-nav-narrow\"><a href=\"/about\">about</a><a href=\"/everfresh\">archives</a><a
+        href=\"/members\">members!</a></div>\n\n<div id=\"easel\">\n\n<p id=\"updates\"></p>\n\n<h2><a
+        href=\"https://kottke.org/19/09/the-comet\">The Comet</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 06, 2019</span></div>\n</div>\n\n<p
+        class=\"widescreen embedded\"><iframe src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"100%\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen
+        data-src=\"https://player.vimeo.com/video/347565673?byline=0\"></iframe></p>\n\n\n<div
+        class=\"post\">\n\n\n\n<p>Director Christian Stangl and composer Wolfgang
+        Stangl used millions of photos (that&rsquo;s right, millions!) taken by the
+        ESA&rsquo;s Rosetta spacecraft of Comet 67P/Churyumov-Gerasimenko to make
+        this short video that makes the mission feel like sci-fi a la Alien or District
+        9.</p>\n\n\n<div class=\"entry-tags-title\">More about...</div>\n<ul class=\"entry-tags\">\n<li><a
+        href=\"/tag/astronomy\">astronomy</a></li><li><a href=\"/tag/Christian%20Stangl\">Christian
+        Stangl</a></li><li><a href=\"/tag/comets\">comets</a></li><li><a href=\"/tag/Rosetta%20probe\">Rosetta
+        probe</a></li><li><a href=\"/tag/space\">space</a></li><li><a href=\"/tag/video\">video</a></li><li><a
+        href=\"/tag/Wolfgang%20Stangl\">Wolfgang Stangl</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-sidebar\">\n\n<div class=\"bling-title\"><a href=\"https://carbonads.net/\"
+        target=\"_blank\">ads via Carbon</a></div>\n<script async type=\"text/javascript\"
+        src=\"//cdn.carbonads.com/carbon.js?serve=CKYICKJY&placement=kottkeorg\" id=\"_carbonads_js\"></script>\n\n</div><div
+        class=\"post-spacer-hr\"></div>\n\n<div class=\"quicklinks-fp-post\">\n<div
+        class=\"quicklinks-fp-lead\"><i class=\"fa fa-paper-plane-o\" aria-hidden=\"true\"></i>&nbsp;
+        quick links, updated constantly</div>\n\n<p><a href=\"https://www.kickstarter.com/projects/1174653512/reprinting-isaac-newtons-principia\">Kronecker
+        Wallis is reprinting their beautifully designed edition of Isaac Newton's
+        Principia</a></p><p><a href=\"https://rujogames.itch.io/a-small-world-cup\">\"a
+        small world cup\" is a fun little in-browser game that's part Pong, part QWOP,
+        and part Rocket League</a></p><p><a href=\"https://www.youtube.com/watch?v=cv1B9sPPOXo\">Meet
+        Elwood Edwards, the man who lent his voice to AOL for \"You've got mail!\"</a></p><p><a
+        href=\"https://hub.jhu.edu/2019/09/04/hopkins-launches-psychedelic-center/\">Johns
+        Hopkins launches center for psychedelic research</a></p><p><a href=\"https://a.wholelottanothing.org/2019/08/09/tips-from-16-years-of-working-from-home/\">Some
+        tips from my pal Matt that make remote work easier. \"Your local library is
+        like a coworking space, but free.\"</a></p><p><a href=\"https://www.vice.com/en_us/article/wjwd9m/25-tv-shows-that-should-have-ended-sooner-the-office-game-of-thrones\">25
+        TV Shows That Should Have Ended Sooner. Some I agree with (Lost, Arrested
+        Development, The Office) and some I do not (Mad Men, Girls).</a></p><p><a
+        href=\"https://www.sciencemag.org/news/2019/09/crystalline-nets-harvest-water-desert-air-turn-carbon-dioxide-liquid-fuel\">Solar
+        powered crystalline nets can harvest water from even the driest desert air.
+        But can they be made cheap enough and at sufficient scale to really help?</a></p><p><a
+        href=\"https://theweek.com/articles/859408/american-cities-need-phase-cars\">American
+        cities need to phase out cars</a></p><p><a href=\"https://www1.nyc.gov/html/dot/downloads/pdf/mobility-report-2019-print.pdf\">The
+        NYC DOT Aug 2019 Mobility Report. One interesting finding: weekday trips under
+        2 miles in Midtown are faster and (much) cheaper on a Citi Bike than in a
+        taxi.</a></p><p><a href=\"https://fridge0.branchable.com/\">\"Fridge0 is a
+        design for an offgrid, solar powered fridge, with no battery bank. Using an
+        inexpensive chest freezer with a few modifications, the fridge retains cold
+        overnight and through rainy periods.\"</a></p>\n\n<p class=\"evensmaller\">There's
+        no quick links archive yet. If you'd like to see 'em all, <a href=\"https://twitter.com/kottke\"
+        style=\"font-weight:600;color:#55acee;\">follow @kottke on Twitter</a>.</p>\n</div>\n\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/happy-150th-birthday-periodic-table\">Happy
+        150th Birthday, Periodic Table!</a></h2>\n\n<div class=\"meta\">\n<div class=\"author\"><span
+        class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 06, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Bloomberg Businessweek dedicated <a href=\"https://www.bloomberg.com/features/2019-periodic-table-elements-issue/\">their
+        entire Sept 2, 2019 issue</a> to the periodic table (it&rsquo;s 150 years
+        old this year) and the elements it contains. <a href=\"https://www.bloomberg.com/news/features/2019-08-28/the-modern-triumph-of-the-periodic-table-of-elements\">From
+        the introductory essay</a>:</p>\n\n<blockquote><p>Over the past century and
+        a half, but particularly since World War II, scientists and engineers have
+        learned to treat the periodic table like a banquet table-a bountiful spread
+        from which to pluck what they need. There&rsquo;s scandium in bicycle frames,
+        tin (stannous fluoride) in toothpaste, tungsten in catheters, and arsenic
+        in some computer chips. We are well past the Stone Age, the Bronze Age, and
+        the Iron Age, and into the Everything Age, because almost every entry on the
+        periodic table is being put to some kind of use in today&rsquo;s economy (excluding
+        synthetic elements that are costly to make and highly radioactive, such as
+        einsteinium).</p>\n\n<p>Cellphones exemplify the complexification. The first
+        ones in the 1980s &ldquo;were the size of a shoebox and consisted of 25 to
+        30 elements,&rdquo; Larry Meinert, U.S. Geological Survey deputy associate
+        director for energy and minerals, said in 2017. &ldquo;Today, they fit in
+        your pocket or on your wrist and are made from about 75 different elements,
+        almost three-quarters of the periodic table.&rdquo; That may include tantalum
+        from Rwanda, potassium from Belarus, silver from Mexico, tin from Myanmar,
+        carbon from India, and germanium from China.</p></blockquote>\n\n<p>Scrolling
+        down <a href=\"https://www.bloomberg.com/features/2019-periodic-table-elements-issue/\">on
+        the main story page</a> will take you on a modern-day tour of the periodic
+        table from the lightest elements (hydrogen, helium, lithium) to the heavier
+        ones (uranium, polonium) to some fake ones (adamantium, unobtanium, feminum).</p>\n\n\n<div
+        class=\"entry-tags-title\">More about...</div>\n<ul class=\"entry-tags\">\n<li><a
+        href=\"/tag/chemistry\">chemistry</a></li><li><a href=\"/tag/periodic%20table\">periodic
+        table</a></li><li><a href=\"/tag/science\">science</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/pixars-ai-spiders\">Pixar&#8217;s
+        AI Spiders</a></h2>\n\n<div class=\"meta\">\n<div class=\"author\"><span class=\"pre-name\">posted
+        by </span><a href=\"http://www.kottke.org\">Jason Kottke</a> <span class=\"timestamp\"><i
+        class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"font-weight:300;\"></i>&nbsp;
+        Sep 06, 2019</span></div>\n</div>\n\n\n\n<div class=\"post\">\n\n<p>As I mentioned
+        in <a href=\"https://kottke.org/19/08/my-2019-roadtrip-along-the-pacific-coast-of-the-us\">a
+        post about my west coast roadtrip</a>, one of the things I heard about during
+        my visit to Pixar was their AI spiders. For Toy Story 4, the production team
+        wanted to add some dusty ambiance to the antique store in the form of cobwebs.</p>\n\n<p><img
+        src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"1000\" height=\"419\" border=\"0\" alt=\"Toy Story Cobwebs\" data-src=\"/plus/misc/images/toy-story-cobwebs.jpg\"></p>\n\n<p>Rather
+        than having to painstakingly create the webs by hand as they&rsquo;d done
+        in the past, technical director Hosuk Chang <a href=\"https://www.pixarpost.com/2019/05/toy-story-4-second-chance-antiques-store-design.html\">created
+        a swarm of AI spiders</a> that could weave the webs just like a real spider
+        would.</p>\n\n<blockquote><p>We actually saw the AI spiders in action and
+        it was jaw-dropping to see something so simple, yet so technically amazing
+        to create realistic backgrounds elements like cobwebs. The spiders appeared
+        as red dots that would weave their way between two wood elements just like
+        a real spider would.</p></blockquote>\n\n<p>All the animators had to do is
+        <a href=\"https://www.thewaltdisneycompany.com/setting-the-scene-how-technology-created-a-richer-playset-in-toy-story-4/\">tell
+        the spiders where the cobwebs needed to be</a>.</p>\n\n<blockquote><p>&ldquo;He
+        guided the spiders to where he wanted them to build cobwebs, and they&rsquo;d
+        do the job for us. And when you see those cobwebs overlaid on the rest of
+        the scene, it gives the audience the sense that this place has been here for
+        a while.&rdquo; Without that program, animators would have had to make the
+        webs one strand at a time, which would have taken several months. &ldquo;You
+        have to tell the spider where the connection points of the cobweb should go,&rdquo;
+        Jordan says, &ldquo;but then it does the rest.&rdquo;</p></blockquote>\n\n<p>Chang
+        and his colleague David Luoh <a href=\"https://dl.acm.org/citation.cfm?id=3328183&amp;preflayout=flat\">presented
+        a paper about the spiders (and dust)</a> at SIGGRAPH &lsquo;19 in late July
+        (which is unfortunately behind a paywall).</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/artificial%20intelligence\">artificial
+        intelligence</a></li><li><a href=\"/tag/Hosuk%20Chang\">Hosuk Chang</a></li><li><a
+        href=\"/tag/movies\">movies</a></li><li><a href=\"/tag/Pixar\">Pixar</a></li><li><a
+        href=\"/tag/Toy%20Story\">Toy Story</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/nine-things-a-woman-couldnt-do-in-1971-in-america\">Nine
+        Things a Woman Couldn&#8217;t Do in 1971 in America</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 06, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Twitter user @WPCelebration <a href=\"https://twitter.com/WPCelebration/status/1165802724736155648\">recently
+        compiled a list of nine activities and rights denied to women in America in
+        1971</a>, just 48 years ago. The list includes:</p>\n\n<ul><li><a href=\"https://www.smithsonianmag.com/smart-news/forty-years-ago-women-had-a-hard-time-getting-credit-cards-180949289/\">A
+        woman couldn&rsquo;t get a credit card in her own name</a>. They often needed
+        a man to co-sign for a card. <a href=\"https://en.wikipedia.org/wiki/Equal_Credit_Opportunity_Act\">The
+        Equal Credit Opportunity Act</a> put a stop to this discrimination in 1974.</li>\n\n<p></p><li>Until
+        the <a href=\"https://en.wikipedia.org/wiki/Pregnancy_Discrimination_Act\">Pregnancy
+        Discrimination Act</a> of 1978, women could be fired for getting pregnant
+        (or not hired if they were pregnant). Despite the act, pregnancy discrimination
+        <a href=\"https://www.nytimes.com/interactive/2018/10/21/business/pregnancy-discrimination-miscarriages.html\">continues
+        today</a>.</li>\n\n<p></p><li>Women couldn&rsquo;t attend certain Ivy League
+        schools. Harvard did not fully admit women into its undergraduate program
+        <a href=\"https://news.harvard.edu/gazette/story/2012/04/hard-earned-gains-for-women-at-harvard/\">until
+        1977</a>, Dartmouth took <a href=\"https://en.wikipedia.org/wiki/Coeducation_at_Dartmouth\">until
+        1972</a>, and <a href=\"https://www.college.columbia.edu/cct/archive/jul_aug09/features1\">Columbia
+        waited until 1983</a>.</li>\n\n<p></p><li>In some states, women couldn&rsquo;t
+        say &ldquo;no&rdquo; to sex with their husbands. <a href=\"https://en.wikipedia.org/wiki/Marital_rape_in_the_United_States#To_1993\">In
+        1993</a>, the last two states (Oklahoma and North Carolina) withdrew their
+        marital rape exemptions. But even today, several states treat marital rape
+        as a lesser offense with smaller penalties compared to non-marital rape.</li>\n\n<p></p><li><a
+        href=\"https://en.wikipedia.org/wiki/Eisenstadt_v._Baird\">Until a 1972 Supreme
+        Court case</a>, unmarried women in some states were prohibited from purchasing
+        birth control pills.</li></ul><p>Ms magazine published <a href=\"https://msmagazine.com/2013/05/28/10-things-that-american-women-could-not-do-before-the-1970s/\">a
+        similar list</a> back in 2013 that also included the difficulty in getting
+        a divorce without cause and obtain a safe &amp; legal abortion in all 50 states.
+        <a href=\"https://www.bustle.com/articles/136295-what-was-it-like-for-women-not-to-be-allowed-their-own-credit-cards-10-women\">Bustle
+        talked to several women</a> about what discrimination was like before many
+        of these changes took place.</p>\n\n<blockquote><p>I was denied a job in 1970
+        because I was newly pregnant. They actually had a question on the application
+        regarding the date of your last menstrual period. Also, with my second child
+        in 1974, they were not required to hold your position while you were on maternity
+        leave, and I was told that my job was no longer open and I had to file for
+        unemployment.</p></blockquote>\n\n<p>As a reminder, women only gained the
+        right to vote in America fewer than 100 years ago.</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/legal\">legal</a></li><li><a
+        href=\"/tag/lists\">lists</a></li><li><a href=\"/tag/sexism\">sexism</a></li><li><a
+        href=\"/tag/USA\">USA</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/the-25-most-important-characters-of-the-past-25-years\">The
+        25 Most Important Characters of the Past 25 Years</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 05, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>I love cross-disciplinary lists like this: <a href=\"https://slate.com/culture/2019/08/most-important-characters-movies-tv-books-21st-century.html\">The
+        25 Most Important Characters of the Past 25 Years</a>.</p>\n\n<blockquote><p>We
+        polled critics and other culture obsessives from Slate and beyond to assemble
+        an enormous master list of influential characters. They were animated and
+        live-action, wizard and Muggle, human and avian, fictional and based on actual
+        persons, living and dead. They came from movies, books, TV series, video games,
+        tweets, podcasts, comics, songs, and (in a surprise to us) more than one musical.
+        Reflecting our franchise-driven time, many of them came from many of those
+        media at once. The only rule was that they must have originated in a work
+        of culture sometime in the past quarter-century, which meant no Simpsons or
+        hobbits or diner-dwelling New Yorkers who argue about nothing. Then we ruthlessly
+        winnowed down the list to the most crucial of those characters, the ones who
+        have left an outsize mark on our planet circa 2019, to assemble this new pantheon.</p></blockquote>\n\n<p><img
+        src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"780\" height=\"780\" border=\"0\" alt=\"Hermione Granger\" data-src=\"/plus/misc/images/hermione-spew.jpg\"></p>\n\n<p>Many
+        of my favorite characters made it on there: Thomas Cromwell from Hilary Mantel&rsquo;s
+        <a href=\"http://www.amazon.com/exec/obidos/ASIN/B002UZ5K4Y/ref=nosim/0sil8\">Wolf
+        Hall</a> &amp; <a href=\"http://www.amazon.com/exec/obidos/ASIN/125002417X/ref=nosim/0sil8\">Bring
+        Up the Bodies</a>; Omar Little from The Wire; Tracy Flick from Election; and
+        Hermione Granger from Harry Potter, a much more inspired pick than the titular
+        hero <a href=\"https://kottke.org/15/01/hermione-granger-and-the-goddamn-patriarchy\">for
+        reasons I&rsquo;ve already articulated</a>. <a href=\"https://slate.com/culture/2019/08/most-important-characters-movies-tv-books-21st-century.html\">The
+        full list</a> is worth a read.</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/best%20of\">best
+        of</a></li><li><a href=\"/tag/books\">books</a></li><li><a href=\"/tag/lists\">lists</a></li><li><a
+        href=\"/tag/movies\">movies</a></li><li><a href=\"/tag/TV\">TV</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/how-much-better-does-an-expensive-piano-sound-than-a-cheap-one\">How
+        Much Better Does an Expensive Piano Sound Than a Cheap One?</a></h2>\n\n<div
+        class=\"meta\">\n<div class=\"author\"><span class=\"pre-name\">posted by
+        </span><a href=\"http://www.kottke.org\">Jason Kottke</a> <span class=\"timestamp\"><i
+        class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"font-weight:300;\"></i>&nbsp;
+        Sep 05, 2019</span></div>\n</div>\n\n<p class=\"widescreen embedded\"><iframe
+        width=\"100%\" src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope;
+        picture-in-picture\" allowfullscreen data-src=\"https://www.youtube.com/embed/xd2TL88T9_s\"></iframe></p>\n\n\n<div
+        class=\"post\">\n\n\n\n<p>YouTuber Lord Vinheteiro recently played the same
+        pair of tunes on six different pianos, ranging from a $499 used upright to
+        a $112,000 Steinway to a $2.5 million Steinway grand piano <a href=\"https://www.steinway.com/pianos/steinway/limited-edition/pictures-at-an-exhibition\">that&rsquo;s
+        tacky af</a>. Which one sounds the best?</p>\n\n<p>I&rsquo;m not sure that
+        you get the full effect and nuance of the super luxe pianos after the audio
+        has passed through YouTube&rsquo;s audio compression and whatever phone or
+        computer speaker or headphones you&rsquo;ve got going, but the more expensive
+        pianos sound better than the lower-end ones for sure. I would have appreciated
+        a medley at the end that repeatedly cycled through all six of the recordings
+        to better hear the differences.</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/audio\">audio</a></li><li><a
+        href=\"/tag/music\">music</a></li><li><a href=\"/tag/video\">video</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/how-a-30-minute-commute-has-shaped-centuries-of-cities\">How
+        a 30-Minute Commute Has Shaped Centuries of Cities</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 05, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Twenty-five years ago, physicist Cesare Marchetti <a
+        href=\"http://www.cesaremarchetti.org/archive/electronic/basic_instincts.pdf\">argued</a>
+        that people, on average, tend to keep their commutes to about an hour a day,
+        round-trip. For Citylab, Jonathan English looks at how this inclination has
+        interacted with advances in transportation to affect <a href=\"https://www.citylab.com/transportation/2019/08/commute-time-city-size-transportation-urban-planning-history/597055/\">how
+        cities grow and evolve</a>. For instance, walking and travel by horse kept
+        cities to an effective diameter of a few miles, allowing their density to
+        grow over many centuries.</p>\n\n<blockquote><p>Sure enough, most cities from
+        the ancients to the Industrial Revolution did not grow much bigger than a
+        two-mile diameter. Their core areas were often even smaller, though some of
+        the poor lived in settlements outside the city gates. Ancient Rome packed
+        as many as a million people into an area a little more than two miles in diameter.
+        Medieval Paris stretched about two miles from the Bastille to the Louvre,
+        Vienna&rsquo;s Innere Stadt measures only one mile in diameter, and the historic
+        City of London is nicknamed the &ldquo;Square Mile&rdquo; for a reason. Beijing&rsquo;s
+        walls enclosed an inner city about three miles in diameter; into the 20th
+        century, that still made up most of the developed area.</p></blockquote>\n\n<p>Rail,
+        streetcars, bicycles, subways, and cars followed, each increasing the amount
+        of distance from a city&rsquo;s center that could be reached within Marchetti&rsquo;s
+        time limit.</p>\n\n<blockquote><p>The car on the expressway enabled large
+        numbers of people to travel long distances on a day-to-day basis. Instead
+        of small railroad suburbs, where housing was restricted to a short radius
+        around stations, drivers spread out across suburbs could now commute 20 miles
+        in 30 minutes. If the streetcar city covered 50 square miles, the 40-mile-diameter
+        expressway city could cover over 1,250 square miles.*</p></blockquote>\n\n\n<div
+        class=\"entry-tags-title\">More about...</div>\n<ul class=\"entry-tags\">\n<li><a
+        href=\"/tag/cars\">cars</a></li><li><a href=\"/tag/Cesare%20Marchetti\">Cesare
+        Marchetti</a></li><li><a href=\"/tag/cities\">cities</a></li><li><a href=\"/tag/Jonathan%20English\">Jonathan
+        English</a></li><li><a href=\"/tag/science\">science</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/why-is-picassos-guernica-so-shocking\">Why
+        Is Picasso&#8217;s Guernica So Shocking?</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 05, 2019</span></div>\n</div>\n\n<p
+        class=\"widescreen embedded\"><iframe width=\"100%\" src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope;
+        picture-in-picture\" allowfullscreen data-src=\"https://www.youtube.com/embed/DJnH5CPCImY\"></iframe></p>\n\n\n<div
+        class=\"post\">\n\n\n\n<p>Guernica is one of Pablo Picasso&rsquo;s greatest
+        masterpieces, and, like a lot of his other work, can be difficult to decipher.
+        The painting is obviously anti-war, anti-fascist, and pro-Spain, but beyond
+        that, art scholars have been puzzling over details for decades. In this TED-Ed
+        video, Iseult Gillespie offers a short tour of the painting and its history.
+        You might find <a href=\"https://the-artifice.com/picasso-guernica/\">this
+        piece</a> (and the list of works cited at the bottom) useful as well.</p>\n\n<blockquote><p>However,
+        Picasso declared the inspiration for the painting was the aftermath of the
+        1937 attack of the Spanish town Guernica. On market day April 26, 1937, the
+        citizens of Guernica gathered for their customary shopping and socializing;
+        unfortunately, German war planes descended upon the town. The Nazis bombed
+        Guernica and killed 1600 people; fires burned for three days and destroyed
+        the town. Picasso captured the &ldquo;la douleur et la mort&rdquo; or &ldquo;pain
+        and death&rdquo; of the aftermath. Yet, Picasso maintained his place that
+        he did not assign meaning to the individual images. Nonetheless, this large-scale
+        monochromatic painting encourages the inner critic to react, deconstruct,
+        and create their own dialogue.</p></blockquote>\n\n<p><a href=\"https://www.nybooks.com/articles/2016/05/12/a-different-guernica/\">This
+        account of the bombing</a> shows how bloodthirsty and ruthless the Nazis were
+        in 1937.</p>\n\n<blockquote><p>Besides celebrating the F&uuml;hrer&rsquo;s
+        birthday, the attack on Guernica served as a tactical military and aeronautical
+        experiment to test the Luftwaffe&rsquo;s ability to annihilate an entire city
+        and crush the morale of its people. The Condor Legion&rsquo;s chief of staff,
+        Colonel Wolfram von Richthofen, painstakingly devised the operation to maximize
+        human casualties, and above all deaths. A brief initial bombing at 4:30 PM
+        drove much of the population into air-raid shelters. When Guernica&rsquo;s
+        citizens emerged from these shelters to rescue the wounded, a second, longer
+        wave of bombing began, trapping them in the town center from which there was
+        no escape. Low-flying planes strafed the streets with machine-gun fire. Those
+        who had managed to survive were incinerated by the flames or asphyxiated by
+        the lack of oxygen. Three hours of coordinated air strikes leveled the city
+        and killed over 1,500 civilians. In his war diary, Richthofen described the
+        operation as &ldquo;absolutely fabulous!&hellip;a complete technical success.&rdquo;
+        The F&uuml;hrer was so thrilled that, two years later, he ordered Richthofen
+        to employ the same bombing techniques, on an infinitely greater scale, to
+        lay waste to Warsaw, thereby setting off World War II.</p></blockquote>\n\n<p>With
+        that sort of casual brutality, it&rsquo;s no wonder Picasso was <a href=\"https://www.theguardian.com/commentisfree/2009/mar/26/pablo-picasso-guernica-spain-war\">still
+        livid about it</a> years later:</p>\n\n<blockquote><p>In occupied Paris, a
+        Gestapo officer who had barged his way into Picasso&rsquo;s apartment pointed
+        at a photo of the mural, Guernica, asking: &ldquo;Did you do that?&rdquo;
+        &ldquo;No,&rdquo; Picasso replied, &ldquo;you did&rdquo;, his wit fizzing
+        with the anger that animates the piece.</p></blockquote>\n\n<p>(via <a href=\"http://www.openculture.com/2019/09/what-makes-guernica-so-shocking.html\">open
+        culture</a>)</p>\n\n\n<div class=\"entry-tags-title\">More about...</div>\n<ul
+        class=\"entry-tags\">\n<li><a href=\"/tag/art\">art</a></li><li><a href=\"/tag/Iseult%20Gillespie\">Iseult
+        Gillespie</a></li><li><a href=\"/tag/Pablo%20Picasso\">Pablo Picasso</a></li><li><a
+        href=\"/tag/Spain\">Spain</a></li><li><a href=\"/tag/video\">video</a></li><li><a
+        href=\"/tag/war\">war</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/glitched-still-lifes\">Glitched Still Lifes</a></h2>\n\n<div
+        class=\"meta\">\n<div class=\"author\"><span class=\"pre-name\">posted by
+        </span><a href=\"http://www.kottke.org\">Jason Kottke</a> <span class=\"timestamp\"><i
+        class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"font-weight:300;\"></i>&nbsp;
+        Sep 04, 2019</span></div>\n</div>\n\n\n\n<div class=\"post\">\n\n<p><img src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"1000\" height=\"1333\" border=\"0\" alt=\"Olan Ventura\" data-src=\"/plus/misc/images/olan-ventura-01.jpg\"></p>\n\n<p><img
+        src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"1000\" height=\"1322\" border=\"0\" alt=\"Olan Ventura\" data-src=\"/plus/misc/images/olan-ventura-02.jpg\"></p>\n\n<p>Holy
+        moly I love these glitched still lifes by <a href=\"https://yavuzgallery.com/artists/olan-ventura/\">Olan
+        Ventura</a>. (via <a href=\"https://www.thisiscolossal.com/2019/09/glitched-paintings-olan-ventura/\">colossal</a>)</p>\n\n\n<div
+        class=\"entry-tags-title\">More about...</div>\n<ul class=\"entry-tags\">\n<li><a
+        href=\"/tag/art\">art</a></li><li><a href=\"/tag/Olan%20Ventura\">Olan Ventura</a></li><li><a
+        href=\"/tag/remix\">remix</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/the-egg-by-andy-weir\">The Egg by Andy Weir</a></h2>\n\n<div
+        class=\"meta\">\n<div class=\"author\"><span class=\"pre-name\">posted by
+        </span><a href=\"http://www.kottke.org\">Jason Kottke</a> <span class=\"timestamp\"><i
+        class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"font-weight:300;\"></i>&nbsp;
+        Sep 04, 2019</span></div>\n</div>\n\n<p class=\"widescreen embedded\"><iframe
+        width=\"100%\" src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope;
+        picture-in-picture\" allowfullscreen data-src=\"https://www.youtube.com/embed/h6fcK_fRYaI\"></iframe></p>\n\n\n<div
+        class=\"post\">\n\n\n\n<p><a href=\"https://kurzgesagt.org/\">Kurzgesagt</a>
+        are known for their animated explainers about science and society. For their
+        latest video, they&rsquo;ve applied their signature style to a metaphysical
+        short story by Andy Weir (author of <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00EMXBDMA/ref=nosim/0sil8\">The
+        Martian</a>). It&rsquo;s called The Egg &mdash; <a href=\"http://www.galactanet.com/oneoff/theegg_mod.html\">you
+        can read it here</a>.</p>\n\n<blockquote><p>You were on your way home when
+        you died.</p>\n\n<p>It was a car accident. Nothing particularly remarkable,
+        but fatal nonetheless. You left behind a wife and two children. It was a painless
+        death. The EMTs tried their best to save you, but to no avail. Your body was
+        so utterly shattered you were better off, trust me.</p>\n\n<p>And that&rsquo;s
+        when you met me.</p>\n\n<p>&ldquo;What&hellip; what happened?&rdquo; You asked.
+        &ldquo;Where am I?&rdquo;</p>\n\n<p>&ldquo;You died,&rdquo; I said, matter-of-factly.
+        No point in mincing words.</p>\n\n<p>&ldquo;There was a&hellip; a truck and
+        it was skidding&hellip;&rdquo;</p>\n\n<p>&ldquo;Yup,&rdquo; I said.</p>\n\n<p>&ldquo;I&hellip;
+        I died?&rdquo;</p>\n\n<p>&ldquo;Yup. But don&rsquo;t feel bad about it. Everyone
+        dies,&rdquo; I said.</p>\n\n<p>You looked around. There was nothingness. Just
+        you and me. &ldquo;What is this place?&rdquo; You asked. &ldquo;Is this the
+        afterlife?&rdquo;</p>\n\n<p>&ldquo;More or less,&rdquo; I said.</p></blockquote>\n\n\n<div
+        class=\"entry-tags-title\">More about...</div>\n<ul class=\"entry-tags\">\n<li><a
+        href=\"/tag/Andy%20Weir\">Andy Weir</a></li><li><a href=\"/tag/Kurzgesagt\">Kurzgesagt</a></li><li><a
+        href=\"/tag/video\">video</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/how-to-mail-a-package-from-space\">How to
+        Mail a Package (From Space)</a></h2>\n\n<div class=\"meta\">\n<div class=\"author\"><span
+        class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 04, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Randall Munroe&rsquo;s new book, <a href=\"https://www.amazon.com/exec/obidos/ASIN/0525537090/ref=nosim/0sil8\">How
+        To: Absurd Scientific Advice for Common Real-World Problems</a>, just came
+        out and Wired has a lengthy excerpt: <a href=\"https://www.wired.com/story/xkcds-randall-munroe-on-how-to-mail-a-package-from-space/\">How
+        to Mail a Package (From Space)</a>.</p>\n\n<p><img src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"937\" height=\"295\" border=\"0\" alt=\"How to Mail a Package (From
+        Space)\" data-src=\"/plus/misc/images/how-to-package.jpg\"></p>\n\n<blockquote><p>Getting
+        an object down to Earth from the International Space Station is easy: you
+        can just toss it out the door and wait. Eventually, it will fall to Earth.</p>\n\n<p>There&rsquo;s
+        a very small amount of atmosphere at the ISS&rsquo;s altitude. It&rsquo;s
+        not much, but it&rsquo;s enough to produce a tiny but measurable amount of
+        drag. This drag sooner or later causes objects to slow down, fall into a lower
+        and lower orbit, and eventually hit the atmosphere and (usually) burn up.
+        The ISS also feels this drag; it uses thrusters to compensate, periodically
+        boosting itself up into a higher orbit to make up for lost altitude. If it
+        didn&rsquo;t, its orbit would gradually decay until it fell back to Earth.</p>\n\n<p>This
+        shipping method has two big problems: First, your package will burn up in
+        the atmosphere before it ever reaches the ground. And second, if it does survive,
+        you&rsquo;ll have no way to know where it will land. To deliver your package,
+        you&rsquo;ll have to solve both these problems.</p></blockquote>\n\n<p>Fun
+        fact: a piece of paper drifting down from orbit might move slowly enough not
+        to burn up on reentry.</p>\n\n\n<div class=\"entry-tags-title\">More about...</div>\n<ul
+        class=\"entry-tags\">\n<li><a href=\"/tag/books\">books</a></li><li><a href=\"/tag/how%20to\">how
+        to</a></li><li><a href=\"/tag/Randall%20Munroe\">Randall Munroe</a></li><li><a
+        href=\"/tag/science\">science</a></li><li><a href=\"/tag/space\">space</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/air-conditioning-is-warming-the-earth\">Air
+        Conditioning is Warming the Earth</a></h2>\n\n<div class=\"meta\">\n<div class=\"author\"><span
+        class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 04, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Modern society has an air conditioning problem. One
+        of the most popular responses by the world&rsquo;s population to global warming
+        is to use air conditioning. Air conditioning is very greenhouse gas-intensive,
+        which contributes to the warming of the planet. Which causes more people use
+        air conditioning. And so on. <a href=\"https://www.theguardian.com/environment/2019/aug/29/the-air-conditioning-trap-how-cold-air-is-heating-the-world\">In
+        a long Guardian piece</a>, Stephen Buranyi lays out how air conditioning came
+        to be so ubiquitous and how we might escape this air conditioning trap we
+        find ourselves in.</p>\n\n<blockquote><p>There are just over 1bn single-room
+        air conditioning units in the world right now - about one for every seven
+        people on earth. Numerous reports have projected that by 2050 there are likely
+        to be more than 4.5bn, making them as ubiquitous as the mobile phone is today.
+        The US already uses as much electricity for air conditioning each year as
+        the UK uses in total. The IEA projects that as the rest of the world reaches
+        similar levels, air conditioning will use about 13% of all electricity worldwide,
+        and produce 2bn tonnes of CO2 a year - about the same amount as India, the
+        world&rsquo;s third-largest emitter, produces today.</p>\n\n<p>All of these
+        reports note the awful irony of this feedback loop: warmer temperatures lead
+        to more air conditioning; more air conditioning leads to warmer temperatures.
+        The problem posed by air conditioning resembles, in miniature, the problem
+        we face in tackling the climate crisis. The solutions that we reach for most
+        easily only bind us closer to the original problem.</p></blockquote>\n\n<p>Weirdly,
+        the article doesn&rsquo;t mention that most air conditioning units contain
+        chemical refrigerants (CFCs and HCFCs) that, if released, <a href=\"https://www.drawdown.org/solutions/materials/refrigerant-management\">&ldquo;have
+        1,000 to 9,000 times greater capacity to warm the atmosphere than carbon dioxide&rdquo;</a>.
+        Phasing out the use of CFCs &amp; HCFCs in new units and capturing the refrigerants
+        in discarded units can prevent global warming to such a degree that it&rsquo;s
+        <a href=\"https://www.drawdown.org/solutions-summary-by-rank\">the #1 way
+        to mitigate the effects of climate change</a>.</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/global%20warming\">global
+        warming</a></li><li><a href=\"/tag/Stephen%20Buranyi\">Stephen Buranyi</a></li>\n</ul>\n\n</div>\n\n<div
+        class=\"post-spacer-hr\"></div>\n\n<h2><a href=\"https://kottke.org/19/09/bolas-de-fuego-the-annual-fireball-street-fight-in-el-salvador\">Bolas
+        de Fuego, the Annual Fireball Street Fight in El Salvador</a></h2>\n\n<div
+        class=\"meta\">\n<div class=\"author\"><span class=\"pre-name\">posted by
+        </span><a href=\"http://www.kottke.org\">Jason Kottke</a> <span class=\"timestamp\"><i
+        class=\"fa fa-clock-o\" aria-hidden=\"true\" style=\"font-weight:300;\"></i>&nbsp;
+        Sep 03, 2019</span></div>\n</div>\n\n\n\n<div class=\"post\">\n\n<p>Every
+        year on Aug 31, the residents of Nejapa, El Salvador throw flaming kerosene-soaked
+        balls at each other in the streets surrounded by thousands of onlookers, with
+        little apparent concern for the safety of the participants or onlookers. Just
+        check out this madness:</p>\n\n<p class=\"widescreen embedded\"><iframe width=\"100%\"
+        src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope;
+        picture-in-picture\" allowfullscreen data-src=\"https://www.youtube.com/embed/SfYiZMc76IE\"></iframe></p>\n\n<p>The
+        event is called <a href=\"https://www.bbc.com/news/av/world-latin-america-19458463/el-salvador-town-marks-volcano-eruption-with-fireballs\">Bolas
+        de Fuego</a> and it started almost 100 years ago as a religious commemoration
+        of a 1658 volcanic eruption.</p>\n\n<blockquote><p>Residents in the town of
+        Nejapa in El Salvador have been commemorating a volcanic eruption in 1658
+        which destroyed the town, by hurling fireballs at each other.</p>\n\n<p>The
+        annual event has been a tradition since 1922 and the fireballs are said to
+        represent the local Christian saint, Jeronimo, fighting the devil inside the
+        volcano with his own balls of fire.</p></blockquote>\n\n<p>I found out about
+        Bolas de Fuego from travel writer <a href=\"https://ameliarayno.com/\">Amelia
+        Rayno</a>, who went to this year&rsquo;s festival. In <a href=\"https://www.instagram.com/p/B14xFlEHsT-/\">her
+        photo and videos from that night</a>, you can see the gloves that the participants
+        wear and get a sense of just how close the onlookers are and how fast &amp;
+        furious those fireballs are getting thrown around. Jiminy.</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/Amelia%20Rayno\">Amelia
+        Rayno</a></li><li><a href=\"/tag/El%20Salvador\">El Salvador</a></li><li><a
+        href=\"/tag/video\">video</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n<h2><a
+        href=\"https://kottke.org/19/09/how-does-waffle-house-stay-open-during-disasters\">How
+        Does Waffle House Stay Open During Disasters?</a></h2>\n\n<div class=\"meta\">\n<div
+        class=\"author\"><span class=\"pre-name\">posted by </span><a href=\"http://www.kottke.org\">Jason
+        Kottke</a> <span class=\"timestamp\"><i class=\"fa fa-clock-o\" aria-hidden=\"true\"
+        style=\"font-weight:300;\"></i>&nbsp; Sep 03, 2019</span></div>\n</div>\n\n\n\n<div
+        class=\"post\">\n\n<p>Waffle House is prepared to make you breakfast at all
+        hours of the day in any kind of weather. The restaurant chain is so widely
+        respected for its severe weather preparedness that a former director of FEMA
+        <a href=\"https://www.ehstoday.com/fire_emergencyresponse/disaster-planning/waffles-risk-management-0706\">started
+        using their stores</a> as an indicator of how bad a particular storm or disaster
+        was:</p>\n\n<blockquote><p>The &ldquo;Waffle House Index,&rdquo; first coined
+        by Federal Emergency Management Agency Director W. Craig Fugate, is based
+        on the extent of operations and service at the restaurant following a storm
+        and indicates how prepared a business is in case of a natural disaster.</p>\n\n<p>For
+        example, if a Waffle House store is open and offering a full menu, the index
+        is green. If it is open but serving from a limited menu, it&rsquo;s yellow.
+        When the location has been forced to close, the index is red. Because Waffle
+        House is well prepared for disasters, Kouvelis said, it&rsquo;s rare for the
+        index to hit red. For example, the Joplin, Mo., Waffle House survived the
+        tornado and remained open.</p></blockquote>\n\n<p>Annie Blanks <a href=\"https://www.usatoday.com/story/news/nation/2019/09/01/hurricane-dorian-waffle-house-index-disasters/2187708001/\">recently
+        visited the &ldquo;Waffle House Storm Center&rdquo;</a> in advance of Hurricane
+        Dorian&rsquo;s predicted landfall in Florida.</p>\n\n<blockquote><p>When any
+        of the stores are in danger of being hit by severe weather, so-called &ldquo;jump
+        teams&rdquo; are activated to be ready to deploy wherever needed. </p>\n\n<p>Jump
+        teams are made up of Waffle House contractors, construction workers, gas line
+        experts, restaurant operators, food providers and other associates who are
+        assembled and ready to go wherever needed at a moment&rsquo;s notice. Their
+        purpose is to help relieve local Waffle House operators and employees who
+        need to evacuate, be with their families or tend to their homes when a storm
+        hits, and help make sure restaurants are able to open quickly after a storm
+        or stay open during a storm.</p></blockquote>\n\n<p><a href=\"https://twitter.com/AnniePNJ/status/1168582629467312129\">On
+        Twitter</a>, Blanks shared a photo of the four different pared-down menus
+        that Waffle House prepares for disasters.</p>\n\n<p><img src=\"data:image/gif;base64,R0lGODdhAQABAPAAAP///wAAACwAAAAAAQABAEACAkQBADs=\"
+        width=\"1000\" height=\"1334\" border=\"0\" alt=\"Waffle House Menus\" data-src=\"/plus/misc/images/waffle-house-menus.jpg\"></p>\n\n<p>(via
+        <a href=\"https://twitter.com/LauraVW\">@LauraVW</a>)</p>\n\n\n<div class=\"entry-tags-title\">More
+        about...</div>\n<ul class=\"entry-tags\">\n<li><a href=\"/tag/Annie%20Blanks\">Annie
+        Blanks</a></li><li><a href=\"/tag/business\">business</a></li><li><a href=\"/tag/food\">food</a></li><li><a
+        href=\"/tag/restaurants\">restaurants</a></li><li><a href=\"/tag/Waffle%20House\">Waffle
+        House</a></li>\n</ul>\n\n</div>\n\n<div class=\"post-spacer-hr\"></div>\n\n\n<p
+        class=\"page-nav\"><a href=\"/?p=2\">Older posts &nbsp;<i class=\"fa fa-arrow-right\"></i></a></p><p
+        class=\"page-nav-more\">And much more <a href=\"/everfresh\">in the archives</a>...</p>\n</div>\n\n<div
+        class=\"spacer\"></div>\n\n<div id=\"footer\">\n\n<div id=\"bottom-nav-wide\"><span
+        id=\"loving-you\">kottke.org, loving you since 1998</span><a href=\"/\" title=\"home\">home</a><a
+        href=\"/about\" title=\"about\">about</a><a href=\"/everfresh\" title=\"archives\">archives
+        + tags</a><a href=\"/shop\">shop</a><a href=\"/members\">membership!</a><a
+        href=\"/tag/burgers\" title=\"hamburger menu\" aria-hidden=\"true\"><i class=\"fa
+        fa-bars\"></i></a></div>\n\n<div id=\"bottom-nav-medium\"><a href=\"/\" title=\"home\">home</a><a
+        href=\"/about\" title=\"about\">about</a><a href=\"/everfresh\" title=\"archives\">archives</a><a
+        href=\"/shop\">shop</a><a href=\"/members\">membership!</a><a href=\"/tag/burgers\"
+        title=\"hamburger menu\" aria-hidden=\"true\"><i class=\"fa fa-bars\"></i></a></div>\n\n<div
+        id=\"bottom-nav-narrow\"><a href=\"/\" title=\"home\">home</a><a href=\"/about\"
+        title=\"about\">about</a><a href=\"/everfresh\" title=\"archives\">archives</a><a
+        href=\"/tag/burgers\" title=\"hamburger menu\" aria-hidden=\"true\"><i class=\"fa
+        fa-bars\"></i></a></div>\n\n</div>\n\n<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n
+        \ ga('create', 'UA-871179-1', 'auto');\n  ga('send', 'pageview');\n\n</script>\n\n</body>\n</html>"
+    http_version: 
+  recorded_at: Mon, 09 Sep 2019 14:29:08 GMT
+recorded_with: VCR 5.0.0
