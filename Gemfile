@@ -24,6 +24,7 @@ gem "pundit", "~> 2.1" # Object oriented authorization for Rails applications
 gem "rack-timeout", "~> 0.5" # Rack middleware which aborts requests that have been running for longer than a specified timeout
 gem "rails", "~> 6.0.0" # Ruby on Rails
 gem "sass-rails", "~> 5.1" # Sass adapter for the Rails asset pipeline
+gem "sidekiq", "~> 6.0.0" # Simple, efficient background processing for Ruby.
 gem "sprockets", "~> 3.7" # Sprockets is a Rack-based asset packaging system
 # gem "timber", "~> 3.0" # Great Ruby logging made easy
 # gem "timber-rails", "~> 1.0" #  Timber integration for Rails

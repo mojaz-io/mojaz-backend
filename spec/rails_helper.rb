@@ -10,6 +10,7 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require "pundit/matchers"
 require "pundit/rspec"
 require "webmock/rspec"
+require "sidekiq/testing"
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
@@ -76,6 +77,7 @@ RSpec.configure do |config|
   end
 
   config.before do
+    Sidekiq::Worker.clear_all
   end
 
   OmniAuth.config.test_mode = true

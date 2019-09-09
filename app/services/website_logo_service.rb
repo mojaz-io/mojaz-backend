@@ -25,9 +25,9 @@ class WebsiteLogoService
 
   def xpath
     icon_names = ["icon", "shortcut icon", "apple-touch-icon-precomposed", "apple-touch-icon"]
-    icon_names = icon_names.map { |icon_name|
+    icon_names = icon_names.map do |icon_name|
       "//link[not(@mask) and translate(@rel, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = '#{icon_name}']"
-    }
+    end
     icon_names.join(" | ")
   end
 
@@ -64,7 +64,7 @@ class WebsiteLogoService
 
   def find_based_on_apple_rel(links)
     apple_name = %w[apple-touch-icon-precomposed apple-touch-icon]
-    apple = links.detect{ |x| apple_name.include?(x["rel"].downcase) }
+    apple = links.detect { |x| apple_name.include?(x["rel"].downcase) }
     return apple if apple
   end
 

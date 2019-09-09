@@ -30,7 +30,7 @@ RSpec.describe WebsiteLogoService do
   end
 
   # <link rel="apple-touch-icon-precomposed" href="/graphics/apple-touch-icon.png" />
-	# <link rel="shortcut icon" href="/graphics/favicon.ico?v=005" />
+  # <link rel="shortcut icon" href="/graphics/favicon.ico?v=005" />
   context "when it has apple meta data" do
     let(:service) { described_class.new("https://daringfireball.net/") }
 
