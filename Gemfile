@@ -6,7 +6,7 @@ ruby "2.6.3"
 gem "bootsnap", ">= 1.4.2", require: false # Boot large ruby/rails apps faster
 gem "cld", "~> 0.8" # Compact Language Detection for Ruby
 gem "cloudinary", "~> 1.11" # Client library for easily using the Cloudinary service
-gem "devise", "~> 4.6" # Flexible authentication solution for Rails
+gem "devise", "~> 4.7" # Flexible authentication solution for Rails
 gem "envied", "~> 0.9" # Ensure presence and type of your app's ENV-variables
 gem "feedjira", "~> 3.0" # A feed fetching and parsing library
 gem "figaro", "~> 1.1" # Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
