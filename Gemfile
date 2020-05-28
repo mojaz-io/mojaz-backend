@@ -13,7 +13,7 @@ gem "figaro", "~> 1.1" # Simple, Heroku-friendly Rails app configuration using E
 gem "http", "~> 4.1.1" # fast Ruby HTTP client with a chainable API, streaming support, and timeouts
 gem "jbuilder", "~> 2.9" # # Create JSON structures via a Builder-style DSL
 gem "jquery-rails", "~> 4.3" #  A gem to automate using jQuery with Rails
-gem "kaminari", "~> 1.1" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
+gem "kaminari", "~> 1.2" # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator
 gem "nokogiri", "~> 1.10" # HTML, XML, SAX, and Reader parser
 gem "omniauth", "~> 1.9" # A generalized Rack framework for multiple-provider authentication
 gem "omniauth-github", "~> 1.3" # OmniAuth strategy for GitHub
